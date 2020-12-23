@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "laputa:blocks/laputanbricks",
+    "top": "laputa:blocks/laputanbricks",
+    "side": "laputa:blocks/laputanbricks"
+  }
+}

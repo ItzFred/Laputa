@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "laputa:blocks/laputanbricks3m",
+    "particle": "laputa:blocks/laputanbricks3m"
+  }
+}

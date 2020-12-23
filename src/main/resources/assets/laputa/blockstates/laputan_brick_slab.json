@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "laputa:block/laputan_brick_slab"
+    },
+    "type=top": {
+      "model": "laputa:block/laputan_brick_slab_top"
+    },
+    "type=double": {
+      "model": "laputa:block/laputan_brick_slab_full"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "laputa:blocks/laputanchiselled",
+    "up": "laputa:blocks/laputanchiselled",
+    "north": "laputa:blocks/laputanpillar",
+    "east": "laputa:blocks/laputanpillar",
+    "south": "laputa:blocks/laputanpillar",
+    "west": "laputa:blocks/laputanpillar",
+    "particle": "laputa:blocks/laputanchiselled"
+  }
+}

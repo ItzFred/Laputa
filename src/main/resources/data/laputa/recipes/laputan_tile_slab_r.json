@@ -1,0 +1,19 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "laputa:laputan_tiles"
+    },
+    {
+      "item": "laputa:laputan_tiles"
+    },
+    {
+      "item": "laputa:laputan_tiles"
+    }
+  ],
+  "result": {
+    "item": "laputa:laputan_tile_stairs",
+    "count": 6
+  }
+}

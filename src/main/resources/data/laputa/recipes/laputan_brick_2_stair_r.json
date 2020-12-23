@@ -1,0 +1,33 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "laputa:laputan_bricks_2"
+    },
+    "3": {
+      "item": "laputa:laputan_bricks_2"
+    },
+    "4": {
+      "item": "laputa:laputan_bricks_2"
+    },
+    "6": {
+      "item": "laputa:laputan_bricks_2"
+    },
+    "7": {
+      "item": "laputa:laputan_bricks_2"
+    },
+    "8": {
+      "item": "laputa:laputan_bricks_2"
+    }
+  },
+  "result": {
+    "item": "laputa:laputan_brick_2_stairs",
+    "count": 4
+  }
+}

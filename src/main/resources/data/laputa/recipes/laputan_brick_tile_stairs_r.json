@@ -1,0 +1,33 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "laputa:laputan_tiles"
+    },
+    "3": {
+      "item": "laputa:laputan_tiles"
+    },
+    "4": {
+      "item": "laputa:laputan_tiles"
+    },
+    "6": {
+      "item": "laputa:laputan_tiles"
+    },
+    "7": {
+      "item": "laputa:laputan_tiles"
+    },
+    "8": {
+      "item": "laputa:laputan_tiles"
+    }
+  },
+  "result": {
+    "item": "laputa:laputan_tile_stairs",
+    "count": 4
+  }
+}

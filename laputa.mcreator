@@ -1,10 +1,446 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Laputa",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputa"
+    },
+    {
+      "name": "LaputanBricks",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_bricks"
+    },
+    {
+      "name": "LaputanBricks2",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_bricks_2"
+    },
+    {
+      "name": "LaputanTiles",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_tiles"
+    },
+    {
+      "name": "ChiselledLaputanBricks",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chiselled_laputan_bricks"
+    },
+    {
+      "name": "LaputanLamp",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_lamp"
+    },
+    {
+      "name": "LaputanBrickStairs",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_brick_stairs"
+    },
+    {
+      "name": "LaputanBrickSlab",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_brick_slab"
+    },
+    {
+      "name": "LaputanBrickWall",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_brick_wall"
+    },
+    {
+      "name": "LaputanBrick2Slab",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_brick_2_slab"
+    },
+    {
+      "name": "LaputanBrick2Stairs",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_brick_2_stairs"
+    },
+    {
+      "name": "LaputanBrick2Wall",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_brick_2_wall"
+    },
+    {
+      "name": "LaputanTileStairs",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_tile_stairs"
+    },
+    {
+      "name": "LaputanTileSlab",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_tile_slab"
+    },
+    {
+      "name": "LaputanTileFence",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_tile_fence"
+    },
+    {
+      "name": "SmoothLaputanBricks",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_laputan_bricks"
+    },
+    {
+      "name": "LaputanBrickStairR",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_brick_stair_r"
+    },
+    {
+      "name": "LaputanBrick2StairR",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_brick_2_stair_r"
+    },
+    {
+      "name": "LaputanBrickTileStairsR",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_brick_tile_stairs_r"
+    },
+    {
+      "name": "LaputanDiamond",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_diamond"
+    },
+    {
+      "name": "SmoothLaputanR",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_laputan_r"
+    },
+    {
+      "name": "LaputanBrickR",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_brick_r"
+    },
+    {
+      "name": "LaputaBrick2R",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputa_brick_2_r"
+    },
+    {
+      "name": "LaputaTileR",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputa_tile_r"
+    },
+    {
+      "name": "LaputanSlabR",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_slab_r"
+    },
+    {
+      "name": "LaputanBrickSlabR",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_brick_slab_r"
+    },
+    {
+      "name": "LaputanTileSlabR",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_tile_slab_r"
+    },
+    {
+      "name": "LaputanWallR",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_wall_r"
+    },
+    {
+      "name": "LaputanBrickWallR",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_brick_wall_r"
+    },
+    {
+      "name": "LaputanFenceR",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_fence_r"
+    },
+    {
+      "name": "LaputanLamp2",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_lamp_2"
+    },
+    {
+      "name": "LaputanLampRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_lamp_recipe"
+    },
+    {
+      "name": "MirageBricks",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mirage_bricks"
+    },
+    {
+      "name": "MirageBricks2",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mirage_bricks_2"
+    },
+    {
+      "name": "MirageTiles",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mirage_tiles"
+    },
+    {
+      "name": "SylphidBricks",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sylphid_bricks"
+    },
+    {
+      "name": "SylphidBricks2",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sylphid_bricks_2"
+    },
+    {
+      "name": "SylphidTiles",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sylphid_tiles"
+    },
+    {
+      "name": "MirageBricksR",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mirage_bricks_r"
+    },
+    {
+      "name": "MirageBricks2R",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mirage_bricks_2_r"
+    },
+    {
+      "name": "MirageTilesR",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mirage_tiles_r"
+    },
+    {
+      "name": "LaputanPillar",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_pillar"
+    },
+    {
+      "name": "EnchantedWater",
+      "type": "fluid",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchanted_water"
+    },
+    {
+      "name": "EnchantedWaterBottle",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchanted_water_bottle"
+    },
+    {
+      "name": "MoonDust",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_dust"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.laputa.laputan_tile_stairs": "Laputan Tile Stairs",
+      "block.laputa.laputan_brick_2_wall": "Laputan Brick Wall",
+      "block.laputa.laputan_tile_slab": "Laputan Tile Slab",
+      "block.laputa.mirage_tiles": "Mirage Tiles",
+      "block.laputa.laputan_bricks_2": "Laputan Bricks",
+      "block.laputa.laputan_brick_2_slab": "Laputan Brick Slab",
+      "block.laputa.sylphid_bricks_2": "Sylphid Bricks",
+      "block.laputa.laputan_brick_slab": "Laputan Brick Slab",
+      "block.laputa.laputan_lamp": "Laputan Lamp",
+      "block.laputa.laputan_lamp_2": "Laputan Lamp",
+      "item.laputa.enchanted_water_bucket": "EnchantedWater Bucket",
+      "block.laputa.mirage_bricks": "Mirage Bricks",
+      "block.laputa.laputan_brick_2_stairs": "Laputan Brick Stairs",
+      "block.laputa.laputan_brick_wall": "Laputan Brick Wall",
+      "item.laputa.enchanted_water_bottle": "Enchanted Water Bottle",
+      "block.laputa.laputan_tile_fence": "Laputan Fence",
+      "fluid.enchanted_water": "EnchantedWater",
+      "block.laputa.sylphid_bricks": "Sylphid Bricks",
+      "block.laputa.chiselled_laputan_bricks": "Chiselled Laputan Bricks",
+      "block.laputa.mirage_bricks_2": "Mirage Bricks",
+      "block.laputa.laputan_tiles": "Laputan Tiles",
+      "item.laputa.moon_dust": "Moon Dust",
+      "itemGroup.tablaputa": "Laputa",
+      "item.laputa.laputan_diamond": "Laputan Diamond",
+      "block.laputa.laputan_brick_stairs": "Laputan Brick Stairs",
+      "block.laputa.smooth_laputan_bricks": "Smooth Laputan Block",
+      "block.laputa.laputan_pillar": "Laputan Pillar",
+      "block.laputa.sylphid_tiles": "Sylphid Tiles",
+      "block.laputa.laputan_bricks": "Laputan Bricks"
+    }
   },
   "workspaceSettings": {
     "modid": "laputa",

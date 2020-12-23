@@ -1,0 +1,28 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "laputa:laputan_bricks_2"
+    },
+    {
+      "item": "laputa:laputan_bricks_2"
+    },
+    {
+      "item": "laputa:laputan_bricks_2"
+    },
+    {
+      "item": "laputa:laputan_bricks_2"
+    },
+    {
+      "item": "laputa:laputan_bricks_2"
+    },
+    {
+      "item": "laputa:laputan_bricks_2"
+    }
+  ],
+  "result": {
+    "item": "laputa:laputan_brick_2_wall",
+    "count": 2
+  }
+}
