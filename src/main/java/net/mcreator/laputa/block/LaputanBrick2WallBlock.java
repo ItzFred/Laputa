@@ -33,7 +33,7 @@ public class LaputanBrick2WallBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:laputan_brick_2_wall")
 	public static final Block block = null;
 	public LaputanBrick2WallBlock(LaputaModElements instance) {
-		super(instance, 12);
+		super(instance, 13);
 	}
 
 	@Override

@@ -1,0 +1,33 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "laputa:samsara_planks"
+    },
+    "3": {
+      "item": "laputa:samsara_planks"
+    },
+    "4": {
+      "item": "laputa:samsara_planks"
+    },
+    "6": {
+      "item": "laputa:samsara_planks"
+    },
+    "7": {
+      "item": "laputa:samsara_planks"
+    },
+    "8": {
+      "item": "laputa:samsara_planks"
+    }
+  },
+  "result": {
+    "item": "laputa:samsara_stairs",
+    "count": 4
+  }
+}

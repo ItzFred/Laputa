@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "laputa:blocks/samsaralogtop",
+    "up": "laputa:blocks/samsaralogtop",
+    "north": "laputa:blocks/samsaralog",
+    "east": "laputa:blocks/samsaralog",
+    "south": "laputa:blocks/samsaralog",
+    "west": "laputa:blocks/samsaralog",
+    "particle": "laputa:blocks/samsaralogtop"
+  }
+}

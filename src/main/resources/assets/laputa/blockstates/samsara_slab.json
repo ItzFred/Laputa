@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "laputa:block/samsara_slab"
+    },
+    "type=top": {
+      "model": "laputa:block/samsara_slab_top"
+    },
+    "type=double": {
+      "model": "laputa:block/samsara_slab_full"
+    }
+  }
+}

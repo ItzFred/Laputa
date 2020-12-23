@@ -3,8 +3,6 @@ package net.mcreator.laputa.block;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.item.ItemStack;
@@ -26,7 +24,7 @@ public class MirageBricksBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:mirage_bricks")
 	public static final Block block = null;
 	public MirageBricksBlock(LaputaModElements instance) {
-		super(instance, 33);
+		super(instance, 18);
 	}
 
 	@Override
@@ -39,12 +37,6 @@ public class MirageBricksBlock extends LaputaModElements.ModElement {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.5f, 10f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("mirage_bricks");
-		}
-
-		@OnlyIn(Dist.CLIENT)
-		@Override
-		public boolean isEmissiveRendering(BlockState blockState) {
-			return true;
 		}
 
 		@Override

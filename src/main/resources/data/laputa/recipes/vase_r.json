@@ -1,0 +1,23 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "laputa:smooth_laputan_bricks"
+    },
+    "2": {
+      "item": "laputa:smooth_laputan_bricks"
+    },
+    "4": {
+      "item": "laputa:smooth_laputan_bricks"
+    }
+  },
+  "result": {
+    "item": "laputa:laputan_vase",
+    "count": 6
+  }
+}

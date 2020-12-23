@@ -24,7 +24,7 @@ public class LaputanLamp2Block extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:laputan_lamp_2")
 	public static final Block block = null;
 	public LaputanLamp2Block(LaputaModElements instance) {
-		super(instance, 31);
+		super(instance, 6);
 	}
 
 	@Override

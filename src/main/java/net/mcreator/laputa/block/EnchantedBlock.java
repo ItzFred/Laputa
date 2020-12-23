@@ -41,16 +41,16 @@ import net.mcreator.laputa.LaputaModElements;
 import java.util.Random;
 
 @LaputaModElements.ModElement.Tag
-public class EnchantedWaterBlock extends LaputaModElements.ModElement {
-	@ObjectHolder("laputa:enchanted_water")
+public class EnchantedBlock extends LaputaModElements.ModElement {
+	@ObjectHolder("laputa:enchanted")
 	public static final FlowingFluidBlock block = null;
-	@ObjectHolder("laputa:enchanted_water_bucket")
+	@ObjectHolder("laputa:enchanted_bucket")
 	public static final Item bucket = null;
 	public static FlowingFluid flowing = null;
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
-	public EnchantedWaterBlock(LaputaModElements instance) {
-		super(instance, 43);
+	public EnchantedBlock(LaputaModElements instance) {
+		super(instance, 64);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -72,13 +72,13 @@ public class EnchantedWaterBlock extends LaputaModElements.ModElement {
 		fluidproperties = new ForgeFlowingFluid.Properties(() -> still, () -> flowing,
 				FluidAttributes
 						.builder(new ResourceLocation("laputa:blocks/enchantedwaterstill"), new ResourceLocation("laputa:blocks/enchantedwaterflow"))
-						.luminosity(0).density(1000).viscosity(700)).bucket(() -> bucket).block(() -> block);
-		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("enchanted_water");
-		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("enchanted_water_flowing");
+						.luminosity(1).density(1000).viscosity(1000)).bucket(() -> bucket).block(() -> block);
+		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("enchanted");
+		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("enchanted_flowing");
 		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.WATER)) {
-		}.setRegistryName("enchanted_water"));
+		}.setRegistryName("enchanted"));
 		elements.items.add(() -> new BucketItem(still, new Item.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(LaputaItemGroup.tab))
-				.setRegistryName("enchanted_water_bucket"));
+				.setRegistryName("enchanted_bucket"));
 	}
 
 	@Override

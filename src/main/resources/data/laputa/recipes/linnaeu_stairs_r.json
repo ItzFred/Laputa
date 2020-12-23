@@ -1,0 +1,28 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "laputa:linnaeu_bricks"
+    },
+    {
+      "item": "laputa:linnaeu_bricks"
+    },
+    {
+      "item": "laputa:linnaeu_bricks"
+    },
+    {
+      "item": "laputa:linnaeu_bricks"
+    },
+    {
+      "item": "laputa:linnaeu_bricks"
+    },
+    {
+      "item": "laputa:linnaeu_bricks"
+    }
+  ],
+  "result": {
+    "item": "laputa:linneau_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "laputa:blocks/linnaeubricksovergrown",
+    "particle": "laputa:blocks/linnaeubricksovergrown"
+  }
+}
