@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom_rh",
+  "textures": {
+    "bottom": "laputa:blocks/samsaradoor",
+    "top": "laputa:blocks/samsaradoortop"
+  }
+}

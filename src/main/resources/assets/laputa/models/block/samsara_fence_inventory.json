@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "laputa:blocks/samsaraplanks",
+    "particle": "laputa:blocks/samsaraplanks"
+  }
+}

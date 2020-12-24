@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "laputa:blocks/laputanvase3",
+    "particle": "laputa:blocks/laputanvase3"
+  }
+}

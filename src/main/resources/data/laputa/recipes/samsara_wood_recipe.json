@@ -1,0 +1,26 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "laputa:unknown_element"
+    },
+    "1": {
+      "item": "laputa:unknown_element"
+    },
+    "2": {
+      "item": "laputa:unknown_element"
+    },
+    "3": {
+      "item": "laputa:unknown_element"
+    }
+  },
+  "result": {
+    "item": "laputa:samsara_wood",
+    "count": 3
+  }
+}

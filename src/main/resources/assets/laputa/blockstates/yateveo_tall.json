@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "laputa:block/yateveo_tall"
+    },
+    "half=lower": {
+      "model": "laputa:block/yateveo_tall_bottom"
+    }
+  }
+}

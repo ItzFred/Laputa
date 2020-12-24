@@ -1,0 +1,32 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "laputa:samsara_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "laputa:samsara_planks"
+    },
+    "3": {
+      "item": "laputa:samsara_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "laputa:samsara_planks"
+    }
+  },
+  "result": {
+    "item": "laputa:unknown_element",
+    "count": 3
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "laputa:block/linnaeu_tile_slab"
+    },
+    "type=top": {
+      "model": "laputa:block/linnaeu_tile_slab_top"
+    },
+    "type=double": {
+      "model": "laputa:block/linnaeu_tile_slab_full"
+    }
+  }
+}

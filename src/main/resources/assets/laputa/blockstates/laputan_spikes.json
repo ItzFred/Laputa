@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "laputa:block/laputan_spikes"
+    },
+    "facing=north": {
+      "model": "laputa:block/laputan_spikes"
+    },
+    "facing=east": {
+      "model": "laputa:block/laputan_spikes",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "laputa:block/laputan_spikes",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "laputa:block/laputan_spikes",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "laputa:block/laputan_spikes",
+      "x": 90,
+      "y": 90
+    }
+  }
+}
