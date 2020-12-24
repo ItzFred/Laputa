@@ -3,26 +3,26 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "laputa:unknown_element"
+      "item": "laputa:linnaeu_bricks"
     },
     {
-      "item": "laputa:unknown_element"
+      "item": "laputa:linnaeu_bricks"
     },
     {
-      "item": "laputa:unknown_element"
+      "item": "laputa:linnaeu_bricks"
     },
     {
-      "item": "laputa:unknown_element"
+      "item": "laputa:linnaeu_bricks"
     },
     {
-      "item": "laputa:unknown_element"
+      "item": "laputa:linnaeu_bricks"
     },
     {
-      "item": "laputa:unknown_element"
+      "item": "laputa:linnaeu_bricks"
     }
   ],
   "result": {
-    "item": "laputa:unknown_element",
+    "item": "laputa:linneau_stairs",
     "count": 4
   }
 }

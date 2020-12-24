@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "laputa:block/brass_updward_curved_pillar"
+    },
+    "facing=east": {
+      "model": "laputa:block/brass_updward_curved_pillar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "laputa:block/brass_updward_curved_pillar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "laputa:block/brass_updward_curved_pillar",
+      "y": 270
+    }
+  }
+}

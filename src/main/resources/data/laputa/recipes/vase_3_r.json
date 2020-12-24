@@ -3,11 +3,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "laputa:unknown_element"
+      "item": "laputa:laputan_vase_2"
     }
   ],
   "result": {
-    "item": "laputa:unknown_element",
+    "item": "laputa:laputan_vase_3",
     "count": 1
   }
 }

@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "laputa:block/brass_pipe"
+    },
+    "facing=north": {
+      "model": "laputa:block/brass_pipe"
+    },
+    "facing=east": {
+      "model": "laputa:block/brass_pipe",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "laputa:block/brass_pipe",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "laputa:block/brass_pipe",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "laputa:block/brass_pipe",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

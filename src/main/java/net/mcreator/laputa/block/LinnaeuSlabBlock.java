@@ -1,17 +1,32 @@
 
 package net.mcreator.laputa.block;
 
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
+
+import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.state.properties.SlabType;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.SlabBlock;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Block;
+
+import net.mcreator.laputa.itemgroup.LaputaItemGroup;
+import net.mcreator.laputa.LaputaModElements;
+
+import java.util.List;
+import java.util.Collections;
 
 @LaputaModElements.ModElement.Tag
 public class LinnaeuSlabBlock extends LaputaModElements.ModElement {
-
 	@ObjectHolder("laputa:linnaeu_slab")
 	public static final Block block = null;
-
 	public LinnaeuSlabBlock(LaputaModElements instance) {
 		super(instance, 40);
-
 	}
 
 	@Override
@@ -19,15 +34,10 @@ public class LinnaeuSlabBlock extends LaputaModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(LaputaItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
-
 	public static class CustomBlock extends SlabBlock {
-
 		public CustomBlock() {
-			super(
-
-					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 10f).lightValue(0).harvestLevel(1)
-							.harvestTool(ToolType.PICKAXE));
-
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 10f).lightValue(0).harvestLevel(1)
+					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("linnaeu_slab");
 		}
 
@@ -38,7 +48,5 @@ public class LinnaeuSlabBlock extends LaputaModElements.ModElement {
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, state.get(TYPE) == SlabType.DOUBLE ? 2 : 1));
 		}
-
 	}
-
 }

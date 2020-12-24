@@ -3,17 +3,17 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "laputa:unknown_element"
+      "item": "laputa:linneau_tiles"
     },
     {
-      "item": "laputa:unknown_element"
+      "item": "laputa:linneau_tiles"
     },
     {
-      "item": "laputa:unknown_element"
+      "item": "laputa:linneau_tiles"
     }
   ],
   "result": {
-    "item": "laputa:unknown_element",
+    "item": "laputa:linnaeu_tile_slab",
     "count": 6
   }
 }

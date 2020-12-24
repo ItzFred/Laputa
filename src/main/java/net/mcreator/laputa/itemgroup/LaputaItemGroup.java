@@ -13,7 +13,7 @@ import net.mcreator.laputa.LaputaModElements;
 @LaputaModElements.ModElement.Tag
 public class LaputaItemGroup extends LaputaModElements.ModElement {
 	public LaputaItemGroup(LaputaModElements instance) {
-		super(instance, 69);
+		super(instance, 1);
 	}
 
 	@Override
