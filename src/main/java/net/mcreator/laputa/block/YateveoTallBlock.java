@@ -35,7 +35,7 @@ public class YateveoTallBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:yateveo_tall")
 	public static final Block block = null;
 	public YateveoTallBlock(LaputaModElements instance) {
-		super(instance, 60);
+		super(instance, 61);
 	}
 
 	@Override

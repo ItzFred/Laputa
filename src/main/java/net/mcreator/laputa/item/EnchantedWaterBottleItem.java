@@ -16,7 +16,7 @@ public class EnchantedWaterBottleItem extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:enchanted_water_bottle")
 	public static final Item block = null;
 	public EnchantedWaterBottleItem(LaputaModElements instance) {
-		super(instance, 44);
+		super(instance, 79);
 	}
 
 	@Override

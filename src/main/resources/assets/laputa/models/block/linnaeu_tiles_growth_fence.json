@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "laputa:blocks/linnaeutilesovergrown",
+    "particle": "laputa:blocks/linnaeutilesovergrown"
+  }
+}

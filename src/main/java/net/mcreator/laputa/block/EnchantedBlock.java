@@ -50,7 +50,7 @@ public class EnchantedBlock extends LaputaModElements.ModElement {
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public EnchantedBlock(LaputaModElements instance) {
-		super(instance, 64);
+		super(instance, 77);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
