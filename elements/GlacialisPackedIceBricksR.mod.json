@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GlacialisPackedIce"
+      },
+      {
+        "value": "CUSTOM:GlacialisPackedIce"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GlacialisPackedIce"
+      },
+      {
+        "value": "CUSTOM:GlacialisPackedIce"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GlacialisPackedIceBricks"
+    },
+    "name": "glacialis_packed_ice_bricks_r",
+    "namespace": "mod"
+  }
+}

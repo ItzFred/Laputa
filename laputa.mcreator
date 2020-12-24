@@ -405,6 +405,134 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "moon_dust"
+    },
+    {
+      "name": "GlacialisIce",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_ice"
+    },
+    {
+      "name": "GlacialisPackedIce",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_packed_ice"
+    },
+    {
+      "name": "GlacialisCrystalIce",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_crystal_ice"
+    },
+    {
+      "name": "GlacialisPackedCrystalIce",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_packed_crystal_ice"
+    },
+    {
+      "name": "GlacialisCrackedIce",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_cracked_ice"
+    },
+    {
+      "name": "GlacialisCrackedPackedIce",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_cracked_packed_ice"
+    },
+    {
+      "name": "GlacialisCrackedIceEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_cracked_ice_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlacialisPackedIceR",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_packed_ice_r"
+    },
+    {
+      "name": "GlacialisIceBricks",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_ice_bricks"
+    },
+    {
+      "name": "GlacialisPackedIceBricks",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_packed_ice_bricks"
+    },
+    {
+      "name": "GlacialisIceBricksR",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_ice_bricks_r"
+    },
+    {
+      "name": "GlacialisPackedIceBricksR",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_packed_ice_bricks_r"
     }
   ],
   "variable_elements": [],
@@ -416,13 +544,19 @@
       "block.laputa.laputan_tile_slab": "Laputan Tile Slab",
       "block.laputa.mirage_tiles": "Mirage Tiles",
       "block.laputa.laputan_bricks_2": "Laputan Bricks",
+      "block.laputa.glacialis_ice": "Glacialis Ice",
+      "block.laputa.glacialis_cracked_ice": "Glacialis Cracked Ice",
+      "block.laputa.glacialis_cracked_packed_ice": "Glacialis Cracked Packed Ice",
       "block.laputa.laputan_brick_2_slab": "Laputan Brick Slab",
       "block.laputa.sylphid_bricks_2": "Sylphid Bricks",
       "block.laputa.laputan_brick_slab": "Laputan Brick Slab",
       "block.laputa.laputan_lamp": "Laputan Lamp",
       "block.laputa.laputan_lamp_2": "Laputan Lamp",
       "item.laputa.enchanted_water_bucket": "EnchantedWater Bucket",
+      "block.laputa.glacialis_packed_ice_bricks": "Glacialis Packed Ice Bricks",
+      "block.laputa.glacialis_packed_ice": "Glacialis Packed Ice",
       "block.laputa.mirage_bricks": "Mirage Bricks",
+      "block.laputa.glacialis_ice_bricks": "Glacialis Ice Bricks",
       "block.laputa.laputan_brick_2_stairs": "Laputan Brick Stairs",
       "block.laputa.laputan_brick_wall": "Laputan Brick Wall",
       "item.laputa.enchanted_water_bottle": "Enchanted Water Bottle",
@@ -433,8 +567,10 @@
       "block.laputa.mirage_bricks_2": "Mirage Bricks",
       "block.laputa.laputan_tiles": "Laputan Tiles",
       "item.laputa.moon_dust": "Moon Dust",
+      "block.laputa.glacialis_packed_crystal_ice": "Glacialis Packed Crystal Ice",
       "itemGroup.tablaputa": "Laputa",
       "item.laputa.laputan_diamond": "Laputan Diamond",
+      "block.laputa.glacialis_crystal_ice": "Glacialis Crystal Ice",
       "block.laputa.laputan_brick_stairs": "Laputan Brick Stairs",
       "block.laputa.smooth_laputan_bricks": "Smooth Laputan Block",
       "block.laputa.laputan_pillar": "Laputan Pillar",
