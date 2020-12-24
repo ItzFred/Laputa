@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "laputa:block/indestructible_depth_tiles"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "laputa:depth_block"
+    },
+    "1": {
+      "item": "laputa:depth_block"
+    },
+    "2": {
+      "item": "laputa:depth_block"
+    },
+    "3": {
+      "item": "laputa:depth_block"
+    }
+  },
+  "result": {
+    "item": "laputa:depth_tiles",
+    "count": 4
+  }
+}

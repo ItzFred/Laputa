@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "laputa:blocks/brasspillartop",
+    "up": "laputa:blocks/brasspillartop",
+    "north": "laputa:blocks/brasspillarside",
+    "east": "laputa:blocks/brasspillarside",
+    "south": "laputa:blocks/brasspillarside",
+    "west": "laputa:blocks/brasspillarside",
+    "particle": "laputa:blocks/brasspillartop"
+  }
+}
