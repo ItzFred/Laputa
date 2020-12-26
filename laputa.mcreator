@@ -5,7 +5,7 @@
       "name": "Laputa",
       "type": "tab",
       "sortid": 82,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "laputa"
@@ -176,7 +176,7 @@
       "name": "LaputanDiamond",
       "type": "item",
       "sortid": 78,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "laputan_diamond"
@@ -1111,7 +1111,7 @@
       "name": "LaputaD",
       "type": "dimension",
       "sortid": 81,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "laputa_d"
@@ -1398,51 +1398,6 @@
       "registry_name": "glacialis_packed_ice_bricks"
     },
     {
-      "name": "Ophanim",
-      "type": "mob",
-      "sortid": 127,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ophanim"
-    },
-    {
-      "name": "LaputanPickaxe",
-      "type": "tool",
-      "sortid": 138,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "laputan_pickaxe"
-    },
-    {
-      "name": "LaputanAxe",
-      "type": "tool",
-      "sortid": 139,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "laputan_axe"
-    },
-    {
-      "name": "LaputanSword",
-      "type": "tool",
-      "sortid": 140,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "laputan_sword"
-    },
-    {
-      "name": "LaputanShovel",
-      "type": "tool",
-      "sortid": 141,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "laputan_shovel"
-    },
-    {
       "name": "LaputanHoe",
       "type": "tool",
       "sortid": 142,
@@ -1452,13 +1407,22 @@
       "registry_name": "laputan_hoe"
     },
     {
-      "name": "LaputanPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 143,
+      "name": "GlacialSword",
+      "type": "tool",
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "laputan_pickaxe_recipe"
+      "registry_name": "glacial_sword"
+    },
+    {
+      "name": "Ophanim",
+      "type": "mob",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ophanim"
     },
     {
       "name": "LaputanAxeRecipe",
@@ -1470,22 +1434,22 @@
       "registry_name": "laputan_axe_recipe"
     },
     {
-      "name": "LaputanSwordRecipe",
-      "type": "recipe",
-      "sortid": 145,
+      "name": "DawnStaff",
+      "type": "gun",
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "laputan_sword_recipe"
+      "registry_name": "dawn_staff"
     },
     {
-      "name": "LaputanShovelRecipe",
-      "type": "recipe",
-      "sortid": 146,
+      "name": "SerpentStaff",
+      "type": "gun",
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "laputan_shovel_recipe"
+      "registry_name": "serpent_staff"
     },
     {
       "name": "LaputanHoeRecipe",
@@ -1506,56 +1470,166 @@
       "registry_name": "dusk_sword"
     },
     {
-      "name": "GlacialSword",
+      "name": "LaputanStaff",
+      "type": "gun",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_staff"
+    },
+    {
+      "name": "LaputanShovelRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_shovel_recipe"
+    },
+    {
+      "name": "BulletItem4",
+      "type": "item",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet_item_4"
+    },
+    {
+      "name": "BulletItem3",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet_item_3"
+    },
+    {
+      "name": "InkunaiRecipe",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inkunai_recipe"
+    },
+    {
+      "name": "BulletItem2",
+      "type": "item",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet_item_2"
+    },
+    {
+      "name": "Kunai",
+      "type": "gun",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kunai"
+    },
+    {
+      "name": "KunaiRecipe",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kunai_recipe"
+    },
+    {
+      "name": "BulletItem",
+      "type": "item",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet_item"
+    },
+    {
+      "name": "GlacialStaff",
+      "type": "gun",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacial_staff"
+    },
+    {
+      "name": "LaputanSword",
       "type": "tool",
-      "sortid": 151,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "glacial_sword"
+      "registry_name": "laputan_sword"
     },
     {
-      "name": "SerpentSword",
+      "name": "BulletItem6",
+      "type": "item",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet_item_6"
+    },
+    {
+      "name": "BulletItem5",
+      "type": "item",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet_item_5"
+    },
+    {
+      "name": "LaputanShovel",
       "type": "tool",
-      "sortid": 152,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "serpent_sword"
+      "registry_name": "laputan_shovel"
     },
     {
-      "name": "SwordEffect1",
-      "type": "procedure",
-      "sortid": 153,
+      "name": "LaputanPickaxe",
+      "type": "tool",
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "sword_effect_1",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
+      "registry_name": "laputan_pickaxe"
     },
     {
-      "name": "SwordEffect2",
-      "type": "procedure",
-      "sortid": 154,
+      "name": "LaputanSwordRecipe",
+      "type": "recipe",
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "sword_effect_2",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
+      "registry_name": "laputan_sword_recipe"
+    },
+    {
+      "name": "Inkunai",
+      "type": "gun",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inkunai"
+    },
+    {
+      "name": "LaputanPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_pickaxe_recipe"
     },
     {
       "name": "SwordEffect3",
@@ -1575,130 +1649,217 @@
       }
     },
     {
-      "name": "BulletItem",
-      "type": "item",
-      "sortid": 156,
+      "name": "LaputanAxe",
+      "type": "tool",
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bullet_item"
+      "registry_name": "laputan_axe"
     },
     {
-      "name": "BulletItem2",
-      "type": "item",
-      "sortid": 157,
+      "name": "SwordEffect2",
+      "type": "procedure",
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bullet_item_2"
+      "registry_name": "sword_effect_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     },
     {
-      "name": "BulletItem3",
-      "type": "item",
-      "sortid": 158,
+      "name": "SwordEffect1",
+      "type": "procedure",
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bullet_item_3"
+      "registry_name": "sword_effect_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     },
     {
-      "name": "BulletItem4",
-      "type": "item",
-      "sortid": 159,
+      "name": "SerpentSword",
+      "type": "tool",
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bullet_item_4"
+      "registry_name": "serpent_sword"
     },
     {
-      "name": "LaputanStaff",
-      "type": "gun",
-      "sortid": 156,
+      "name": "GlacialisBigDoor",
+      "type": "block",
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "laputan_staff"
+      "registry_name": "glacialis_big_door"
     },
     {
-      "name": "DawnStaff",
-      "type": "gun",
-      "sortid": 162,
+      "name": "LaputanBigDoor",
+      "type": "block",
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "dawn_staff"
+      "registry_name": "laputan_big_door"
     },
     {
-      "name": "GlacialStaff",
-      "type": "gun",
-      "sortid": 163,
+      "name": "BigTopDoorOnBlockRightClick",
+      "type": "procedure",
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "glacial_staff"
+      "registry_name": "big_top_door_on_block_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     },
     {
-      "name": "SerpentStaff",
-      "type": "gun",
-      "sortid": 164,
+      "name": "DungeonBlocksTag",
+      "type": "tag",
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "serpent_staff"
+      "registry_name": "dungeon_blocks_tag"
     },
     {
-      "name": "BulletItem5",
-      "type": "item",
-      "sortid": 165,
+      "name": "GlacialisRoomSpawn",
+      "type": "procedure",
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bullet_item_5"
+      "registry_name": "glacialis_room_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     },
     {
-      "name": "BulletItem6",
-      "type": "item",
-      "sortid": 166,
+      "name": "BigDoorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bullet_item_6"
+      "registry_name": "big_door_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     },
     {
-      "name": "Kunai",
-      "type": "gun",
-      "sortid": 167,
+      "name": "YateveoBigDoor",
+      "type": "block",
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "kunai"
+      "registry_name": "yateveo_big_door"
     },
     {
-      "name": "Inkunai",
-      "type": "gun",
-      "sortid": 168,
+      "name": "GlacialisBigTopDoor",
+      "type": "block",
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "inkunai"
+      "registry_name": "glacialis_big_top_door"
     },
     {
-      "name": "KunaiRecipe",
-      "type": "recipe",
-      "sortid": 169,
+      "name": "DoorBreakProcedure",
+      "type": "procedure",
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "kunai_recipe"
-    },
-    {
-      "name": "InkunaiRecipe",
-      "type": "recipe",
-      "sortid": 170,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "inkunai_recipe"
+      "registry_name": "door_break_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
