@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "laputa:block/yateveo_big_door"
+    },
+    "facing=east": {
+      "model": "laputa:block/yateveo_big_door",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "laputa:block/yateveo_big_door",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "laputa:block/yateveo_big_door",
+      "y": 270
+    }
+  }
+}

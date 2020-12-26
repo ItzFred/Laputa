@@ -1,0 +1,8 @@
+{
+  "parent": "laputa:custom/glacialisbigdoor",
+  "textures": {
+    "all": "laputa:blocks/glacialisice",
+    "particle": "laputa:blocks/glacialisice",
+    "0": "laputa:blocks/glacialisbigdoor"
+  }
+}

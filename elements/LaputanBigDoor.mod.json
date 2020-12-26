@@ -2,36 +2,36 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "uicebricks",
+    "texture": "laputanbricks",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
-    "rotationMode": 0,
+    "renderType": 2,
+    "customModelName": "laputanbigdoordoor:default",
+    "rotationMode": 1,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
-    "mx": 0.0,
+    "mx": -1.0,
     "my": 0.0,
-    "mz": 0.0,
+    "mz": 0.8,
     "Mx": 1.0,
-    "My": 1.0,
+    "My": 2.0,
     "Mz": 1.0,
-    "name": "Indestructible Glacialis Packed Ice Bricks",
+    "name": "Laputan Big Door",
     "specialInfo": [],
-    "hardness": 0.6000000000000001,
+    "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:Laputa"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -43,9 +43,9 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 255,
+    "lightOpacity": 0,
     "material": {
-      "value": "ICE"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -59,15 +59,15 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.8,
+    "slipperiness": 0.6,
     "reactionToPushing": "IGNORE",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GLASS"
+      "value": "STONE"
     },
     "luminance": 0.0,
     "unbreakable": true,
-    "breakHarvestLevel": 0,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -75,10 +75,10 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "hasInventory": true,
+    "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
-    "inventorySize": 1,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -92,6 +92,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "BigDoorOnBlockRightClicked"
+    },
+    "onBlockAdded": {
+      "name": "DoorBreakProcedure"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
