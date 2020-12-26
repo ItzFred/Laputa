@@ -25,7 +25,7 @@ public class LaputanBrick2StairsBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:laputan_brick_2_stairs")
 	public static final Block block = null;
 	public LaputanBrick2StairsBlock(LaputaModElements instance) {
-		super(instance, 11);
+		super(instance, 12);
 	}
 
 	@Override

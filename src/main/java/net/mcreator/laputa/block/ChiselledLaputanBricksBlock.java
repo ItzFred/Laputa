@@ -24,7 +24,7 @@ public class ChiselledLaputanBricksBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:chiselled_laputan_bricks")
 	public static final Block block = null;
 	public ChiselledLaputanBricksBlock(LaputaModElements instance) {
-		super(instance, 5);
+		super(instance, 4);
 	}
 
 	@Override

@@ -1,0 +1,37 @@
+{
+  "_fv": 13,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "kunai",
+    "customModelName": "Normal",
+    "name": "Kunai",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Laputa"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Kunai"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:BulletItem5"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

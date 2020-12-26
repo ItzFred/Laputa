@@ -26,7 +26,7 @@ public class LaputanTileSlabBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:laputan_tile_slab")
 	public static final Block block = null;
 	public LaputanTileSlabBlock(LaputaModElements instance) {
-		super(instance, 14);
+		super(instance, 15);
 	}
 
 	@Override
