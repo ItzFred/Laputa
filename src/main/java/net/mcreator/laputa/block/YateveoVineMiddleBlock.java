@@ -32,7 +32,7 @@ public class YateveoVineMiddleBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:yateveo_vine_middle")
 	public static final Block block = null;
 	public YateveoVineMiddleBlock(LaputaModElements instance) {
-		super(instance, 63);
+		super(instance, 62);
 	}
 
 	@Override
