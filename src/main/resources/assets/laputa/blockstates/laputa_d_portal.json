@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "laputa:block/laputa_d_portal_ew"
+    },
+    "axis=x": {
+      "model": "laputa:block/laputa_d_portal_ns"
+    }
+  }
+}

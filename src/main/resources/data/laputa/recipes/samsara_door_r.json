@@ -1,0 +1,28 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "laputa:samsara_planks"
+    },
+    {
+      "item": "laputa:samsara_planks"
+    },
+    {
+      "item": "laputa:samsara_planks"
+    },
+    {
+      "item": "laputa:samsara_planks"
+    },
+    {
+      "item": "laputa:samsara_planks"
+    },
+    {
+      "item": "laputa:samsara_planks"
+    }
+  ],
+  "result": {
+    "item": "laputa:samsara_door",
+    "count": 3
+  }
+}

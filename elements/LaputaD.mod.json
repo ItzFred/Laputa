@@ -1,0 +1,47 @@
+{
+  "_fv": 13,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:LaputanBricks"
+    },
+    "portalParticles": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "portalLuminance": 1.0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Laputa Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:Laputa"
+    },
+    "texture": "moondust",
+    "portalTexture": "laputaportal",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "void"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.AIR"
+    },
+    "fluidBlock": {
+      "value": "Blocks.AIR"
+    },
+    "airColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "hasWeather": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false
+  }
+}

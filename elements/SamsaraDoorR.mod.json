@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SamsaraPlanks"
+      },
+      {
+        "value": "CUSTOM:SamsaraPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SamsaraPlanks"
+      },
+      {
+        "value": "CUSTOM:SamsaraPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SamsaraPlanks"
+      },
+      {
+        "value": "CUSTOM:SamsaraPlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SamsaraDoor"
+    },
+    "name": "samsara_door_r",
+    "namespace": "mod"
+  }
+}
