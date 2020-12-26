@@ -10,7 +10,7 @@ import java.util.Map;
 @LaputaModElements.ModElement.Tag
 public class LaputanSpikesEntityCollidesInTheBlockProcedure extends LaputaModElements.ModElement {
 	public LaputanSpikesEntityCollidesInTheBlockProcedure(LaputaModElements instance) {
-		super(instance, 100);
+		super(instance, 87);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

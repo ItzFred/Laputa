@@ -5,7 +5,7 @@
       "name": "Laputa",
       "type": "tab",
       "sortid": 82,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "laputa"
@@ -176,7 +176,7 @@
       "name": "LaputanDiamond",
       "type": "item",
       "sortid": 78,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "laputan_diamond"
@@ -1111,7 +1111,7 @@
       "name": "LaputaD",
       "type": "dimension",
       "sortid": 81,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "laputa_d"
@@ -1396,12 +1396,316 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "glacialis_packed_ice_bricks"
+    },
+    {
+      "name": "Ophanim",
+      "type": "mob",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ophanim"
+    },
+    {
+      "name": "LaputanPickaxe",
+      "type": "tool",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_pickaxe"
+    },
+    {
+      "name": "LaputanAxe",
+      "type": "tool",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_axe"
+    },
+    {
+      "name": "LaputanSword",
+      "type": "tool",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_sword"
+    },
+    {
+      "name": "LaputanShovel",
+      "type": "tool",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_shovel"
+    },
+    {
+      "name": "LaputanHoe",
+      "type": "tool",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_hoe"
+    },
+    {
+      "name": "LaputanPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_pickaxe_recipe"
+    },
+    {
+      "name": "LaputanAxeRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_axe_recipe"
+    },
+    {
+      "name": "LaputanSwordRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_sword_recipe"
+    },
+    {
+      "name": "LaputanShovelRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_shovel_recipe"
+    },
+    {
+      "name": "LaputanHoeRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_hoe_recipe"
+    },
+    {
+      "name": "DuskSword",
+      "type": "tool",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dusk_sword"
+    },
+    {
+      "name": "GlacialSword",
+      "type": "tool",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacial_sword"
+    },
+    {
+      "name": "SerpentSword",
+      "type": "tool",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "serpent_sword"
+    },
+    {
+      "name": "SwordEffect1",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sword_effect_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SwordEffect2",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sword_effect_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SwordEffect3",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sword_effect_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BulletItem",
+      "type": "item",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet_item"
+    },
+    {
+      "name": "BulletItem2",
+      "type": "item",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet_item_2"
+    },
+    {
+      "name": "BulletItem3",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet_item_3"
+    },
+    {
+      "name": "BulletItem4",
+      "type": "item",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet_item_4"
+    },
+    {
+      "name": "LaputanStaff",
+      "type": "gun",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputan_staff"
+    },
+    {
+      "name": "DawnStaff",
+      "type": "gun",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dawn_staff"
+    },
+    {
+      "name": "GlacialStaff",
+      "type": "gun",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacial_staff"
+    },
+    {
+      "name": "SerpentStaff",
+      "type": "gun",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "serpent_staff"
+    },
+    {
+      "name": "BulletItem5",
+      "type": "item",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet_item_5"
+    },
+    {
+      "name": "BulletItem6",
+      "type": "item",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet_item_6"
+    },
+    {
+      "name": "Kunai",
+      "type": "gun",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kunai"
+    },
+    {
+      "name": "Inkunai",
+      "type": "gun",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inkunai"
+    },
+    {
+      "name": "KunaiRecipe",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kunai_recipe"
+    },
+    {
+      "name": "InkunaiRecipe",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inkunai_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.laputa.glacial_staff": "Staff of the Aurora",
       "block.laputa.laputan_bricks_2": "Laputan Bricks",
       "block.laputa.glacialis_cracked_packed_ice": "Glacialis Cracked Packed Ice",
       "block.laputa.linneau_stairs": "Linnaeu Brick Stairs",
@@ -1409,38 +1713,68 @@
       "block.laputa.samsara_slab": "Samsara Slab",
       "block.laputa.linnaeu_slab": "Linnaeu Brick Stairs",
       "block.laputa.sylphid_bricks_2": "Sylphid Bricks",
+      "item.laputa.glacial_sword": "Glacial Sword",
       "block.laputa.linnaeu_brick_wall": "Linnaeu Brick Wall",
+      "block.laputa.glacialis_packed_ice_bricks": "Glacialis Packed Ice Bricks",
+      "block.laputa.glacialis_packed_ice": "Glacialis Packed Ice",
       "block.laputa.linnaeu_bricks_2": "Linnaeu Bricks",
+      "block.laputa.linnaeu_bricks_growth_wall": "Overgrown Linnaeu Brick Wall",
+      "block.laputa.glacialis_ice_bricks": "Glacialis Ice Bricks",
       "block.laputa.laputan_brick_2_stairs": "Laputan Brick Stairs",
+      "item.laputa.dusk_sword": "Dawn Sword",
       "item.laputa.enchanted_bucket": "Enchanted Bucket",
+      "block.laputa.linnaeu_growth_stairs_slab": "Overgrown Linnaeu Brick Slab",
       "block.laputa.laputan_vase": "Laputan Vase",
       "block.laputa.linnaeu_fence": "Linnaeu Fence",
       "block.laputa.sylphid_bricks": "Sylphid Bricks",
       "block.laputa.linnaeu_bricks_growth": "Overgrown Linnaeu Bricks",
-      "block.laputa.chiselled_laputan_bricks": "Chiselled Laputan Bricks",
       "block.laputa.samsara_planks": "Samsara Planks",
+      "block.laputa.chiselled_laputan_bricks": "Chiselled Laputan Bricks",
+      "block.laputa.glacialis_packed_crystal_ice": "Glacialis Packed Crystal Ice",
       "item.laputa.moon_dust": "Moon Dust",
+      "block.laputa.indestructible_glacialis_ice_bricks": "Indestructible Glacialis Packed Ice Bricks",
+      "block.laputa.depth_spike": "Depth Spike",
       "block.laputa.yateveo_vine_end": "Yateveo Vine",
       "block.laputa.laputan_lamp_offline": "Offline Laputan Lamp",
+      "item.laputa.inkunai": "Ink Kunai",
+      "item.laputa.laputan_staff": "Staff of Laputa",
+      "block.laputa.brass_updward_curved_pillar": "Upwards Curved Brass Pipe",
       "block.laputa.laputan_bricks": "Laputan Bricks",
+      "block.laputa.linnaeu_tiles_growth_slab": "Overgrown Linnaeu Tile Slab",
       "block.laputa.laputan_tile_stairs": "Laputan Tile Stairs",
       "block.laputa.laputan_tile_slab": "Laputan Tile Slab",
       "block.laputa.laputan_vase_3": "Laputan Vase",
+      "block.laputa.depth_block": "Depth Block",
       "block.laputa.laputan_vase_2": "Laputan Vase",
+      "item.laputa.laputan_shovel": "Laputan Shovel",
+      "block.laputa.indestructible_depth_tiles": "Indestructible Depth Tiles",
       "block.laputa.laputan_brick_2_slab": "Laputan Brick Slab",
+      "block.laputa.kaikadoium_2": "Kaikadoium",
       "block.laputa.laputan_brick_slab": "Laputan Brick Slab",
       "block.laputa.yateveo_sprouts": "Yateveo Sprouts",
       "block.laputa.samsara_leaves_bloom": "Samsara Leaves",
+      "item.laputa.laputan_sword": "Laputan Sword",
+      "block.laputa.linnaeu_bricks_growth_stairs": "Overgrown Linnaeu Brick Stairs",
+      "block.laputa.ice_crystals": "Ice Crystals",
       "item.laputa.enchanted_water_bottle": "Enchanted Water Bottle",
       "block.laputa.linnaeu_tile_stairs": "Linnaeu Tile Stairs",
+      "item.laputa.laputan_axe": "Laputan Axe",
+      "item.laputa.serpent_staff": "Staff of the Flower",
       "block.laputa.laputan_brick_stairs": "Laputan Brick Stairs",
+      "block.laputa.kaikadoium_lock": "Kaikadoium Lock",
       "block.laputa.smooth_laputan_bricks": "Smooth Laputan Block",
       "block.laputa.laputan_spikes": "Laputan Spikes",
       "block.laputa.linnaeu_wall": "Linnaeu Brick Wall",
       "block.laputa.mirage_tiles": "Mirage Tiles",
+      "item.laputa.laputan_pickaxe": "Laputan Pickaxe",
       "block.laputa.samsara_log": "Samsara Log",
       "fluid.enchanted": "Enchanted",
+      "item.laputa.serpent_sword": "Serpent Sword",
+      "block.laputa.glacialis_cracked_ice": "Glacialis Cracked Ice",
+      "block.laputa.glacialis_ice": "Glacialis Ice",
+      "item.laputa.laputan_hoe": "Laputan Hoe",
       "block.laputa.yateveo_tulips": "Yateveo Tulips",
+      "block.laputa.linnaeu_growth_wall_r": "Overgrown Linnaeu Brick Wall",
       "block.laputa.linnaeu_tiles_growth": "Overgrown Linnaeu Tiles",
       "block.laputa.linneau_mossy_2": "Mossy Linnaeu Bricks",
       "block.laputa.laputan_lamp": "Laputan Lamp",
@@ -1448,33 +1782,56 @@
       "block.laputa.linneau_tiles": "Linnaeu Tiles",
       "block.laputa.linnaeu_stairs": "Linnaeu Brick Stairs",
       "block.laputa.mirage_bricks": "Mirage Bricks",
+      "block.laputa.linnaeu_tiles_growth_fence": "Overgrown Linnaeu Fence",
       "block.laputa.linneau_mossy_tile": "Mossy Linnaeu Tiles",
       "block.laputa.laputan_tile_fence": "Laputan Fence",
       "fluid.enchanted_water": "EnchantedWater",
+      "item.laputa.bullet_item": "Bullet Item",
       "block.laputa.linneau_mossy": "Mossy Linnaeu Bricks",
       "block.laputa.mirage_bricks_2": "Mirage Bricks",
+      "item.laputa.ophanim_spawn_egg": "Ophanim Spawn Egg",
+      "item.laputa.bullet_item_5": "Bullet Item",
+      "item.laputa.bullet_item_6": "Bullet Item",
+      "item.laputa.bullet_item_3": "Bullet Item",
       "block.laputa.linnaeu_bricks_2_growth": "Overgrown Linaeu Bricks",
       "item.laputa.dazeberry": "Dazeberry",
+      "item.laputa.bullet_item_4": "Bullet Item",
+      "block.laputa.chiselled_brass_block": "Chiselled Brass Block",
+      "item.laputa.dawn_staff": "Staff of the Stars",
       "block.laputa.linnaeu_brick_slab": "Linnaeu Brick Slab",
       "block.laputa.laputan_bars": "Laputan Bars",
       "block.laputa.linnaeu_tile_slab": "Linnaeu Tile Slab",
       "block.laputa.samsara_fence_gate": "Samsara Fence Gate",
+      "item.laputa.bullet_item_2": "Bullet Item",
       "block.laputa.sylphid_tiles": "Sylphid Tiles",
+      "block.laputa.depth_tiles": "Depth Tiles",
       "block.laputa.laputan_brick_2_wall": "Laputan Brick Wall",
       "block.laputa.samsara_trapdoor": "Samsara Trapdoor",
       "block.laputa.linnaeu_bricks": "Linnaeu Bricks",
+      "block.laputa.brass_block": "Brass Block",
+      "item.laputa.kunai": "Kunai",
+      "block.laputa.linnaeu_bricks_growth_slab": "Overgrown Linnaeu Brick Slab",
+      "block.laputa.linnaeu_growth_stairs": "Overgrown Linnaeu Brick Stairs",
+      "block.laputa.brass_pipe": "Brass Pipe",
+      "block.laputa.kaikadoium": "Kaikadoium",
+      "item.laputa.laputa_d": "Laputa Portal Igniter",
       "block.laputa.samsara_stairs": "Samsara Stairs",
+      "block.laputa.brass_curved_pillar": "Curved Brass Pipe",
       "block.laputa.samsara_fence": "Samsara Fence",
+      "block.laputa.linnaeu_tiles_growth_stairs": "Overgrown Linnaeu Tile Stairs",
       "block.laputa.laputan_lamp_2": "Laputan Lamp",
       "item.laputa.enchanted_water_bucket": "EnchantedWater Bucket",
+      "entity.laputa.ophanim": "Ophanim",
       "block.laputa.laputan_brick_wall": "Laputan Brick Wall",
       "block.laputa.laputan_tiles": "Laputan Tiles",
       "block.laputa.samsara_door": "Samsara Door",
       "itemGroup.tablaputa": "Laputa",
       "item.laputa.laputan_diamond": "Laputan Diamond",
       "block.laputa.yateveo_vine_middle": "Yateveo Vine",
+      "block.laputa.glacialis_crystal_ice": "Glacialis Crystal Ice",
       "block.laputa.samsara_wood": "Samsara Wood",
-      "block.laputa.laputan_pillar": "Laputan Pillar"
+      "block.laputa.laputan_pillar": "Laputan Pillar",
+      "block.laputa.depth_coral": "Depth Coral"
     }
   },
   "workspaceSettings": {

@@ -1,0 +1,33 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "glacialsword",
+    "customModelName": "Normal",
+    "name": "Glacial Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Laputa"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 6.5,
+    "attackSpeed": 0.7000000000000001,
+    "enchantability": 14,
+    "damageVsEntity": 7.5,
+    "usageCount": 850,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:LaputanDiamond"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "SwordEffect3"
+    }
+  }
+}

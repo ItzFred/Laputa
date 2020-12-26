@@ -34,7 +34,7 @@ public class YateveoTulipsBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:yateveo_tulips")
 	public static final Block block = null;
 	public YateveoTulipsBlock(LaputaModElements instance) {
-		super(instance, 62);
+		super(instance, 61);
 	}
 
 	@Override

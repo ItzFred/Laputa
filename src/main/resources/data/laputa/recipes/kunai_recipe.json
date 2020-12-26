@@ -1,0 +1,13 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "laputa:laputan_spikes"
+    }
+  ],
+  "result": {
+    "item": "laputa:kunai",
+    "count": 6
+  }
+}

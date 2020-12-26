@@ -7,20 +7,20 @@
   ],
   "key": {
     "0": {
-      "item": "laputa:unknown_element"
+      "item": "laputa:glacialis_packed_ice"
     },
     "1": {
-      "item": "laputa:unknown_element"
+      "item": "laputa:glacialis_packed_ice"
     },
     "2": {
-      "item": "laputa:unknown_element"
+      "item": "laputa:glacialis_packed_ice"
     },
     "3": {
-      "item": "laputa:unknown_element"
+      "item": "laputa:glacialis_packed_ice"
     }
   },
   "result": {
-    "item": "laputa:unknown_element",
+    "item": "laputa:glacialis_packed_ice_bricks",
     "count": 4
   }
 }

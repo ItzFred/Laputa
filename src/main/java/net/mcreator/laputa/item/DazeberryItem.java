@@ -17,7 +17,7 @@ public class DazeberryItem extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:dazeberry")
 	public static final Item block = null;
 	public DazeberryItem(LaputaModElements instance) {
-		super(instance, 59);
+		super(instance, 65);
 	}
 
 	@Override
