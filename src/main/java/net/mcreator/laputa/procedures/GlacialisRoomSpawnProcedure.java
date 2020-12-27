@@ -52,7 +52,7 @@ public class GlacialisRoomSpawnProcedure extends LaputaModElements.ModElement {
 				Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 						.getTemplateDefaulted(new ResourceLocation("laputa", "testglacialisroom"));
 				if (template != null) {
-					template.addBlocksToWorld(world, new BlockPos((int) x, (int) y, (int) z),
+					template.addBlocksToWorld(world, new BlockPos((int) x, (int) (y - 13), (int) z),
 							new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
 				}
 			}
