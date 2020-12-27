@@ -1506,7 +1506,7 @@
       "name": "LaputaD",
       "type": "dimension",
       "sortid": 81,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "laputa_d"
@@ -1822,9 +1822,170 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "serpent_sword"
+    },
+    {
+      "name": "AccessoryBag",
+      "type": "gui",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "accessory_bag"
+    },
+    {
+      "name": "AccessoryBagOpenKeyOnKeyPressed",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "accessory_bag_open_key_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AccessoryBagOpenKey",
+      "type": "keybind",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "accessory_bag_open_key"
+    },
+    {
+      "name": "Accessory1Procedure",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "accessory_1_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Accessory2Procedure",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "accessory_2_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Accessory3Procedure",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "accessory_3_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AccessoryBagThisGUIIsOpened",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "accessory_bag_this_gui_is_opened",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AccessoryParts",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "accessory_parts",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "Accessory1",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "Accessory2",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "Accessory3",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "AccessorySlot3",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
@@ -1840,8 +2001,8 @@
       "block.laputa.linnaeu_brick_wall": "Linnaeu Brick Wall",
       "block.laputa.glacialis_packed_ice_bricks": "Glacialis Packed Ice Bricks",
       "block.laputa.glacialis_packed_ice": "Glacialis Packed Ice",
-      "block.laputa.linnaeu_bricks_growth_wall": "Overgrown Linnaeu Brick Wall",
       "block.laputa.linnaeu_bricks_2": "Linnaeu Bricks",
+      "block.laputa.linnaeu_bricks_growth_wall": "Overgrown Linnaeu Brick Wall",
       "block.laputa.glacialis_ice_bricks": "Glacialis Ice Bricks",
       "block.laputa.laputan_brick_2_stairs": "Laputan Brick Stairs",
       "item.laputa.dusk_sword": "Dawn Sword",
@@ -1851,10 +2012,10 @@
       "block.laputa.linnaeu_fence": "Linnaeu Fence",
       "block.laputa.sylphid_bricks": "Sylphid Bricks",
       "block.laputa.linnaeu_bricks_growth": "Overgrown Linnaeu Bricks",
-      "block.laputa.samsara_planks": "Samsara Planks",
       "block.laputa.chiselled_laputan_bricks": "Chiselled Laputan Bricks",
-      "item.laputa.moon_dust": "Moon Dust",
+      "block.laputa.samsara_planks": "Samsara Planks",
       "block.laputa.glacialis_packed_crystal_ice": "Glacialis Packed Crystal Ice",
+      "item.laputa.moon_dust": "Moon Dust",
       "block.laputa.indestructible_glacialis_ice_bricks": "Indestructible Glacialis Packed Ice Bricks",
       "block.laputa.depth_spike": "Depth Spike",
       "block.laputa.yateveo_vine_end": "Yateveo Vine",
@@ -1919,6 +2080,7 @@
       "item.laputa.bullet_item_5": "Bullet Item",
       "item.laputa.bullet_item_6": "Bullet Item",
       "item.laputa.bullet_item_3": "Bullet Item",
+      "key.mcreator.accessory_bag_open_key": "Open Accessory Bag",
       "item.laputa.dazeberry": "Dazeberry",
       "block.laputa.linnaeu_bricks_2_growth": "Overgrown Linaeu Bricks",
       "item.laputa.bullet_item_4": "Bullet Item",
