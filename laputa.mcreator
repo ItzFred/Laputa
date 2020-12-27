@@ -5,7 +5,7 @@
       "name": "Laputa",
       "type": "tab",
       "sortid": 82,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "laputa"
@@ -1111,7 +1111,7 @@
       "name": "LaputaD",
       "type": "dimension",
       "sortid": 81,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "laputa_d"
@@ -1701,15 +1701,6 @@
       "registry_name": "serpent_sword"
     },
     {
-      "name": "GlacialisBigDoor",
-      "type": "block",
-      "sortid": 129,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "glacialis_big_door"
-    },
-    {
       "name": "LaputanBigDoor",
       "type": "block",
       "sortid": 127,
@@ -1717,35 +1708,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "laputan_big_door"
-    },
-    {
-      "name": "BigTopDoorOnBlockRightClick",
-      "type": "procedure",
-      "sortid": 138,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "big_top_door_on_block_right_click",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     },
     {
       "name": "DungeonBlocksTag",

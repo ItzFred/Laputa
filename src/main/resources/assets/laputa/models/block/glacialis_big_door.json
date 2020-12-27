@@ -1,8 +1,0 @@
-{
-  "parent": "laputa:custom/glacialisbigdepthsdoor",
-  "textures": {
-    "all": "laputa:blocks/depthblock",
-    "particle": "laputa:blocks/depthblock",
-    "0": "laputa:blocks/glacialisseadoor"
-  }
-}

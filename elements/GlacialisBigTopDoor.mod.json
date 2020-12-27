@@ -93,7 +93,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "BigTopDoorOnBlockRightClick"
+      "name": "BigDoorOnBlockRightClicked"
     },
     "onBlockAdded": {
       "name": "DoorBreakProcedure"
