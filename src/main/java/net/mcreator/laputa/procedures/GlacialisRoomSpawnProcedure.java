@@ -46,13 +46,31 @@ public class GlacialisRoomSpawnProcedure extends LaputaModElements.ModElement {
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
 		double RoomSpawnNumber = 0;
-		RoomSpawnNumber = (double) ((new Random()).nextInt((int) 0 + 1));
+		RoomSpawnNumber = (double) ((new Random()).nextInt((int) 2 + 1));
 		if (((RoomSpawnNumber) == 0)) {
 			if (!world.getWorld().isRemote) {
 				Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 						.getTemplateDefaulted(new ResourceLocation("laputa", "testglacialisroom"));
 				if (template != null) {
 					template.addBlocksToWorld(world, new BlockPos((int) x, (int) y, (int) z),
+							new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
+				}
+			}
+		} else if (((RoomSpawnNumber) == 1)) {
+			if (!world.getWorld().isRemote) {
+				Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
+						.getTemplateDefaulted(new ResourceLocation("laputa", "yateveoplanetroom"));
+				if (template != null) {
+					template.addBlocksToWorld(world, new BlockPos((int) x, (int) (y - 1), (int) z),
+							new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
+				}
+			}
+		} else if (((RoomSpawnNumber) == 2)) {
+			if (!world.getWorld().isRemote) {
+				Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
+						.getTemplateDefaulted(new ResourceLocation("laputa", "yateveocoilroom"));
+				if (template != null) {
+					template.addBlocksToWorld(world, new BlockPos((int) x, (int) (y - 1), (int) z),
 							new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
 				}
 			}
