@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "laputa:indestructible_glacialis_ice_bricks",
-    "laputa:indestructible_depth_tiles"
+    "laputa:indestructible_depth_tiles",
+    "laputa:kaikadoium_lock",
+    "laputa:kaikadoium",
+    "laputa:kaikadoium_2"
   ]
 }

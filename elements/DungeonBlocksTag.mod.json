@@ -10,6 +10,15 @@
       },
       {
         "value": "CUSTOM:IndestructibleDepthTiles"
+      },
+      {
+        "value": "CUSTOM:KaikadoiumLock"
+      },
+      {
+        "value": "CUSTOM:Kaikadoium"
+      },
+      {
+        "value": "CUSTOM:Kaikadoium2"
       }
     ],
     "functions": [],
