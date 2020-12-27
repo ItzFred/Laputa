@@ -37,7 +37,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.laputa.procedures.DoorBreakProcedureProcedure;
-import net.mcreator.laputa.procedures.BigTopDoorOnBlockRightClickProcedure;
+import net.mcreator.laputa.procedures.BigDoorOnBlockRightClickedProcedure;
 import net.mcreator.laputa.itemgroup.LaputaItemGroup;
 import net.mcreator.laputa.LaputaModElements;
 
@@ -163,7 +163,7 @@ public class GlacialisBigTopDoorBlock extends LaputaModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				BigTopDoorOnBlockRightClickProcedure.executeProcedure($_dependencies);
+				BigDoorOnBlockRightClickedProcedure.executeProcedure($_dependencies);
 			}
 			return ActionResultType.SUCCESS;
 		}
