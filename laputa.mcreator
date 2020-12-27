@@ -5,7 +5,7 @@
       "name": "Laputa",
       "type": "tab",
       "sortid": 82,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "laputa"
@@ -1111,7 +1111,7 @@
       "name": "LaputaD",
       "type": "dimension",
       "sortid": 81,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "laputa_d"

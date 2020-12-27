@@ -34,7 +34,7 @@ public class SylphidBricks2Block extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:sylphid_bricks_2")
 	public static final Block block = null;
 	public SylphidBricks2Block(LaputaModElements instance) {
-		super(instance, 21);
+		super(instance, 37);
 	}
 
 	@Override
