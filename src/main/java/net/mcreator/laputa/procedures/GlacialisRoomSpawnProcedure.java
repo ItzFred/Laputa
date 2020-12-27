@@ -46,7 +46,7 @@ public class GlacialisRoomSpawnProcedure extends LaputaModElements.ModElement {
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
 		double RoomSpawnNumber = 0;
-		RoomSpawnNumber = (double) ((new Random()).nextInt((int) 2 + 1));
+		RoomSpawnNumber = (double) ((new Random()).nextInt((int) 3 + 1));
 		if (((RoomSpawnNumber) == 0)) {
 			if (!world.getWorld().isRemote) {
 				Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
@@ -69,6 +69,15 @@ public class GlacialisRoomSpawnProcedure extends LaputaModElements.ModElement {
 			if (!world.getWorld().isRemote) {
 				Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 						.getTemplateDefaulted(new ResourceLocation("laputa", "yateveocoilroom"));
+				if (template != null) {
+					template.addBlocksToWorld(world, new BlockPos((int) x, (int) (y - 1), (int) z),
+							new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
+				}
+			}
+		} else if (((RoomSpawnNumber) == 3)) {
+			if (!world.getWorld().isRemote) {
+				Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
+						.getTemplateDefaulted(new ResourceLocation("laputa", "laputawellroom"));
 				if (template != null) {
 					template.addBlocksToWorld(world, new BlockPos((int) x, (int) (y - 1), (int) z),
 							new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));

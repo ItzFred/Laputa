@@ -24,7 +24,7 @@ public class SmoothLaputanBricksBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:smooth_laputan_bricks")
 	public static final Block block = null;
 	public SmoothLaputanBricksBlock(LaputaModElements instance) {
-		super(instance, 16);
+		super(instance, 17);
 	}
 
 	@Override
