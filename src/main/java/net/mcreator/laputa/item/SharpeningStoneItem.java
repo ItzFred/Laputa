@@ -53,6 +53,8 @@ public class SharpeningStoneItem extends LaputaModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
+			list.add(new StringTextComponent("\u00A78Accessory"));
+			list.add(new StringTextComponent("\u00A78Press I to open Accessory Bag"));
 			list.add(new StringTextComponent("\u00A79Melee Weapon Damage \u00A77increased by \u00A741.5 Hearts"));
 		}
 	}

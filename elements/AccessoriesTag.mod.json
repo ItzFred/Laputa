@@ -12,6 +12,27 @@
       },
       {
         "value": "CUSTOM:ShoeCushions"
+      },
+      {
+        "value": "CUSTOM:BootRocket"
+      },
+      {
+        "value": "CUSTOM:ExplosiveAttachment"
+      },
+      {
+        "value": "CUSTOM:PanicSystem"
+      },
+      {
+        "value": "CUSTOM:FireyGauntlet"
+      },
+      {
+        "value": "CUSTOM:FrozenGauntlet"
+      },
+      {
+        "value": "CUSTOM:PoisonGauntlet"
+      },
+      {
+        "value": "CUSTOM:NightVisionGoggles"
       }
     ],
     "blocks": [],

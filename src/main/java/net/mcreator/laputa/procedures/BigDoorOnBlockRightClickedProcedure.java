@@ -56,7 +56,7 @@ public class BigDoorOnBlockRightClickedProcedure extends LaputaModElements.ModEl
 			}
 		}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.SOUTH)) {
 			if ((!(BlockTags.getCollection().getOrCreate(new ResourceLocation(("forge:dungeon_blocks").toLowerCase(java.util.Locale.ENGLISH)))
-					.contains((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) (z - 2)))).getBlock())))) {
+					.contains((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) (z - 1)))).getBlock())))) {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("world", world);
@@ -78,7 +78,7 @@ public class BigDoorOnBlockRightClickedProcedure extends LaputaModElements.ModEl
 			}
 		}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.NORTH)) {
 			if ((!(BlockTags.getCollection().getOrCreate(new ResourceLocation(("forge:dungeon_blocks").toLowerCase(java.util.Locale.ENGLISH)))
-					.contains((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) (z + 2)))).getBlock())))) {
+					.contains((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) (z + 1)))).getBlock())))) {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("world", world);
@@ -100,7 +100,7 @@ public class BigDoorOnBlockRightClickedProcedure extends LaputaModElements.ModEl
 			}
 		}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.EAST)) {
 			if ((!(BlockTags.getCollection().getOrCreate(new ResourceLocation(("forge:dungeon_blocks").toLowerCase(java.util.Locale.ENGLISH)))
-					.contains((world.getBlockState(new BlockPos((int) (x - 2), (int) (y - 1), (int) z))).getBlock())))) {
+					.contains((world.getBlockState(new BlockPos((int) (x - 1), (int) (y - 1), (int) z))).getBlock())))) {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("world", world);
@@ -122,7 +122,7 @@ public class BigDoorOnBlockRightClickedProcedure extends LaputaModElements.ModEl
 			}
 		}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.WEST)) {
 			if ((!(BlockTags.getCollection().getOrCreate(new ResourceLocation(("forge:dungeon_blocks").toLowerCase(java.util.Locale.ENGLISH)))
-					.contains((world.getBlockState(new BlockPos((int) (x + 2), (int) (y - 1), (int) z))).getBlock())))) {
+					.contains((world.getBlockState(new BlockPos((int) (x + 1), (int) (y - 1), (int) z))).getBlock())))) {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("world", world);

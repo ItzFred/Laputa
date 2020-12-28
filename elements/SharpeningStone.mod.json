@@ -24,6 +24,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
+      "§8Accessory",
+      "§8Press I to open Accessory Bag",
       "§9Melee Weapon Damage §7increased by §41.5 Hearts"
     ],
     "hasGlow": false,

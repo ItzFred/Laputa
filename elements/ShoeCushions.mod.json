@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "shoe_cushions",
+    "texture": "shoe_cushions1",
     "customModelName": "Normal",
     "name": "Shoe Cushions",
     "rarity": "RARE",
@@ -24,6 +24,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
+      "§8Accessory",
+      "§8Press I to open Accessory Bag",
       "§4Nullifies §9Fall Damage"
     ],
     "hasGlow": false,

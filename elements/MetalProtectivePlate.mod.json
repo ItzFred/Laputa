@@ -24,6 +24,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
+      "§8Accessory",
+      "§8Press I to open Accessory Bag",
       "§9Incoming damage §7reduced by §420%"
     ],
     "hasGlow": false,

@@ -1,0 +1,36 @@
+{
+  "_fv": 13,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "explosiveattachment",
+    "customModelName": "Normal",
+    "name": "Explosive Attachment",
+    "rarity": "RARE",
+    "creativeTab": {
+      "value": "CUSTOM:Laputa"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "§8Accessory",
+      "§8Press I to open Accessory Bag",
+      "§7Has a §433% chance §7to cause an §9explosion upon killing an Enemy"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64
+  }
+}
