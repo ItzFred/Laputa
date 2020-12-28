@@ -1,0 +1,24 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:diamond"
+    },
+    "4": {
+      "item": "minecraft:wither_rose"
+    },
+    "6": {
+      "item": "laputa:laputan_staff"
+    }
+  },
+  "result": {
+    "item": "laputa:serpent_staff",
+    "count": 1
+  }
+}

@@ -30,7 +30,7 @@ public class LaputanPillarBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:laputan_pillar")
 	public static final Block block = null;
 	public LaputanPillarBlock(LaputaModElements instance) {
-		super(instance, 42);
+		super(instance, 24);
 	}
 
 	@Override

@@ -2003,6 +2003,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "shoe_cushions"
+    },
+    {
+      "name": "GlacialStaffR",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacial_staff_r"
+    },
+    {
+      "name": "DawnStaffRecipe",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dawn_staff_recipe"
+    },
+    {
+      "name": "SerpentStaffRecipe",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "serpent_staff_recipe"
+    },
+    {
+      "name": "LaputaStaffR",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputa_staff_r"
     }
   ],
   "variable_elements": [

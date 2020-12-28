@@ -1,0 +1,24 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:golden_apple"
+    },
+    "4": {
+      "item": "minecraft:blaze_rod"
+    },
+    "6": {
+      "item": "laputa:laputan_staff"
+    }
+  },
+  "result": {
+    "item": "laputa:dawn_staff",
+    "count": 1
+  }
+}

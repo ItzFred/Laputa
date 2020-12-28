@@ -24,7 +24,7 @@ public class SylphidTilesBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:sylphid_tiles")
 	public static final Block block = null;
 	public SylphidTilesBlock(LaputaModElements instance) {
-		super(instance, 38);
+		super(instance, 23);
 	}
 
 	@Override
