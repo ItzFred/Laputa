@@ -34,7 +34,7 @@ public class MirageBricks2Block extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:mirage_bricks_2")
 	public static final Block block = null;
 	public MirageBricks2Block(LaputaModElements instance) {
-		super(instance, 20);
+		super(instance, 34);
 	}
 
 	@Override

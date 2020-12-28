@@ -16,7 +16,7 @@ public class LaputanDiamondItem extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:laputan_diamond")
 	public static final Item block = null;
 	public LaputanDiamondItem(LaputaModElements instance) {
-		super(instance, 78);
+		super(instance, 20);
 	}
 
 	@Override
