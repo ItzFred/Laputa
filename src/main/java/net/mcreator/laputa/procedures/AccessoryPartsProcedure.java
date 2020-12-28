@@ -1,28 +1,11 @@
 package net.mcreator.laputa.procedures;
 
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.TickEvent;
-import net.minecraftforge.common.MinecraftForge;
-
-import net.minecraft.world.World;
-import net.minecraft.potion.Effects;
-import net.minecraft.potion.EffectInstance;
-import net.minecraft.item.ItemStack;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.Entity;
-
-import net.mcreator.laputa.item.MoonDustItem;
-import net.mcreator.laputa.item.LaputanDiamondItem;
-import net.mcreator.laputa.LaputaModVariables;
-import net.mcreator.laputa.LaputaModElements;
-
-import java.util.Map;
-import java.util.HashMap;
-
 @LaputaModElements.ModElement.Tag
 public class AccessoryPartsProcedure extends LaputaModElements.ModElement {
+
 	public AccessoryPartsProcedure(LaputaModElements instance) {
 		super(instance, 178);
+
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -32,30 +15,48 @@ public class AccessoryPartsProcedure extends LaputaModElements.ModElement {
 				System.err.println("Failed to load dependency entity for procedure AccessoryParts!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
+
 		if ((((((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new LaputaModVariables.PlayerVariables())).Accessory1).getItem() == new ItemStack(MoonDustItem.block, (int) (1)).getItem())
+				.orElse(new LaputaModVariables.PlayerVariables())).Accessory1)
+						.getItem() == new ItemStack(MetalProtectivePlateItem.block, (int) (1)).getItem())
 				|| (((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 						.orElse(new LaputaModVariables.PlayerVariables())).Accessory2)
-								.getItem() == new ItemStack(MoonDustItem.block, (int) (1)).getItem()))
+								.getItem() == new ItemStack(MetalProtectivePlateItem.block, (int) (1)).getItem()))
 				|| (((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 						.orElse(new LaputaModVariables.PlayerVariables())).Accessory3)
-								.getItem() == new ItemStack(MoonDustItem.block, (int) (1)).getItem()))) {
+								.getItem() == new ItemStack(MetalProtectivePlateItem.block, (int) (1)).getItem()))) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 1, (int) 0, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.RESISTANCE, (int) 1, (int) 0, (false), (false)));
 		}
 		if ((((((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new LaputaModVariables.PlayerVariables())).Accessory1)
-						.getItem() == new ItemStack(LaputanDiamondItem.block, (int) (1)).getItem())
+						.getItem() == new ItemStack(SharpeningStoneItem.block, (int) (1)).getItem())
 				|| (((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 						.orElse(new LaputaModVariables.PlayerVariables())).Accessory2)
-								.getItem() == new ItemStack(LaputanDiamondItem.block, (int) (1)).getItem()))
+								.getItem() == new ItemStack(SharpeningStoneItem.block, (int) (1)).getItem()))
 				|| (((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 						.orElse(new LaputaModVariables.PlayerVariables())).Accessory3)
-								.getItem() == new ItemStack(LaputanDiamondItem.block, (int) (1)).getItem()))) {
-			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 1, (int) 0, (false), (false)));
+								.getItem() == new ItemStack(SharpeningStoneItem.block, (int) (1)).getItem()))) {
+			if ((ItemTags.getCollection().getOrCreate(new ResourceLocation(("forge:melee_weapons").toLowerCase(java.util.Locale.ENGLISH)))
+					.contains(((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem()))) {
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 1, (int) 0, (false), (false)));
+			}
 		}
+		if ((((((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new LaputaModVariables.PlayerVariables())).Accessory1)
+						.getItem() == new ItemStack(ShoeCushionsItem.block, (int) (1)).getItem())
+				|| (((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new LaputaModVariables.PlayerVariables())).Accessory2)
+								.getItem() == new ItemStack(ShoeCushionsItem.block, (int) (1)).getItem()))
+				|| (((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new LaputaModVariables.PlayerVariables())).Accessory3)
+								.getItem() == new ItemStack(ShoeCushionsItem.block, (int) (1)).getItem()))) {
+			entity.fallDistance = (float) (0);
+		}
+
 	}
 
 	@SubscribeEvent
@@ -76,4 +77,5 @@ public class AccessoryPartsProcedure extends LaputaModElements.ModElement {
 			this.executeProcedure(dependencies);
 		}
 	}
+
 }

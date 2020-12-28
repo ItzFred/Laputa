@@ -1,23 +1,11 @@
 package net.mcreator.laputa.procedures;
 
-import net.minecraft.item.ItemStack;
-import net.minecraft.inventory.container.Slot;
-import net.minecraft.inventory.container.Container;
-import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
-import net.minecraft.block.Blocks;
-
-import net.mcreator.laputa.LaputaModVariables;
-import net.mcreator.laputa.LaputaModElements;
-
-import java.util.function.Supplier;
-import java.util.Map;
-
 @LaputaModElements.ModElement.Tag
 public class Accessory3ProcedureProcedure extends LaputaModElements.ModElement {
+
 	public Accessory3ProcedureProcedure(LaputaModElements instance) {
 		super(instance, 175);
+
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -26,23 +14,25 @@ public class Accessory3ProcedureProcedure extends LaputaModElements.ModElement {
 				System.err.println("Failed to load dependency entity for procedure Accessory3Procedure!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
-		if (((!((new Object() {
-			public ItemStack getItemStack(int sltid) {
-				Entity _ent = entity;
-				if (_ent instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) _ent).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							return ((Slot) ((Map) invobj).get(sltid)).getStack();
+
+		if (((ItemTags.getCollection().getOrCreate(new ResourceLocation(("forge:accessories").toLowerCase(java.util.Locale.ENGLISH)))
+				.contains((new Object() {
+					public ItemStack getItemStack(int sltid) {
+						Entity _ent = entity;
+						if (_ent instanceof ServerPlayerEntity) {
+							Container _current = ((ServerPlayerEntity) _ent).openContainer;
+							if (_current instanceof Supplier) {
+								Object invobj = ((Supplier) _current).get();
+								if (invobj instanceof Map) {
+									return ((Slot) ((Map) invobj).get(sltid)).getStack();
+								}
+							}
 						}
+						return ItemStack.EMPTY;
 					}
-				}
-				return ItemStack.EMPTY;
-			}
-		}.getItemStack((int) (2))).getItem() == new ItemStack(Blocks.AIR, (int) (1)).getItem()))
-				&& (((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				}.getItemStack((int) (2))).getItem())) && (((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 						.orElse(new LaputaModVariables.PlayerVariables())).Accessory3).getItem() == (ItemStack.EMPTY).getItem()))) {
 			{
 				ItemStack _setval = (new Object() {
@@ -113,5 +103,7 @@ public class Accessory3ProcedureProcedure extends LaputaModElements.ModElement {
 				});
 			}
 		}
+
 	}
+
 }

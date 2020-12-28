@@ -5,7 +5,7 @@
       "name": "Laputa",
       "type": "tab",
       "sortid": 82,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "laputa"
@@ -1111,7 +1111,7 @@
       "name": "LaputaD",
       "type": "dimension",
       "sortid": 81,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "laputa_d"
@@ -1960,6 +1960,15 @@
       }
     },
     {
+      "name": "GlacialStaffR",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacial_staff_r"
+    },
+    {
       "name": "DawnStaffRecipe",
       "type": "recipe",
       "sortid": 179,
@@ -1987,13 +1996,49 @@
       "registry_name": "laputa_staff_r"
     },
     {
-      "name": "GlacialStaffR",
-      "type": "recipe",
+      "name": "MeleeWeaponsTag",
+      "type": "tag",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "melee_weapons_tag"
+    },
+    {
+      "name": "SharpeningStone",
+      "type": "item",
       "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "glacial_staff_r"
+      "registry_name": "sharpening_stone"
+    },
+    {
+      "name": "ShoeCushions",
+      "type": "item",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shoe_cushions"
+    },
+    {
+      "name": "AccessoriesTag",
+      "type": "tag",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "accessories_tag"
+    },
+    {
+      "name": "MetalProtectivePlate",
+      "type": "item",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metal_protective_plate"
     }
   ],
   "variable_elements": [
@@ -2012,12 +2057,6 @@
     {
       "name": "Accessory3",
       "type": "itemstack",
-      "scope": "player_persistent",
-      "value": ""
-    },
-    {
-      "name": "AccessorySlot3",
-      "type": "string",
       "scope": "player_persistent",
       "value": ""
     }
