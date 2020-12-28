@@ -1958,6 +1958,51 @@
           }
         ]
       }
+    },
+    {
+      "name": "AccessoriesTag",
+      "type": "tag",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "accessories_tag"
+    },
+    {
+      "name": "MetalProtectivePlate",
+      "type": "item",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metal_protective_plate"
+    },
+    {
+      "name": "SharpeningStone",
+      "type": "item",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sharpening_stone"
+    },
+    {
+      "name": "MeleeWeaponsTag",
+      "type": "tag",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "melee_weapons_tag"
+    },
+    {
+      "name": "ShoeCushions",
+      "type": "item",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shoe_cushions"
     }
   ],
   "variable_elements": [
@@ -1978,12 +2023,6 @@
       "type": "itemstack",
       "scope": "player_persistent",
       "value": ""
-    },
-    {
-      "name": "AccessorySlot3",
-      "type": "string",
-      "scope": "player_persistent",
-      "value": ""
     }
   ],
   "sound_elements": [],
@@ -1997,6 +2036,7 @@
       "block.laputa.samsara_slab": "Samsara Slab",
       "block.laputa.linnaeu_slab": "Linnaeu Brick Stairs",
       "block.laputa.sylphid_bricks_2": "Sylphid Bricks",
+      "item.laputa.sharpening_stone": "Sharpening Stone",
       "item.laputa.glacial_sword": "Glacial Sword",
       "block.laputa.linnaeu_brick_wall": "Linnaeu Brick Wall",
       "block.laputa.glacialis_packed_ice_bricks": "Glacialis Packed Ice Bricks",
@@ -2062,7 +2102,9 @@
       "block.laputa.yateveo_tulips": "Yateveo Tulips",
       "block.laputa.linnaeu_growth_wall_r": "Overgrown Linnaeu Brick Wall",
       "block.laputa.linnaeu_tiles_growth": "Overgrown Linnaeu Tiles",
+      "item.laputa.shoe_cushions": "Shoe Cushions",
       "block.laputa.yateveo_big_door": "Yateveo Big Door",
+      "item.laputa.metal_protective_plate": "Metal Protective Plate",
       "block.laputa.linneau_mossy_2": "Mossy Linnaeu Bricks",
       "block.laputa.laputan_lamp": "Laputan Lamp",
       "block.laputa.samsara_leaves": "Samsara Leaves",

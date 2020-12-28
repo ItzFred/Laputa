@@ -143,13 +143,13 @@ public class AccessoryBagGui extends LaputaModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 124, 8) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 111, 11) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 124, 35) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 111, 29) {
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 124, 62) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 111, 47) {
 			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 7, 8) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 44, 11) {
 				@Override
 				public boolean canTakeStack(PlayerEntity player) {
 					return false;
@@ -160,7 +160,7 @@ public class AccessoryBagGui extends LaputaModElements.ModElement {
 					return false;
 				}
 			}));
-			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 7, 35) {
+			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 44, 29) {
 				@Override
 				public boolean canTakeStack(PlayerEntity player) {
 					return false;
@@ -171,7 +171,7 @@ public class AccessoryBagGui extends LaputaModElements.ModElement {
 					return false;
 				}
 			}));
-			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 7, 62) {
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 44, 47) {
 				@Override
 				public boolean canTakeStack(PlayerEntity player) {
 					return false;
@@ -189,11 +189,6 @@ public class AccessoryBagGui extends LaputaModElements.ModElement {
 					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
 				this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 0 + 142));
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				AccessoryBagThisGUIIsOpenedProcedure.executeProcedure($_dependencies);
-			}
 		}
 
 		public Map<Integer, Slot> get() {
@@ -380,7 +375,7 @@ public class AccessoryBagGui extends LaputaModElements.ModElement {
 		public boolean isPauseScreen() {
 			return true;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("laputa:textures/accessory_bag.png");
+
 		@Override
 		public void render(int mouseX, int mouseY, float partialTicks) {
 			this.renderBackground();
@@ -391,10 +386,8 @@ public class AccessoryBagGui extends LaputaModElements.ModElement {
 		@Override
 		protected void drawGuiContainerBackgroundLayer(float par1, int par2, int par3) {
 			GL11.glColor4f(1, 1, 1, 1);
-			Minecraft.getInstance().getTextureManager().bindTexture(texture);
-			int k = (this.width - this.xSize) / 2;
-			int l = (this.height - this.ySize) / 2;
-			this.blit(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("laputa:textures/accessoryspace3.png"));
+			this.blit(this.guiLeft + 0, this.guiTop + 0, 0, 0, 176, 166, 176, 166);
 		}
 
 		@Override
@@ -413,6 +406,7 @@ public class AccessoryBagGui extends LaputaModElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
+			this.font.drawString("Accessories", -2, -11, -1);
 		}
 
 		@Override
@@ -425,15 +419,15 @@ public class AccessoryBagGui extends LaputaModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + 150, this.guiTop + 7, 18, 20, "1", e -> {
+			this.addButton(new Button(this.guiLeft + 132, this.guiTop + 10, 18, 20, "1", e -> {
 				LaputaMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
 				handleButtonAction(entity, 0, x, y, z);
 			}));
-			this.addButton(new Button(this.guiLeft + 150, this.guiTop + 34, 18, 20, "2", e -> {
+			this.addButton(new Button(this.guiLeft + 132, this.guiTop + 28, 18, 20, "2", e -> {
 				LaputaMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(1, x, y, z));
 				handleButtonAction(entity, 1, x, y, z);
 			}));
-			this.addButton(new Button(this.guiLeft + 150, this.guiTop + 61, 18, 20, "3", e -> {
+			this.addButton(new Button(this.guiLeft + 132, this.guiTop + 46, 18, 20, "3", e -> {
 				LaputaMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(2, x, y, z));
 				handleButtonAction(entity, 2, x, y, z);
 			}));

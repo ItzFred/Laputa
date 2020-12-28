@@ -71,7 +71,6 @@ public class LaputaModVariables {
 			nbt.put("Accessory1", instance.Accessory1.write(new CompoundNBT()));
 			nbt.put("Accessory2", instance.Accessory2.write(new CompoundNBT()));
 			nbt.put("Accessory3", instance.Accessory3.write(new CompoundNBT()));
-			nbt.putString("AccessorySlot3", instance.AccessorySlot3);
 			return nbt;
 		}
 
@@ -81,7 +80,6 @@ public class LaputaModVariables {
 			instance.Accessory1 = ItemStack.read(nbt.getCompound("Accessory1"));
 			instance.Accessory2 = ItemStack.read(nbt.getCompound("Accessory2"));
 			instance.Accessory3 = ItemStack.read(nbt.getCompound("Accessory3"));
-			instance.AccessorySlot3 = nbt.getString("AccessorySlot3");
 		}
 	}
 
@@ -89,7 +87,6 @@ public class LaputaModVariables {
 		public ItemStack Accessory1 = ItemStack.EMPTY;
 		public ItemStack Accessory2 = ItemStack.EMPTY;
 		public ItemStack Accessory3 = ItemStack.EMPTY;
-		public String AccessorySlot3 = "";
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
 				LaputaMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) entity), new PlayerVariablesSyncMessage(this));
@@ -124,7 +121,6 @@ public class LaputaModVariables {
 		clone.Accessory1 = original.Accessory1;
 		clone.Accessory2 = original.Accessory2;
 		clone.Accessory3 = original.Accessory3;
-		clone.AccessorySlot3 = original.AccessorySlot3;
 		if (!event.isWasDeath()) {
 		}
 	}
@@ -152,7 +148,6 @@ public class LaputaModVariables {
 					variables.Accessory1 = message.data.Accessory1;
 					variables.Accessory2 = message.data.Accessory2;
 					variables.Accessory3 = message.data.Accessory3;
-					variables.AccessorySlot3 = message.data.AccessorySlot3;
 				}
 			});
 			context.setPacketHandled(true);
