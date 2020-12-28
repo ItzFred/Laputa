@@ -1,0 +1,24 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:blue_ice"
+    },
+    "4": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "6": {
+      "item": "laputa:laputan_staff"
+    }
+  },
+  "result": {
+    "item": "laputa:glacial_staff",
+    "count": 1
+  }
+}

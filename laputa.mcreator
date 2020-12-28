@@ -2005,31 +2005,22 @@
       "registry_name": "shoe_cushions"
     },
     {
-      "name": "ExplosiveAttachment",
+      "name": "PoisonGauntlet",
       "type": "item",
-      "sortid": 185,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "explosive_attachment"
+      "registry_name": "poison_gauntlet"
     },
     {
-      "name": "BootRocket",
+      "name": "FrozenGauntlet",
       "type": "item",
-      "sortid": 186,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "boot_rocket"
-    },
-    {
-      "name": "PanicSystem",
-      "type": "item",
-      "sortid": 187,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "panic_system"
+      "registry_name": "frozen_gauntlet"
     },
     {
       "name": "EnemyDeathAccessory",
@@ -2065,15 +2056,6 @@
       }
     },
     {
-      "name": "FireyGauntlet",
-      "type": "item",
-      "sortid": 189,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "firey_gauntlet"
-    },
-    {
       "name": "EnemyHitAccessory",
       "type": "procedure",
       "sortid": 190,
@@ -2095,22 +2077,31 @@
       }
     },
     {
-      "name": "FrozenGauntlet",
+      "name": "FireyGauntlet",
       "type": "item",
-      "sortid": 191,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "frozen_gauntlet"
+      "registry_name": "firey_gauntlet"
     },
     {
-      "name": "PoisonGauntlet",
+      "name": "ExplosiveAttachment",
       "type": "item",
-      "sortid": 192,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "poison_gauntlet"
+      "registry_name": "explosive_attachment"
+    },
+    {
+      "name": "BootRocket",
+      "type": "item",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boot_rocket"
     },
     {
       "name": "NightVisionGoggles",
@@ -2120,6 +2111,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "night_vision_goggles"
+    },
+    {
+      "name": "PanicSystem",
+      "type": "item",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "panic_system"
+    },
+    {
+      "name": "GlacialStaffR",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacial_staff_r"
+    },
+    {
+      "name": "DawnStaffRecipe",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dawn_staff_recipe"
+    },
+    {
+      "name": "SerpentStaffRecipe",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "serpent_staff_recipe"
+    },
+    {
+      "name": "LaputaStaffR",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laputa_staff_r"
     }
   ],
   "variable_elements": [
