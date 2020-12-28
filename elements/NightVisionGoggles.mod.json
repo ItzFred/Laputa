@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "sharpening_stone",
+    "texture": "nightvisiongoggles",
     "customModelName": "Normal",
-    "name": "Sharpening Stone",
+    "name": "Night Vision Goggles",
     "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:Laputa"
@@ -26,7 +26,7 @@
     "specialInfo": [
       "§8Accessory",
       "§8Press I to open Accessory Bag",
-      "§9Melee Weapon Damage §7increased by §41.5 Hearts"
+      "§7Gives permanent night vison"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

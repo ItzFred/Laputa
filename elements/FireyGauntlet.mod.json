@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "sharpening_stone",
+    "texture": "fireygauntlet",
     "customModelName": "Normal",
-    "name": "Sharpening Stone",
+    "name": "Firey Gauntlet",
     "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:Laputa"
@@ -26,7 +26,7 @@
     "specialInfo": [
       "§8Accessory",
       "§8Press I to open Accessory Bag",
-      "§9Melee Weapon Damage §7increased by §41.5 Hearts"
+      "§7Your fist sets mobs on fire"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

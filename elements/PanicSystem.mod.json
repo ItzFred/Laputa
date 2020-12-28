@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "sharpening_stone",
+    "texture": "panicspeedsystem",
     "customModelName": "Normal",
-    "name": "Sharpening Stone",
+    "name": "Panic System",
     "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:Laputa"
@@ -26,7 +26,7 @@
     "specialInfo": [
       "§8Accessory",
       "§8Press I to open Accessory Bag",
-      "§9Melee Weapon Damage §7increased by §41.5 Hearts"
+      "§9Movement Speed §7increased by §4how low your HP is."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

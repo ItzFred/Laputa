@@ -3,6 +3,13 @@
   "values": [
     "laputa:metal_protective_plate",
     "laputa:sharpening_stone",
-    "laputa:shoe_cushions"
+    "laputa:shoe_cushions",
+    "laputa:boot_rocket",
+    "laputa:explosive_attachment",
+    "laputa:panic_system",
+    "laputa:firey_gauntlet",
+    "laputa:frozen_gauntlet",
+    "laputa:poison_gauntlet",
+    "laputa:night_vision_goggles"
   ]
 }

@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "sharpening_stone",
+    "texture": "explosiveattachment",
     "customModelName": "Normal",
-    "name": "Sharpening Stone",
+    "name": "Explosive Attachment",
     "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:Laputa"
@@ -26,7 +26,7 @@
     "specialInfo": [
       "§8Accessory",
       "§8Press I to open Accessory Bag",
-      "§9Melee Weapon Damage §7increased by §41.5 Hearts"
+      "§7Has a §433% chance §7to cause an §9explosion upon killing an Enemy"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
