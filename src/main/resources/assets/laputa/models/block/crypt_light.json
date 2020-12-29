@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "laputa:blocks/pathospillartop",
+    "up": "laputa:blocks/pathospillartop",
+    "north": "laputa:blocks/candlebox",
+    "east": "laputa:blocks/candlebox",
+    "south": "laputa:blocks/candlebox",
+    "west": "laputa:blocks/candlebox",
+    "particle": "laputa:blocks/pathospillartop"
+  }
+}

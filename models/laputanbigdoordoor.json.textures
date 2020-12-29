@@ -5,6 +5,12 @@
         "0": "laputanbigdoor"
       },
       "name": "default"
+    },
+    "pathosbigdoor": {
+      "map": {
+        "0": "pathosdoor"
+      },
+      "name": "pathosbigdoor"
     }
   }
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "laputa:blocks/ashurn",
+    "particle": "laputa:blocks/ashurn"
+  }
+}
