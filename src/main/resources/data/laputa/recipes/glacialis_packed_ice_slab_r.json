@@ -1,0 +1,22 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "laputa:glacialis_packed_ice"
+    },
+    "1": {
+      "item": "laputa:glacialis_packed_ice"
+    },
+    "2": {
+      "item": "laputa:glacialis_packed_ice"
+    }
+  },
+  "result": {
+    "item": "laputa:glacialis_packed_ice_slab",
+    "count": 6
+  }
+}

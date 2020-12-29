@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "laputa:blocks/glacialisice",
+    "particle": "laputa:blocks/glacialisice"
+  }
+}

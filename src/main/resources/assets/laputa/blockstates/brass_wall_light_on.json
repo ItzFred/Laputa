@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "laputa:block/brass_wall_light_on"
+    },
+    "facing=east": {
+      "model": "laputa:block/brass_wall_light_on",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "laputa:block/brass_wall_light_on",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "laputa:block/brass_wall_light_on",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "laputa:block/brass_wall_light_on",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "laputa:block/brass_wall_light_on",
+      "x": 90
+    }
+  }
+}

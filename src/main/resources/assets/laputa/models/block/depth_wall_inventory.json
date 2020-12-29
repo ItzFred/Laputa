@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "laputa:blocks/roughdepthblock",
+    "particle": "laputa:blocks/roughdepthblock"
+  }
+}

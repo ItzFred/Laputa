@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "laputa:block/depth_slab"
+    },
+    "type=top": {
+      "model": "laputa:block/depth_slab_top"
+    },
+    "type=double": {
+      "model": "laputa:block/depth_slab_full"
+    }
+  }
+}
