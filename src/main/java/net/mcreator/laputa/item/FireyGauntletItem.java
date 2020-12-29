@@ -1,24 +1,35 @@
 
 package net.mcreator.laputa.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.item.Rarity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.laputa.itemgroup.LaputaItemGroup;
+import net.mcreator.laputa.LaputaModElements;
+
+import java.util.List;
+
 @LaputaModElements.ModElement.Tag
 public class FireyGauntletItem extends LaputaModElements.ModElement {
-
 	@ObjectHolder("laputa:firey_gauntlet")
 	public static final Item block = null;
-
 	public FireyGauntletItem(LaputaModElements instance) {
 		super(instance, 189);
-
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(LaputaItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("firey_gauntlet");
@@ -42,11 +53,9 @@ public class FireyGauntletItem extends LaputaModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00EF\u00BF\u00BD8Accessory"));
-			list.add(new StringTextComponent("\u00EF\u00BF\u00BD8Press I to open Accessory Bag"));
-			list.add(new StringTextComponent("\u00EF\u00BF\u00BD7Your fist sets mobs on fire"));
+			list.add(new StringTextComponent("\uFFFD8Accessory"));
+			list.add(new StringTextComponent("\uFFFD8Press I to open Accessory Bag"));
+			list.add(new StringTextComponent("\uFFFD7Your fist sets mobs on fire"));
 		}
-
 	}
-
 }
