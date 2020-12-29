@@ -1,24 +1,35 @@
 
 package net.mcreator.laputa.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.item.Rarity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.laputa.itemgroup.LaputaItemGroup;
+import net.mcreator.laputa.LaputaModElements;
+
+import java.util.List;
+
 @LaputaModElements.ModElement.Tag
 public class ExplosiveAttachmentItem extends LaputaModElements.ModElement {
-
 	@ObjectHolder("laputa:explosive_attachment")
 	public static final Item block = null;
-
 	public ExplosiveAttachmentItem(LaputaModElements instance) {
 		super(instance, 185);
-
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(LaputaItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("explosive_attachment");
@@ -42,12 +53,9 @@ public class ExplosiveAttachmentItem extends LaputaModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00EF\u00BF\u00BD8Accessory"));
-			list.add(new StringTextComponent("\u00EF\u00BF\u00BD8Press I to open Accessory Bag"));
-			list.add(new StringTextComponent(
-					"\u00EF\u00BF\u00BD7Has a \u00EF\u00BF\u00BD433% chance \u00EF\u00BF\u00BD7to cause an \u00EF\u00BF\u00BD9explosion upon killing an Enemy"));
+			list.add(new StringTextComponent("\u00A78Accessory"));
+			list.add(new StringTextComponent("\u00A78Press I to open Accessory Bag"));
+			list.add(new StringTextComponent("\u00A77Has a \u00A7433% chance \u00A77to cause an \u00A79explosion upon killing an Enemy"));
 		}
-
 	}
-
 }

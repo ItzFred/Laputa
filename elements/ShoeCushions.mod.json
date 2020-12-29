@@ -24,7 +24,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "ï¿½4Nullifies ï¿½9Fall Damage"
+      "§8Accessory",
+      "§8Press I to open Accessory Bag",
+      "§4Nullifies §9Fall Damage"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

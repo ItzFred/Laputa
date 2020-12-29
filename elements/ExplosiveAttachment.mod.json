@@ -24,9 +24,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "ï¿½8Accessory",
-      "ï¿½8Press I to open Accessory Bag",
-      "ï¿½7Has a ï¿½433% chance ï¿½7to cause an ï¿½9explosion upon killing an Enemy"
+      "§8Accessory",
+      "§8Press I to open Accessory Bag",
+      "§7Has a §433% chance §7to cause an §9explosion upon killing an Enemy"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
