@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "laputa:block/pathos_pillar"
+    },
+    "facing=north": {
+      "model": "laputa:block/pathos_pillar"
+    },
+    "facing=east": {
+      "model": "laputa:block/pathos_pillar",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "laputa:block/pathos_pillar",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "laputa:block/pathos_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "laputa:block/pathos_pillar",
+      "x": 90,
+      "y": 90
+    }
+  }
+}
