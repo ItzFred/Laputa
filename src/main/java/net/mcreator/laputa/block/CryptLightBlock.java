@@ -40,7 +40,7 @@ public class CryptLightBlock extends LaputaModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GLASS).hardnessAndResistance(1f, 10f).lightValue(2).harvestLevel(1)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.GLASS).hardnessAndResistance(1f, 10f).lightValue(11).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("crypt_light");
 		}
