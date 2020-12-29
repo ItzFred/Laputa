@@ -2659,6 +2659,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pathos_pillar"
+    },
+    {
+      "name": "Yateveo",
+      "type": "biome",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yateveo"
+    },
+    {
+      "name": "Pathos",
+      "type": "biome",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pathos"
+    },
+    {
+      "name": "CryptLightOff",
+      "type": "block",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crypt_light_off"
+    },
+    {
+      "name": "Glacialis",
+      "type": "biome",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis"
     }
   ],
   "variable_elements": [
