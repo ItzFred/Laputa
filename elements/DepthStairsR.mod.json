@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DepthBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DepthBlock"
+      },
+      {
+        "value": "CUSTOM:DepthBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DepthBlock"
+      },
+      {
+        "value": "CUSTOM:DepthBlock"
+      },
+      {
+        "value": "CUSTOM:DepthBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DepthStairs"
+    },
+    "name": "depth_stairs_r",
+    "namespace": "mod"
+  }
+}

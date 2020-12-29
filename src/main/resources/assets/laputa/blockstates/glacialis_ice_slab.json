@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "laputa:block/glacialis_ice_slab"
+    },
+    "type=top": {
+      "model": "laputa:block/glacialis_ice_slab_top"
+    },
+    "type=double": {
+      "model": "laputa:block/glacialis_ice_slab_full"
+    }
+  }
+}

@@ -29,7 +29,7 @@
     "hardness": 0.0,
     "resistance": 0.0,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "creativeTab": {
       "value": "CUSTOM:Laputa"
     },
@@ -61,7 +61,7 @@
     "isLadder": false,
     "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "soundOnStep": {
       "value": "STONE"
     },

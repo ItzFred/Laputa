@@ -1,0 +1,8 @@
+{
+  "parent": "laputa:custom/brasswalllighton",
+  "textures": {
+    "all": "laputa:blocks/brassblock",
+    "particle": "laputa:blocks/brassblock",
+    "0": "laputa:blocks/brasswalllightonuv"
+  }
+}

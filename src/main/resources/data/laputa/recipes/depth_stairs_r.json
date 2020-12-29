@@ -1,0 +1,33 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "laputa:depth_block"
+    },
+    "3": {
+      "item": "laputa:depth_block"
+    },
+    "4": {
+      "item": "laputa:depth_block"
+    },
+    "6": {
+      "item": "laputa:depth_block"
+    },
+    "7": {
+      "item": "laputa:depth_block"
+    },
+    "8": {
+      "item": "laputa:depth_block"
+    }
+  },
+  "result": {
+    "item": "laputa:unknown_element",
+    "count": 3
+  }
+}

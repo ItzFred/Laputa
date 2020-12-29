@@ -1,0 +1,33 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "laputa:glacialis_ice"
+    },
+    "3": {
+      "item": "laputa:glacialis_ice"
+    },
+    "4": {
+      "item": "laputa:glacialis_ice"
+    },
+    "6": {
+      "item": "laputa:glacialis_ice"
+    },
+    "7": {
+      "item": "laputa:glacialis_ice"
+    },
+    "8": {
+      "item": "laputa:glacialis_ice"
+    }
+  },
+  "result": {
+    "item": "laputa:glacialis_ice_stairs",
+    "count": 3
+  }
+}

@@ -2039,6 +2039,635 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "metal_protective_plate"
+    },
+    {
+      "name": "FrozenGauntlet",
+      "type": "item",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frozen_gauntlet"
+    },
+    {
+      "name": "PathosTileStairs",
+      "type": "block",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pathos_tile_stairs"
+    },
+    {
+      "name": "DepthStairsR",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "depth_stairs_r"
+    },
+    {
+      "name": "NightVisionGoggles",
+      "type": "item",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "night_vision_goggles"
+    },
+    {
+      "name": "GlacialisIceWallR",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_ice_wall_r"
+    },
+    {
+      "name": "PathosStairs",
+      "type": "block",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pathos_stairs"
+    },
+    {
+      "name": "EnemyHitAccessory",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enemy_hit_accessory",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FleshFishEggs",
+      "type": "block",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flesh_fish_eggs"
+    },
+    {
+      "name": "CorpseBlock",
+      "type": "block",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corpse_block"
+    },
+    {
+      "name": "GlacialisPackedIceWallR",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_packed_ice_wall_r"
+    },
+    {
+      "name": "DepthWall",
+      "type": "block",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "depth_wall"
+    },
+    {
+      "name": "DepthStairs",
+      "type": "block",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "depth_stairs"
+    },
+    {
+      "name": "BrassWallLightOFF",
+      "type": "block",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brass_wall_light_off"
+    },
+    {
+      "name": "BrassWallLightON",
+      "type": "block",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brass_wall_light_on"
+    },
+    {
+      "name": "DepthWallR",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "depth_wall_r"
+    },
+    {
+      "name": "PathosBrickSlab",
+      "type": "block",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pathos_brick_slab"
+    },
+    {
+      "name": "GlacialisIceSlab",
+      "type": "block",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_ice_slab"
+    },
+    {
+      "name": "EnemyDeathAccessory",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enemy_death_accessory",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PathosTiles",
+      "type": "block",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pathos_tiles"
+    },
+    {
+      "name": "GlacialisIceWall",
+      "type": "block",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_ice_wall"
+    },
+    {
+      "name": "PathosPillar",
+      "type": "block",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pathos_pillar"
+    },
+    {
+      "name": "GlacialisPackedIceSlabR",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_packed_ice_slab_r"
+    },
+    {
+      "name": "CryptLight",
+      "type": "block",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crypt_light"
+    },
+    {
+      "name": "PathosBigDoor",
+      "type": "block",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pathos_big_door"
+    },
+    {
+      "name": "GlacialisIceStairs",
+      "type": "block",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_ice_stairs"
+    },
+    {
+      "name": "GlacialisPackedIceStairs",
+      "type": "block",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_packed_ice_stairs"
+    },
+    {
+      "name": "AshUrn",
+      "type": "block",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ash_urn"
+    },
+    {
+      "name": "Corpseblock2",
+      "type": "block",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corpseblock_2"
+    },
+    {
+      "name": "GlacialisIceStairsR",
+      "type": "recipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_ice_stairs_r"
+    },
+    {
+      "name": "ChiseledPathosTile",
+      "type": "block",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chiseled_pathos_tile"
+    },
+    {
+      "name": "BootRocket",
+      "type": "item",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boot_rocket"
+    },
+    {
+      "name": "GlacialisPackedIceSlab",
+      "type": "block",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_packed_ice_slab"
+    },
+    {
+      "name": "BrassFence",
+      "type": "block",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brass_fence"
+    },
+    {
+      "name": "BioLanternBottomBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bio_lantern_bottom_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tombars",
+      "type": "block",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tombars"
+    },
+    {
+      "name": "BioBulb",
+      "type": "block",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bio_bulb"
+    },
+    {
+      "name": "PathosTileSlab",
+      "type": "block",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pathos_tile_slab"
+    },
+    {
+      "name": "ExplosiveAttachment",
+      "type": "item",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explosive_attachment"
+    },
+    {
+      "name": "GlacialisPackedIceStairsR",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_packed_ice_stairs_r"
+    },
+    {
+      "name": "DepthSlabR",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "depth_slab_r"
+    },
+    {
+      "name": "BioLanternBottom",
+      "type": "block",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bio_lantern_bottom"
+    },
+    {
+      "name": "PathosBrickWall",
+      "type": "block",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pathos_brick_wall"
+    },
+    {
+      "name": "FireyGauntlet",
+      "type": "item",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firey_gauntlet"
+    },
+    {
+      "name": "DepthSlab",
+      "type": "block",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "depth_slab"
+    },
+    {
+      "name": "FleshFish",
+      "type": "mob",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flesh_fish"
+    },
+    {
+      "name": "PoisonGauntlet",
+      "type": "item",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poison_gauntlet"
+    },
+    {
+      "name": "BrassWallLightONOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brass_wall_light_on_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlacialisIceSlabR",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_ice_slab_r"
+    },
+    {
+      "name": "BioLanternBottomUpdateTick",
+      "type": "procedure",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bio_lantern_bottom_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FleshFishEggsUpdateTick",
+      "type": "procedure",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flesh_fish_eggs_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BrassCrate",
+      "type": "block",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brass_crate"
+    },
+    {
+      "name": "CryptLightOff",
+      "type": "block",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crypt_light_off"
+    },
+    {
+      "name": "GlacialisPackedIceWall",
+      "type": "block",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_packed_ice_wall"
+    },
+    {
+      "name": "BioLanterTop",
+      "type": "block",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bio_lanter_top"
+    },
+    {
+      "name": "GlacialisIceCrate",
+      "type": "block",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glacialis_ice_crate"
+    },
+    {
+      "name": "PathosBricks",
+      "type": "block",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pathos_bricks"
+    },
+    {
+      "name": "PanicSystem",
+      "type": "item",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "panic_system"
     }
   ],
   "variable_elements": [

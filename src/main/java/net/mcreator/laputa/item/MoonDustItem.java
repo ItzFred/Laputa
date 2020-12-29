@@ -16,7 +16,7 @@ public class MoonDustItem extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:moon_dust")
 	public static final Item block = null;
 	public MoonDustItem(LaputaModElements instance) {
-		super(instance, 67);
+		super(instance, 45);
 	}
 
 	@Override

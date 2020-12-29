@@ -1,0 +1,32 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "laputa:glacialis_ice"
+    },
+    "1": {
+      "item": "laputa:glacialis_ice"
+    },
+    "2": {
+      "item": "laputa:glacialis_ice"
+    },
+    "3": {
+      "item": "laputa:glacialis_ice"
+    },
+    "4": {
+      "item": "laputa:glacialis_ice"
+    },
+    "5": {
+      "item": "laputa:glacialis_ice"
+    }
+  },
+  "result": {
+    "item": "laputa:unknown_element",
+    "count": 6
+  }
+}

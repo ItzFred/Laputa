@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "laputa:blocks/roughdepthblock",
+    "top": "laputa:blocks/roughdepthblock",
+    "side": "laputa:blocks/roughdepthblock"
+  }
+}

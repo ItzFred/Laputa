@@ -1,0 +1,36 @@
+{
+  "_fv": 13,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "poisongauntlet",
+    "customModelName": "Normal",
+    "name": "Poison Gauntlet",
+    "rarity": "RARE",
+    "creativeTab": {
+      "value": "CUSTOM:Laputa"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "�8Accessory",
+      "�8Press I to open Accessory Bag",
+      "�7Your fist poisons mobs"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64
+  }
+}

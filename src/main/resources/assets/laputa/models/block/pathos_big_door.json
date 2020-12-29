@@ -1,0 +1,8 @@
+{
+  "parent": "laputa:custom/laputanbigdoordoor",
+  "textures": {
+    "all": "laputa:blocks/pathosdoor",
+    "particle": "laputa:blocks/pathosdoor",
+    "0": "laputa:blocks/pathosdoor"
+  }
+}

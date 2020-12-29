@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "laputa:blocks/icecratetop",
+    "up": "laputa:blocks/icecratetop",
+    "north": "laputa:blocks/icecrateside",
+    "east": "laputa:blocks/icecrateside",
+    "south": "laputa:blocks/icecrateside",
+    "west": "laputa:blocks/icecrateside",
+    "particle": "laputa:blocks/icecratetop"
+  }
+}

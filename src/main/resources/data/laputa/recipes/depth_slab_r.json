@@ -1,0 +1,22 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "laputa:depth_block"
+    },
+    "1": {
+      "item": "laputa:depth_block"
+    },
+    "2": {
+      "item": "laputa:depth_block"
+    }
+  },
+  "result": {
+    "item": "laputa:unknown_element",
+    "count": 6
+  }
+}
