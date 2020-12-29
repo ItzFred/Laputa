@@ -1,11 +1,25 @@
 package net.mcreator.laputa.procedures;
 
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.living.LivingAttackEvent;
+import net.minecraftforge.common.MinecraftForge;
+
+import net.minecraft.world.World;
+import net.minecraft.potion.Effects;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.laputa.LaputaModElements;
+
+import java.util.Map;
+import java.util.HashMap;
+
 @LaputaModElements.ModElement.Tag
 public class EnemyHitAccessoryProcedure extends LaputaModElements.ModElement {
-
 	public EnemyHitAccessoryProcedure(LaputaModElements instance) {
 		super(instance, 190);
-
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -20,10 +34,8 @@ public class EnemyHitAccessoryProcedure extends LaputaModElements.ModElement {
 				System.err.println("Failed to load dependency sourceentity for procedure EnemyHitAccessory!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");
-
 		if (((((sourceentity.getPersistentData().getString("Accessory1"))).equals("Fire"))
 				|| ((((sourceentity.getPersistentData().getString("Accessory2"))).equals("Fire"))
 						|| (((sourceentity.getPersistentData().getString("Accessory3"))).equals("Fire"))))) {
@@ -50,7 +62,6 @@ public class EnemyHitAccessoryProcedure extends LaputaModElements.ModElement {
 					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.POISON, (int) 80, (int) 1, (false), (true)));
 			}
 		}
-
 	}
 
 	@SubscribeEvent
@@ -77,5 +88,4 @@ public class EnemyHitAccessoryProcedure extends LaputaModElements.ModElement {
 			this.executeProcedure(dependencies);
 		}
 	}
-
 }

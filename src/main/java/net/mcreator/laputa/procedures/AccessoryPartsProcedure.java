@@ -1,11 +1,31 @@
 package net.mcreator.laputa.procedures;
 
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
+import net.minecraftforge.common.MinecraftForge;
+
+import net.minecraft.world.World;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.potion.Effects;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.laputa.item.ShoeCushionsItem;
+import net.mcreator.laputa.item.SharpeningStoneItem;
+import net.mcreator.laputa.item.MetalProtectivePlateItem;
+import net.mcreator.laputa.LaputaModVariables;
+import net.mcreator.laputa.LaputaModElements;
+
+import java.util.Map;
+import java.util.HashMap;
+
 @LaputaModElements.ModElement.Tag
 public class AccessoryPartsProcedure extends LaputaModElements.ModElement {
-
 	public AccessoryPartsProcedure(LaputaModElements instance) {
 		super(instance, 178);
-
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -15,9 +35,7 @@ public class AccessoryPartsProcedure extends LaputaModElements.ModElement {
 				System.err.println("Failed to load dependency entity for procedure AccessoryParts!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		if ((((((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new LaputaModVariables.PlayerVariables())).Accessory1)
 						.getItem() == new ItemStack(MetalProtectivePlateItem.block, (int) (1)).getItem())
@@ -56,7 +74,6 @@ public class AccessoryPartsProcedure extends LaputaModElements.ModElement {
 								.getItem() == new ItemStack(ShoeCushionsItem.block, (int) (1)).getItem()))) {
 			entity.fallDistance = (float) (0);
 		}
-
 	}
 
 	@SubscribeEvent
@@ -77,5 +94,4 @@ public class AccessoryPartsProcedure extends LaputaModElements.ModElement {
 			this.executeProcedure(dependencies);
 		}
 	}
-
 }

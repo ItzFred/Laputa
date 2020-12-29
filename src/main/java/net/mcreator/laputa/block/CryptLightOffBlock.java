@@ -5,6 +5,7 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.world.IWorldReader;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemStack;
@@ -23,11 +24,11 @@ import java.util.List;
 import java.util.Collections;
 
 @LaputaModElements.ModElement.Tag
-public class ChiseledPathosTileBlock extends LaputaModElements.ModElement {
-	@ObjectHolder("laputa:chiseled_pathos_tile")
+public class CryptLightOffBlock extends LaputaModElements.ModElement {
+	@ObjectHolder("laputa:crypt_light_off")
 	public static final Block block = null;
-	public ChiseledPathosTileBlock(LaputaModElements instance) {
-		super(instance, 195);
+	public CryptLightOffBlock(LaputaModElements instance) {
+		super(instance, 227);
 	}
 
 	@Override
@@ -37,14 +38,19 @@ public class ChiseledPathosTileBlock extends LaputaModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.75f, 10.5f).lightValue(0).harvestLevel(1)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.GLASS).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("chiseled_pathos_tile");
+			setRegistryName("crypt_light_off");
+		}
+
+		@Override
+		public float[] getBeaconColorMultiplier(BlockState state, IWorldReader world, BlockPos pos, BlockPos beaconPos) {
+			return new float[]{0.8f, 0.8f, 1f};
 		}
 
 		@Override
 		public MaterialColor getMaterialColor(BlockState state, IBlockReader blockAccess, BlockPos pos) {
-			return MaterialColor.GRAY;
+			return MaterialColor.BLUE;
 		}
 
 		@Override
