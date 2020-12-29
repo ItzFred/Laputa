@@ -1,11 +1,23 @@
 package net.mcreator.laputa.procedures;
 
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.living.LivingDeathEvent;
+import net.minecraftforge.common.MinecraftForge;
+
+import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
+import net.minecraft.world.Explosion;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.laputa.LaputaModElements;
+
+import java.util.Map;
+import java.util.HashMap;
+
 @LaputaModElements.ModElement.Tag
 public class EnemyDeathAccessoryProcedure extends LaputaModElements.ModElement {
-
 	public EnemyDeathAccessoryProcedure(LaputaModElements instance) {
 		super(instance, 188);
-
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -35,13 +47,11 @@ public class EnemyDeathAccessoryProcedure extends LaputaModElements.ModElement {
 				System.err.println("Failed to load dependency world for procedure EnemyDeathAccessory!");
 			return;
 		}
-
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		if (((((sourceentity.getPersistentData().getString("Accessory1"))).equals("Explode"))
 				|| ((((sourceentity.getPersistentData().getString("Accessory2"))).equals("Explode"))
 						|| (((sourceentity.getPersistentData().getString("Accessory3"))).equals("Explode"))))) {
@@ -49,7 +59,6 @@ public class EnemyDeathAccessoryProcedure extends LaputaModElements.ModElement {
 				world.getWorld().createExplosion(null, (int) x, (int) y, (int) z, (float) 2, Explosion.Mode.BREAK);
 			}
 		}
-
 	}
 
 	@SubscribeEvent
@@ -72,5 +81,4 @@ public class EnemyDeathAccessoryProcedure extends LaputaModElements.ModElement {
 			this.executeProcedure(dependencies);
 		}
 	}
-
 }

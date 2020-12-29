@@ -24,9 +24,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "§8Accessory",
-      "§8Press I to open Accessory Bag",
-      "§7Your fist sets mobs on fire"
+      "ï¿½8Accessory",
+      "ï¿½8Press I to open Accessory Bag",
+      "ï¿½7Your fist sets mobs on fire"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
