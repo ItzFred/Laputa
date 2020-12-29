@@ -2695,6 +2695,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "glacialis"
+    },
+    {
+      "name": "PathosBanner",
+      "type": "block",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pathos_banner"
     }
   ],
   "variable_elements": [
@@ -2865,6 +2874,7 @@
       "block.laputa.brass_block": "Brass Block",
       "block.laputa.depth_stairs": "Depth Stairs",
       "biome.laputa.glacialis": "Glacialis",
+      "block.laputa.pathos_banner": "Pathos Flag",
       "item.laputa.kunai": "Kunai",
       "block.laputa.linnaeu_bricks_growth_slab": "Overgrown Linnaeu Brick Slab",
       "block.laputa.linnaeu_growth_stairs": "Overgrown Linnaeu Brick Stairs",

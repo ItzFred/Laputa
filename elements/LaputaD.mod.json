@@ -41,7 +41,7 @@
       "value": -16777216,
       "falpha": 0.0
     },
-    "canRespawnHere": true,
+    "canRespawnHere": false,
     "hasFog": true,
     "hasWeather": false,
     "isDark": true,
