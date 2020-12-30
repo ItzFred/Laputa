@@ -3,11 +3,8 @@ package net.mcreator.laputa.block;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
-import net.minecraftforge.common.IPlantable;
 
 import net.minecraft.world.storage.loot.LootContext;
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.Direction;
 import net.minecraft.state.StateContainer;
@@ -33,7 +30,7 @@ public class SamsaraWoodBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:samsara_wood")
 	public static final Block block = null;
 	public SamsaraWoodBlock(LaputaModElements instance) {
-		super(instance, 48);
+		super(instance, 240);
 	}
 
 	@Override
@@ -44,7 +41,7 @@ public class SamsaraWoodBlock extends LaputaModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = DirectionalBlock.FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 2f).lightValue(0).harvestLevel(0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 10f).lightValue(0).harvestLevel(2)
 					.harvestTool(ToolType.AXE));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.SOUTH));
 			setRegistryName("samsara_wood");
@@ -80,21 +77,11 @@ public class SamsaraWoodBlock extends LaputaModElements.ModElement {
 		}
 
 		@Override
-		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
-			return 5;
-		}
-
-		@Override
-		public boolean canSustainPlant(BlockState state, IBlockReader world, BlockPos pos, Direction direction, IPlantable plantable) {
-			return true;
-		}
-
-		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(SamsaraLogBlock.block, (int) (1)));
 		}
 	}
 }

@@ -1,28 +1,33 @@
 {
   "group": "laputa",
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "laputa:linnaeu_bricks"
-    },
-    {
-      "item": "laputa:linnaeu_bricks"
-    },
-    {
-      "item": "laputa:linnaeu_bricks"
-    },
-    {
-      "item": "laputa:linnaeu_bricks"
-    },
-    {
-      "item": "laputa:linnaeu_bricks"
-    },
-    {
-      "item": "laputa:linnaeu_bricks"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
   ],
+  "key": {
+    "0": {
+      "item": "laputa:linnaeu"
+    },
+    "3": {
+      "item": "laputa:linnaeu"
+    },
+    "4": {
+      "item": "laputa:linnaeu"
+    },
+    "6": {
+      "item": "laputa:linnaeu"
+    },
+    "7": {
+      "item": "laputa:linnaeu"
+    },
+    "8": {
+      "item": "laputa:linnaeu"
+    }
+  },
   "result": {
-    "item": "laputa:linneau_stairs",
+    "item": "laputa:linnaeu_stairs",
     "count": 4
   }
 }

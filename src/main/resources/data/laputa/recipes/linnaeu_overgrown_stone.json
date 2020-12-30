@@ -1,0 +1,9 @@
+{
+  "group": "laputa",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "laputa:overgrown_linnaeu"
+  },
+  "result": "laputa:o_linnaeu_stairs"
+}

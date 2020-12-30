@@ -1,0 +1,19 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "laputa:overgrown_linnaeu"
+    },
+    {
+      "item": "laputa:overgrown_linnaeu"
+    },
+    {
+      "item": "laputa:overgrown_linnaeu"
+    }
+  ],
+  "result": {
+    "item": "laputa:o_linnaeu_slab",
+    "count": 6
+  }
+}

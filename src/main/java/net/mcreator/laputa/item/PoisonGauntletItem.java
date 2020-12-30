@@ -1,24 +1,35 @@
 
 package net.mcreator.laputa.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.item.Rarity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.laputa.itemgroup.LaputaItemGroup;
+import net.mcreator.laputa.LaputaModElements;
+
+import java.util.List;
+
 @LaputaModElements.ModElement.Tag
 public class PoisonGauntletItem extends LaputaModElements.ModElement {
-
 	@ObjectHolder("laputa:poison_gauntlet")
 	public static final Item block = null;
-
 	public PoisonGauntletItem(LaputaModElements instance) {
 		super(instance, 192);
-
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(LaputaItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("poison_gauntlet");
@@ -46,7 +57,5 @@ public class PoisonGauntletItem extends LaputaModElements.ModElement {
 			list.add(new StringTextComponent("\u00EF\u00BF\u00BD8Press I to open Accessory Bag"));
 			list.add(new StringTextComponent("\u00EF\u00BF\u00BD7Your fist poisons mobs"));
 		}
-
 	}
-
 }

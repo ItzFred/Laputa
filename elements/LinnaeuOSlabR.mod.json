@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 6,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:OvergrownLinnaeu"
+      },
+      {
+        "value": "CUSTOM:OvergrownLinnaeu"
+      },
+      {
+        "value": "CUSTOM:OvergrownLinnaeu"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OLinnaeuSlab"
+    },
+    "name": "linnaeu_o_slab_r",
+    "namespace": "mod"
+  }
+}

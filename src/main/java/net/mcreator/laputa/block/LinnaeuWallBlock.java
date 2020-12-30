@@ -33,7 +33,7 @@ public class LinnaeuWallBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:linnaeu_wall")
 	public static final Block block = null;
 	public LinnaeuWallBlock(LaputaModElements instance) {
-		super(instance, 41);
+		super(instance, 231);
 	}
 
 	@Override
@@ -43,7 +43,7 @@ public class LinnaeuWallBlock extends LaputaModElements.ModElement {
 	}
 	public static class CustomBlock extends WallBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 10f).lightValue(0).harvestLevel(1)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 10f).lightValue(0).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("linnaeu_wall");
 		}

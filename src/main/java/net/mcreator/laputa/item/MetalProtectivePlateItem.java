@@ -1,24 +1,35 @@
 
 package net.mcreator.laputa.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.item.Rarity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.laputa.itemgroup.LaputaItemGroup;
+import net.mcreator.laputa.LaputaModElements;
+
+import java.util.List;
+
 @LaputaModElements.ModElement.Tag
 public class MetalProtectivePlateItem extends LaputaModElements.ModElement {
-
 	@ObjectHolder("laputa:metal_protective_plate")
 	public static final Item block = null;
-
 	public MetalProtectivePlateItem(LaputaModElements instance) {
 		super(instance, 181);
-
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(LaputaItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("metal_protective_plate");
@@ -44,7 +55,5 @@ public class MetalProtectivePlateItem extends LaputaModElements.ModElement {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("\u00EF\u00BF\u00BD9Incoming damage \u00EF\u00BF\u00BD7reduced by \u00EF\u00BF\u00BD420%"));
 		}
-
 	}
-
 }
