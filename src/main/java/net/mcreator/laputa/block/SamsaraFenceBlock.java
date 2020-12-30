@@ -27,7 +27,7 @@ public class SamsaraFenceBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:samsara_fence")
 	public static final Block block = null;
 	public SamsaraFenceBlock(LaputaModElements instance) {
-		super(instance, 246);
+		super(instance, 53);
 	}
 
 	@Override

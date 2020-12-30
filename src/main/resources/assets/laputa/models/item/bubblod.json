@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "laputa:blocks/bubblodtexture"
+    "layer0": "laputa:items/bublodicon"
   }
 }

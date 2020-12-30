@@ -24,7 +24,7 @@ public class SamsaraPlanksBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:samsara_planks")
 	public static final Block block = null;
 	public SamsaraPlanksBlock(LaputaModElements instance) {
-		super(instance, 242);
+		super(instance, 50);
 	}
 
 	@Override

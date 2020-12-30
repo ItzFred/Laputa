@@ -49,7 +49,7 @@ public class YateveoSproutsBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:yateveo_sprouts")
 	public static final Block block = null;
 	public YateveoSproutsBlock(LaputaModElements instance) {
-		super(instance, 237);
+		super(instance, 59);
 	}
 
 	@Override

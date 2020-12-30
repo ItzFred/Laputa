@@ -25,7 +25,7 @@ public class SamsaraStairsBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:samsara_stairs")
 	public static final Block block = null;
 	public SamsaraStairsBlock(LaputaModElements instance) {
-		super(instance, 244);
+		super(instance, 51);
 	}
 
 	@Override

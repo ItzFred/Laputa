@@ -33,7 +33,7 @@ public class LinnaeuWallBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:linnaeu_wall")
 	public static final Block block = null;
 	public LinnaeuWallBlock(LaputaModElements instance) {
-		super(instance, 231);
+		super(instance, 41);
 	}
 
 	@Override

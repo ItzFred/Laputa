@@ -32,7 +32,7 @@ public class SamsaraTrapdoorBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:samsara_trapdoor")
 	public static final Block block = null;
 	public SamsaraTrapdoorBlock(LaputaModElements instance) {
-		super(instance, 249);
+		super(instance, 56);
 	}
 
 	@Override

@@ -30,7 +30,7 @@ public class SamsaraWoodBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:samsara_wood")
 	public static final Block block = null;
 	public SamsaraWoodBlock(LaputaModElements instance) {
-		super(instance, 240);
+		super(instance, 48);
 	}
 
 	@Override

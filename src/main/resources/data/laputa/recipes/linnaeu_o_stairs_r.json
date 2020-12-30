@@ -8,26 +8,26 @@
   ],
   "key": {
     "0": {
-      "item": "laputa:unknown_element"
+      "item": "laputa:overgrown_linnaeu"
     },
     "3": {
-      "item": "laputa:unknown_element"
+      "item": "laputa:overgrown_linnaeu"
     },
     "4": {
-      "item": "laputa:unknown_element"
+      "item": "laputa:overgrown_linnaeu"
     },
     "6": {
-      "item": "laputa:unknown_element"
+      "item": "laputa:overgrown_linnaeu"
     },
     "7": {
-      "item": "laputa:unknown_element"
+      "item": "laputa:overgrown_linnaeu"
     },
     "8": {
-      "item": "laputa:unknown_element"
+      "item": "laputa:overgrown_linnaeu"
     }
   },
   "result": {
-    "item": "laputa:unknown_element",
+    "item": "laputa:o_linnaeu_slab",
     "count": 4
   }
 }

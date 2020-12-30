@@ -25,7 +25,7 @@ public class LinnaeuStairsBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:linnaeu_stairs")
 	public static final Block block = null;
 	public LinnaeuStairsBlock(LaputaModElements instance) {
-		super(instance, 229);
+		super(instance, 42);
 	}
 
 	@Override

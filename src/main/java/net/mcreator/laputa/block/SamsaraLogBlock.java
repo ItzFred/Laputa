@@ -30,7 +30,7 @@ public class SamsaraLogBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:samsara_log")
 	public static final Block block = null;
 	public SamsaraLogBlock(LaputaModElements instance) {
-		super(instance, 239);
+		super(instance, 49);
 	}
 
 	@Override

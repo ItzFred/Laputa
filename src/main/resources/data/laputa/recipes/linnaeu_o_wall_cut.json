@@ -3,7 +3,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "laputa:unknown_element"
+    "item": "laputa:overgrown_linnaeu"
   },
-  "result": "laputa:unknown_element"
+  "result": "laputa:o_linnaeu_wall"
 }

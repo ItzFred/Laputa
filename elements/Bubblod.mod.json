@@ -3,10 +3,10 @@
   "_type": "plant",
   "definition": {
     "renderType": 2,
-    "texture": "bubblodtexture",
+    "texture": "bublodicon",
     "textureBottom": "",
     "customModelName": "bubblod:default",
-    "itemTexture": "",
+    "itemTexture": "bublodicon",
     "particleTexture": "",
     "plantType": "normal",
     "staticPlantGenerationType": "Flower",
