@@ -21,7 +21,13 @@
     "enablePortal": true,
     "biomesInDimension": [
       {
-        "value": "void"
+        "value": "CUSTOM:Glacialis"
+      },
+      {
+        "value": "CUSTOM:Yateveo"
+      },
+      {
+        "value": "CUSTOM:Pathos"
       }
     ],
     "worldGenType": "End like gen",
@@ -35,8 +41,8 @@
       "value": -16777216,
       "falpha": 0.0
     },
-    "canRespawnHere": true,
-    "hasFog": false,
+    "canRespawnHere": false,
+    "hasFog": true,
     "hasWeather": false,
     "isDark": true,
     "doesWaterVaporize": false,

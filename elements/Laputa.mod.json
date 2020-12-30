@@ -4,7 +4,7 @@
   "definition": {
     "name": "Laputa",
     "icon": {
-      "value": "Items.DIAMOND"
+      "value": "CUSTOM:LaputanDiamond"
     },
     "showSearch": true
   }

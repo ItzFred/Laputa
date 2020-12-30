@@ -1,24 +1,11 @@
 package net.mcreator.laputa.procedures;
 
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.tags.ItemTags;
-import net.minecraft.item.ItemStack;
-import net.minecraft.inventory.container.Slot;
-import net.minecraft.inventory.container.Container;
-import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
-
-import net.mcreator.laputa.LaputaModVariables;
-import net.mcreator.laputa.LaputaModElements;
-
-import java.util.function.Supplier;
-import java.util.Map;
-
 @LaputaModElements.ModElement.Tag
 public class Accessory3ProcedureProcedure extends LaputaModElements.ModElement {
+
 	public Accessory3ProcedureProcedure(LaputaModElements instance) {
 		super(instance, 175);
+
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -27,7 +14,9 @@ public class Accessory3ProcedureProcedure extends LaputaModElements.ModElement {
 				System.err.println("Failed to load dependency entity for procedure Accessory3Procedure!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
+
 		if (((ItemTags.getCollection().getOrCreate(new ResourceLocation(("forge:accessories").toLowerCase(java.util.Locale.ENGLISH)))
 				.contains((new Object() {
 					public ItemStack getItemStack(int sltid) {
@@ -114,5 +103,7 @@ public class Accessory3ProcedureProcedure extends LaputaModElements.ModElement {
 				});
 			}
 		}
+
 	}
+
 }
