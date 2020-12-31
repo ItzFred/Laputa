@@ -1,7 +1,7 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "laputa:blocks/yateveosprouts",
-    "particle": "laputa:blocks/yateveosprouts"
+    "cross": "laputa:blocks/yateveograss2",
+    "particle": "laputa:blocks/yateveograss2"
   }
 }

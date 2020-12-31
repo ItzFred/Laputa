@@ -7,20 +7,20 @@
   ],
   "key": {
     "0": {
-      "item": "laputa:unknown_element"
+      "item": "laputa:ectoplasm"
     },
     "1": {
-      "item": "laputa:unknown_element"
+      "item": "laputa:ectoplasm"
     },
     "2": {
-      "item": "laputa:unknown_element"
+      "item": "laputa:ectoplasm"
     },
     "3": {
-      "item": "laputa:unknown_element"
+      "item": "laputa:ectoplasm"
     }
   },
   "result": {
-    "item": "laputa:unknown_element",
+    "item": "laputa:ectoplasm_block",
     "count": 1
   }
 }

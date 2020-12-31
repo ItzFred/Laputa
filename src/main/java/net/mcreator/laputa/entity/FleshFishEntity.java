@@ -51,7 +51,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class FleshFishEntity extends LaputaModElements.ModElement {
 	public static EntityType entity = null;
 	public FleshFishEntity(LaputaModElements instance) {
-		super(instance, 139);
+		super(instance, 222);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

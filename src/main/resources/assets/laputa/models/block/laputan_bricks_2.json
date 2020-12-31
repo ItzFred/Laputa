@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "laputa:blocks/laputanbricks2",
-    "particle": "laputa:blocks/laputanbricks2"
-  }
-}

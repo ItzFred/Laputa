@@ -2,7 +2,7 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "linnaeubricks",
+    "texture": "linnaeu",
     "textureTop": "linnaeubricks",
     "textureLeft": "",
     "textureFront": "linnaeubricks",
@@ -24,7 +24,7 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Linnaeu Bricks",
+    "name": "Linneau",
     "specialInfo": [],
     "hardness": 2.0,
     "resistance": 10.0,

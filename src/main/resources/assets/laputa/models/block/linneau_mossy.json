@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "laputa:blocks/linnaeubricks",
-    "up": "laputa:blocks/mosstop",
-    "north": "laputa:blocks/linnaeubricksmossy",
-    "east": "laputa:blocks/linnaeubricksmossy",
-    "south": "laputa:blocks/linnaeubricksmossy",
-    "west": "laputa:blocks/linnaeubricksmossy",
-    "particle": "laputa:blocks/linnaeubricks"
+    "down": "laputa:blocks/linnaeu",
+    "up": "laputa:blocks/yateveograsstop",
+    "north": "laputa:blocks/yateveograssside",
+    "east": "laputa:blocks/yateveograssside",
+    "south": "laputa:blocks/yateveograssside",
+    "west": "laputa:blocks/yateveograssside",
+    "particle": "laputa:blocks/linnaeu"
   }
 }

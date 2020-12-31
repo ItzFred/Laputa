@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "laputa:blocks/linnaeutilesovergrown",
-    "top": "laputa:blocks/linnaeutilesovergrown",
-    "side": "laputa:blocks/linnaeutilesovergrown"
-  }
-}

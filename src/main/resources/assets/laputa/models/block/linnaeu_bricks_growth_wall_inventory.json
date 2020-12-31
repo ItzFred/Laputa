@@ -1,7 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "laputa:blocks/linnaeubricks2overgrown",
-    "particle": "laputa:blocks/linnaeubricks2overgrown"
-  }
-}

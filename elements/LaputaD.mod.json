@@ -3,7 +3,7 @@
   "_type": "dimension",
   "definition": {
     "portalFrame": {
-      "value": "CUSTOM:LaputanBricks"
+      "value": "CUSTOM:CorpseBlock"
     },
     "portalParticles": {
       "value": "EXPLOSION_NORMAL"

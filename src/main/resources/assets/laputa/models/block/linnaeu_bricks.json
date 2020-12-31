@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "laputa:blocks/linnaeubricks",
-    "particle": "laputa:blocks/linnaeubricks"
+    "all": "laputa:blocks/linnaeu",
+    "particle": "laputa:blocks/linnaeu"
   }
 }
