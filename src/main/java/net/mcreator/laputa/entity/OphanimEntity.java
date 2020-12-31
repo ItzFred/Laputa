@@ -53,7 +53,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class OphanimEntity extends LaputaModElements.ModElement {
 	public static EntityType entity = null;
 	public OphanimEntity(LaputaModElements instance) {
-		super(instance, 127);
+		super(instance, 51);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
