@@ -1,17 +1,58 @@
 
 package net.mcreator.laputa.block;
 
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.world.World;
+import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.shapes.VoxelShapes;
+import net.minecraft.util.math.shapes.VoxelShape;
+import net.minecraft.util.math.shapes.ISelectionContext;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.util.math.BlockRayTraceResult;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Rotation;
+import net.minecraft.util.Mirror;
+import net.minecraft.util.Hand;
+import net.minecraft.util.Direction;
+import net.minecraft.util.ActionResultType;
+import net.minecraft.state.StateContainer;
+import net.minecraft.state.DirectionProperty;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.BlockItemUseContext;
+import net.minecraft.item.BlockItem;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.block.material.PushReaction;
+import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.HorizontalBlock;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Block;
+
+import net.mcreator.laputa.procedures.DoorBreakProcedureProcedure;
+import net.mcreator.laputa.procedures.BigDoorOnBlockRightClickedProcedure;
+import net.mcreator.laputa.itemgroup.LaputaItemGroup;
+import net.mcreator.laputa.LaputaModElements;
+
+import java.util.Map;
+import java.util.List;
+import java.util.HashMap;
+import java.util.Collections;
 
 @LaputaModElements.ModElement.Tag
 public class PathosBigDoorBlock extends LaputaModElements.ModElement {
-
 	@ObjectHolder("laputa:pathos_big_door")
 	public static final Block block = null;
-
 	public PathosBigDoorBlock(LaputaModElements instance) {
 		super(instance, 208);
-
 	}
 
 	@Override
@@ -25,18 +66,11 @@ public class PathosBigDoorBlock extends LaputaModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
-
 	public static class CustomBlock extends Block {
-
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
-
 		public CustomBlock() {
-			super(
-
-					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(-1, 3600000).lightValue(0).notSolid());
-
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(-1, 3600000).lightValue(0).notSolid());
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-
 			setRegistryName("pathos_big_door");
 		}
 
@@ -99,7 +133,6 @@ public class PathosBigDoorBlock extends LaputaModElements.ModElement {
 
 		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
@@ -114,12 +147,10 @@ public class PathosBigDoorBlock extends LaputaModElements.ModElement {
 			int z = pos.getZ();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-
 				DoorBreakProcedureProcedure.executeProcedure($_dependencies);
 			}
 		}
@@ -128,26 +159,19 @@ public class PathosBigDoorBlock extends LaputaModElements.ModElement {
 		public ActionResultType onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity entity, Hand hand,
 				BlockRayTraceResult hit) {
 			super.onBlockActivated(state, world, pos, entity, hand, hit);
-
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-
 			Direction direction = hit.getFace();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-
 				BigDoorOnBlockRightClickedProcedure.executeProcedure($_dependencies);
 			}
-
 			return ActionResultType.SUCCESS;
 		}
-
 	}
-
 }

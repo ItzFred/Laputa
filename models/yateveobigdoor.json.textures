@@ -5,6 +5,12 @@
         "0": "yateveobigdoor"
       },
       "name": "default"
+    },
+    "newyateveodoor": {
+      "map": {
+        "0": "yateveobigdoor2"
+      },
+      "name": "newyateveodoor"
     }
   }
 }

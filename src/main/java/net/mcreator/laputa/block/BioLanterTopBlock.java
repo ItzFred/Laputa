@@ -1,17 +1,54 @@
 
 package net.mcreator.laputa.block;
 
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.world.server.ServerWorld;
+import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
+import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.shapes.VoxelShapes;
+import net.minecraft.util.math.shapes.VoxelShape;
+import net.minecraft.util.math.shapes.ISelectionContext;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Direction;
+import net.minecraft.state.properties.BlockStateProperties;
+import net.minecraft.state.StateContainer;
+import net.minecraft.state.BooleanProperty;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.BlockItemUseContext;
+import net.minecraft.item.BlockItem;
+import net.minecraft.fluid.IFluidState;
+import net.minecraft.fluid.Fluids;
+import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.IWaterLoggable;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Block;
+
+import net.mcreator.laputa.procedures.BioLanternBottomUpdateTickProcedure;
+import net.mcreator.laputa.LaputaModElements;
+
+import java.util.Random;
+import java.util.Map;
+import java.util.List;
+import java.util.HashMap;
+import java.util.Collections;
 
 @LaputaModElements.ModElement.Tag
 public class BioLanterTopBlock extends LaputaModElements.ModElement {
-
 	@ObjectHolder("laputa:bio_lanter_top")
 	public static final Block block = null;
-
 	public BioLanterTopBlock(LaputaModElements instance) {
 		super(instance, 218);
-
 	}
 
 	@Override
@@ -25,19 +62,12 @@ public class BioLanterTopBlock extends LaputaModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
-
 	public static class CustomBlock extends Block implements IWaterLoggable {
-
 		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
-
 		public CustomBlock() {
-			super(
-
-					Block.Properties.create(Material.OCEAN_PLANT).sound(SoundType.CORAL).hardnessAndResistance(0f, 0f).lightValue(12)
-							.doesNotBlockMovement().notSolid());
-
+			super(Block.Properties.create(Material.OCEAN_PLANT).sound(SoundType.CORAL).hardnessAndResistance(0f, 0f).lightValue(12)
+					.doesNotBlockMovement().notSolid());
 			this.setDefaultState(this.stateContainer.getBaseState().with(WATERLOGGED, false));
-
 			setRegistryName("bio_lanter_top");
 		}
 
@@ -84,7 +114,6 @@ public class BioLanterTopBlock extends LaputaModElements.ModElement {
 
 		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
@@ -108,17 +137,13 @@ public class BioLanterTopBlock extends LaputaModElements.ModElement {
 			int z = pos.getZ();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-
 				BioLanternBottomUpdateTickProcedure.executeProcedure($_dependencies);
 			}
 			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, this.tickRate(world));
 		}
-
 	}
-
 }

@@ -1,0 +1,23 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "23"
+  ],
+  "key": {
+    "1": {
+      "item": "laputa:brass_pipe"
+    },
+    "2": {
+      "item": "laputa:brass_pipe"
+    },
+    "3": {
+      "item": "laputa:brass_pipe"
+    }
+  },
+  "result": {
+    "item": "laputa:brass_curved_pillar",
+    "count": 3
+  }
+}

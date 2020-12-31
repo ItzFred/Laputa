@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "laputa:block/old_wood_floor"
+    },
+    "facing=east": {
+      "model": "laputa:block/old_wood_floor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "laputa:block/old_wood_floor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "laputa:block/old_wood_floor",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "laputa:brass_scrap"
+    },
+    "1": {
+      "item": "laputa:brass_scrap"
+    },
+    "2": {
+      "item": "laputa:brass_scrap"
+    },
+    "3": {
+      "item": "laputa:brass_scrap"
+    },
+    "4": {
+      "item": "laputa:brass_scrap"
+    },
+    "5": {
+      "item": "laputa:brass_scrap"
+    },
+    "6": {
+      "item": "laputa:brass_scrap"
+    },
+    "7": {
+      "item": "laputa:brass_scrap"
+    },
+    "8": {
+      "item": "laputa:brass_scrap"
+    }
+  },
+  "result": {
+    "item": "laputa:brass_block",
+    "count": 1
+  }
+}

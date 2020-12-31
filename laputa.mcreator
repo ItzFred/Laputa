@@ -2695,6 +2695,203 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "glacialis"
+    },
+    {
+      "name": "Ectojelly",
+      "type": "mob",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ectojelly"
+    },
+    {
+      "name": "EctoplasmLantern",
+      "type": "block",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ectoplasm_lantern"
+    },
+    {
+      "name": "EctoplasmLanternSide",
+      "type": "block",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ectoplasm_lantern_side"
+    },
+    {
+      "name": "BrassScrap",
+      "type": "item",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brass_scrap"
+    },
+    {
+      "name": "BrassBlockR",
+      "type": "recipe",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brass_block_r"
+    },
+    {
+      "name": "BrassScrapR",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brass_scrap_r"
+    },
+    {
+      "name": "ChiselledBrassBlockR",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chiselled_brass_block_r"
+    },
+    {
+      "name": "BrassPipeR",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brass_pipe_r"
+    },
+    {
+      "name": "BrassCurvedPipeR",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brass_curved_pipe_r"
+    },
+    {
+      "name": "BrassCurvedPipeR1",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brass_curved_pipe_r_1"
+    },
+    {
+      "name": "BrassCurvedPipeR2",
+      "type": "recipe",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brass_curved_pipe_r_2"
+    },
+    {
+      "name": "Ectoplasm",
+      "type": "item",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ectoplasm"
+    },
+    {
+      "name": "EctoplasmBlock",
+      "type": "block",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ectoplasm_block"
+    },
+    {
+      "name": "EctoplasmBlockR",
+      "type": "recipe",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ectoplasm_block_r"
+    },
+    {
+      "name": "EctoplasmBlockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ectoplasm_block_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EctoplasmLanternR",
+      "type": "recipe",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ectoplasm_lantern_r"
+    },
+    {
+      "name": "EctoplasmLanternR1",
+      "type": "recipe",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ectoplasm_lantern_r_1"
+    },
+    {
+      "name": "EctoplasmSideLanternR",
+      "type": "recipe",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ectoplasm_side_lantern_r"
+    },
+    {
+      "name": "IndustrialBricks",
+      "type": "block",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "industrial_bricks"
+    },
+    {
+      "name": "OldWoodFloor",
+      "type": "block",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "old_wood_floor"
+    },
+    {
+      "name": "BrassChain",
+      "type": "block",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brass_chain"
     }
   ],
   "variable_elements": [
@@ -2720,6 +2917,7 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.laputa.industrial_bricks": "Industrial Brick Wall",
       "block.laputa.depth_slab": "Depth Slab",
       "item.laputa.glacial_staff": "Staff of the Aurora",
       "block.laputa.laputan_bricks_2": "Laputan Bricks",
@@ -2732,8 +2930,8 @@
       "block.laputa.samsara_slab": "Samsara Slab",
       "item.laputa.flesh_fish_spawn_egg": "Flesh Fish Spawn Egg",
       "block.laputa.linnaeu_slab": "Linnaeu Brick Stairs",
-      "item.laputa.sharpening_stone": "Sharpening Stone",
       "block.laputa.sylphid_bricks_2": "Sylphid Bricks",
+      "item.laputa.sharpening_stone": "Sharpening Stone",
       "block.laputa.corpseblock_2": "Corpse Block",
       "item.laputa.glacial_sword": "Glacial Sword",
       "block.laputa.linnaeu_brick_wall": "Linnaeu Brick Wall",
@@ -2748,6 +2946,7 @@
       "item.laputa.enchanted_bucket": "Enchanted Bucket",
       "block.laputa.linnaeu_growth_stairs_slab": "Overgrown Linnaeu Brick Slab",
       "block.laputa.corpse_block": "Corpse Block",
+      "block.laputa.ectoplasm_lantern_side": "Ectoplasm Lantern Side",
       "block.laputa.laputan_vase": "Laputan Vase",
       "block.laputa.chiseled_pathos_tile": "Chiseled Pathos Tile",
       "block.laputa.linnaeu_fence": "Linnaeu Fence",
@@ -2784,6 +2983,7 @@
       "block.laputa.laputan_brick_2_slab": "Laputan Brick Slab",
       "block.laputa.glacialis_ice_slab": "Glacialis Ice Slab",
       "block.laputa.kaikadoium_2": "Kaikadoium",
+      "block.laputa.ectoplasm_lantern": "Ectoplasm Lantern",
       "block.laputa.laputan_brick_slab": "Laputan Brick Slab",
       "block.laputa.yateveo_sprouts": "Yateveo Sprouts",
       "block.laputa.samsara_leaves_bloom": "Samsara Leaves",
@@ -2795,6 +2995,8 @@
       "item.laputa.enchanted_water_bottle": "Enchanted Water Bottle",
       "block.laputa.glacialis_packed_ice_slab": "Glacialis Packed Ice Slab",
       "block.laputa.brass_crate": "Brass Crate",
+      "item.laputa.ectoplasm": "Ectoplasm",
+      "biome.laputa.pathos": "Pathos",
       "block.laputa.linnaeu_tile_stairs": "Linnaeu Tile Stairs",
       "item.laputa.laputan_axe": "Laputan Axe",
       "item.laputa.serpent_staff": "Staff of the Flower",
@@ -2814,18 +3016,23 @@
       "item.laputa.laputan_hoe": "Laputan Hoe",
       "block.laputa.yateveo_tulips": "Yateveo Tulips",
       "block.laputa.linnaeu_growth_wall_r": "Overgrown Linnaeu Brick Wall",
+      "item.laputa.ectojelly_spawn_egg": "Ectojelly Spawn Egg",
       "block.laputa.linnaeu_tiles_growth": "Overgrown Linnaeu Tiles",
       "item.laputa.shoe_cushions": "Shoe Cushions",
       "block.laputa.yateveo_big_door": "Yateveo Big Door",
       "item.laputa.metal_protective_plate": "Metal Protective Plate",
+      "block.laputa.brass_chain": "Brass Chain",
       "block.laputa.linneau_mossy_2": "Mossy Linnaeu Bricks",
       "block.laputa.laputan_lamp": "Laputan Lamp",
       "block.laputa.pathos_brick_wall": "Pathos Brick Wall",
       "block.laputa.samsara_leaves": "Samsara Leaves",
+      "block.laputa.crypt_light_off": "Crypt Light Off",
       "block.laputa.linneau_tiles": "Linnaeu Tiles",
       "block.laputa.linnaeu_stairs": "Linnaeu Brick Stairs",
+      "biome.laputa.yateveo": "Yateveo",
       "block.laputa.mirage_bricks": "Mirage Bricks",
       "block.laputa.linnaeu_tiles_growth_fence": "Overgrown Linnaeu Fence",
+      "entity.laputa.ectojelly": "Ectojelly",
       "block.laputa.linneau_mossy_tile": "Mossy Linnaeu Tiles",
       "block.laputa.pathos_big_door": "Pathos Gate",
       "block.laputa.laputan_tile_fence": "Laputan Fence",
@@ -2861,6 +3068,8 @@
       "block.laputa.linnaeu_bricks": "Linnaeu Bricks",
       "block.laputa.brass_block": "Brass Block",
       "block.laputa.depth_stairs": "Depth Stairs",
+      "biome.laputa.glacialis": "Glacialis",
+      "block.laputa.ectoplasm_block": "Ectoplasm Block",
       "item.laputa.kunai": "Kunai",
       "block.laputa.linnaeu_bricks_growth_slab": "Overgrown Linnaeu Brick Slab",
       "block.laputa.linnaeu_growth_stairs": "Overgrown Linnaeu Brick Stairs",
@@ -2875,6 +3084,7 @@
       "block.laputa.linnaeu_tiles_growth_stairs": "Overgrown Linnaeu Tile Stairs",
       "item.laputa.panic_system": "Panic System",
       "block.laputa.laputan_lamp_2": "Laputan Lamp",
+      "block.laputa.old_wood_floor": "Old Wood Floor",
       "item.laputa.enchanted_water_bucket": "EnchantedWater Bucket",
       "entity.laputa.ophanim": "Ophanim",
       "item.laputa.night_vision_goggles": "Night Vision Goggles",
@@ -2885,6 +3095,7 @@
       "itemGroup.tablaputa": "Laputa",
       "block.laputa.depth_wall": "Depth Wall",
       "item.laputa.laputan_diamond": "Laputan Diamond",
+      "item.laputa.brass_scrap": "Brass Scrap",
       "block.laputa.brass_fence": "Brass Fence",
       "block.laputa.yateveo_vine_middle": "Yateveo Vine",
       "block.laputa.glacialis_crystal_ice": "Glacialis Crystal Ice",

@@ -1,0 +1,30 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "laputa:brass_scrap"
+    },
+    "3": {
+      "item": "laputa:brass_scrap"
+    },
+    "4": {
+      "item": "laputa:ectoplasm"
+    },
+    "5": {
+      "item": "laputa:brass_scrap"
+    },
+    "7": {
+      "item": "laputa:brass_scrap"
+    }
+  },
+  "result": {
+    "item": "laputa:ectoplasm_lantern",
+    "count": 1
+  }
+}
