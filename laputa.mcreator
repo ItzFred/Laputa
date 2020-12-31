@@ -272,15 +272,6 @@
       "registry_name": "laputan_fence_r"
     },
     {
-      "name": "LaputanLamp2",
-      "type": "block",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "laputan_lamp_2"
-    },
-    {
       "name": "LaputanLampRecipe",
       "type": "recipe",
       "sortid": 32,
@@ -315,33 +306,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mirage_tiles"
-    },
-    {
-      "name": "SylphidBricks",
-      "type": "block",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sylphid_bricks"
-    },
-    {
-      "name": "SylphidBricks2",
-      "type": "block",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sylphid_bricks_2"
-    },
-    {
-      "name": "SylphidTiles",
-      "type": "block",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sylphid_tiles"
     },
     {
       "name": "MirageBricksR",
@@ -544,15 +508,6 @@
       "registry_name": "samsara_wood"
     },
     {
-      "name": "LinnaeuTileStairs",
-      "type": "block",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_tile_stairs"
-    },
-    {
       "name": "YateveoSprouts",
       "type": "plant",
       "sortid": 59,
@@ -569,24 +524,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "samsara_door"
-    },
-    {
-      "name": "LinnaeuTileFenceR",
-      "type": "recipe",
-      "sortid": 101,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_tile_fence_r"
-    },
-    {
-      "name": "SamsaraFenceGate",
-      "type": "block",
-      "sortid": 54,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "samsara_fence_gate"
     },
     {
       "name": "SamsaraPlanks",
@@ -607,15 +544,6 @@
       "registry_name": "samsara_slab"
     },
     {
-      "name": "LinnaeuBricks2Growth",
-      "type": "block",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_bricks_2_growth"
-    },
-    {
       "name": "LinnaeuStairsR",
       "type": "recipe",
       "sortid": 91,
@@ -623,24 +551,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "linnaeu_stairs_r"
-    },
-    {
-      "name": "LinnaeuTileSlabR",
-      "type": "recipe",
-      "sortid": 100,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_tile_slab_r"
-    },
-    {
-      "name": "LinnaeuBrickWall",
-      "type": "block",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_brick_wall"
     },
     {
       "name": "LinnaeuWall",
@@ -652,15 +562,6 @@
       "registry_name": "linnaeu_wall"
     },
     {
-      "name": "LinnaeuFence",
-      "type": "block",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_fence"
-    },
-    {
       "name": "Enchanted",
       "type": "fluid",
       "sortid": 64,
@@ -670,60 +571,6 @@
       "registry_name": "enchanted"
     },
     {
-      "name": "LinnaeuBricks2",
-      "type": "block",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_bricks_2"
-    },
-    {
-      "name": "Dazeberry",
-      "type": "food",
-      "sortid": 65,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dazeberry"
-    },
-    {
-      "name": "LinnaeuBricks",
-      "type": "block",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_bricks"
-    },
-    {
-      "name": "LinneauMossyTile",
-      "type": "block",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linneau_mossy_tile"
-    },
-    {
-      "name": "LinnaeuBrickStairs",
-      "type": "recipe",
-      "sortid": 94,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_brick_stairs"
-    },
-    {
-      "name": "YateveoTulips",
-      "type": "plant",
-      "sortid": 61,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "yateveo_tulips"
-    },
-    {
       "name": "Vase2R",
       "type": "recipe",
       "sortid": 89,
@@ -731,60 +578,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "vase_2_r"
-    },
-    {
-      "name": "YateveoVineMiddle",
-      "type": "block",
-      "sortid": 62,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "yateveo_vine_middle"
-    },
-    {
-      "name": "LinnaeuTilesGrowth",
-      "type": "block",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_tiles_growth"
-    },
-    {
-      "name": "LinnaeuBrickSlab",
-      "type": "block",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_brick_slab"
-    },
-    {
-      "name": "SamsaraItemsTag",
-      "type": "tag",
-      "sortid": 102,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "samsara_items_tag"
-    },
-    {
-      "name": "SamsaraStairsRecipe",
-      "type": "recipe",
-      "sortid": 105,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "samsara_stairs_recipe"
-    },
-    {
-      "name": "LinnaeuSlab",
-      "type": "block",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_slab"
     },
     {
       "name": "LinnaeuSlabR",
@@ -805,51 +598,6 @@
       "registry_name": "linnaeu_stairs"
     },
     {
-      "name": "SamsaraPlanksRecipe",
-      "type": "recipe",
-      "sortid": 104,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "samsara_planks_recipe"
-    },
-    {
-      "name": "LinneauTiles",
-      "type": "block",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linneau_tiles"
-    },
-    {
-      "name": "LinnaeuTileSlab",
-      "type": "block",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_tile_slab"
-    },
-    {
-      "name": "LinnaeuTilesR",
-      "type": "recipe",
-      "sortid": 97,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_tiles_r"
-    },
-    {
-      "name": "SamsaraFenceRecipe",
-      "type": "recipe",
-      "sortid": 107,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "samsara_fence_recipe"
-    },
-    {
       "name": "LaputanVase",
       "type": "block",
       "sortid": 27,
@@ -857,33 +605,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "laputan_vase"
-    },
-    {
-      "name": "LinnaeuBrickWallR",
-      "type": "recipe",
-      "sortid": 96,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_brick_wall_r"
-    },
-    {
-      "name": "LinnaeuBricksR",
-      "type": "recipe",
-      "sortid": 98,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_bricks_r"
-    },
-    {
-      "name": "LinneauMossy2",
-      "type": "block",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linneau_mossy_2"
     },
     {
       "name": "Vase3R",
@@ -913,24 +634,6 @@
       "registry_name": "yateveo_vine_end"
     },
     {
-      "name": "LinneauStairs",
-      "type": "block",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linneau_stairs"
-    },
-    {
-      "name": "LinneauMossy",
-      "type": "block",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linneau_mossy"
-    },
-    {
       "name": "LaputanSpikesEntityCollidesInTheBlock",
       "type": "procedure",
       "sortid": 87,
@@ -948,42 +651,6 @@
       }
     },
     {
-      "name": "SamsaraSlabRecipe",
-      "type": "recipe",
-      "sortid": 106,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "samsara_slab_recipe"
-    },
-    {
-      "name": "SamsaraWoodRecipe",
-      "type": "recipe",
-      "sortid": 103,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "samsara_wood_recipe"
-    },
-    {
-      "name": "LinnaeuTileStairsR",
-      "type": "recipe",
-      "sortid": 99,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_tile_stairs_r"
-    },
-    {
-      "name": "YateveoTall",
-      "type": "plant",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "yateveo_tall"
-    },
-    {
       "name": "SamsaraTrapdoor",
       "type": "block",
       "sortid": 56,
@@ -993,15 +660,6 @@
       "registry_name": "samsara_trapdoor"
     },
     {
-      "name": "SamsaraStickRecipe",
-      "type": "recipe",
-      "sortid": 109,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "samsara_stick_recipe"
-    },
-    {
       "name": "SamsaraLog",
       "type": "block",
       "sortid": 49,
@@ -1009,15 +667,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "samsara_log"
-    },
-    {
-      "name": "SamsaraFenceGateRecipe",
-      "type": "recipe",
-      "sortid": 108,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "samsara_fence_gate_recipe"
     },
     {
       "name": "LaputanLampOffline",
@@ -1036,33 +685,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "samsara_stairs"
-    },
-    {
-      "name": "SamsaraLeavesBloom",
-      "type": "block",
-      "sortid": 58,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "samsara_leaves_bloom"
-    },
-    {
-      "name": "LinnaeuBricksGrowth",
-      "type": "block",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_bricks_growth"
-    },
-    {
-      "name": "LinnaeuBrickSlabR",
-      "type": "recipe",
-      "sortid": 95,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_brick_slab_r"
     },
     {
       "name": "VaseR",
@@ -1095,7 +717,7 @@
       "name": "SamsaraLeaves",
       "type": "block",
       "sortid": 57,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "samsara_leaves"
@@ -1386,24 +1008,6 @@
       }
     },
     {
-      "name": "SamsaraTrapdoorR",
-      "type": "recipe",
-      "sortid": 124,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "samsara_trapdoor_r"
-    },
-    {
-      "name": "LinnaeuBricksGrowthStairs",
-      "type": "block",
-      "sortid": 68,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_bricks_growth_stairs"
-    },
-    {
       "name": "KaikadoiumLock",
       "type": "block",
       "sortid": 76,
@@ -1411,33 +1015,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "kaikadoium_lock"
-    },
-    {
-      "name": "LinnaeuGrowthStairs",
-      "type": "block",
-      "sortid": 65,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_growth_stairs"
-    },
-    {
-      "name": "LinnaeuTilesGrowthFence",
-      "type": "block",
-      "sortid": 73,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_tiles_growth_fence"
-    },
-    {
-      "name": "LinnaeuBricksGrowthWall",
-      "type": "block",
-      "sortid": 70,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_bricks_growth_wall"
     },
     {
       "name": "Kaikadoium",
@@ -1449,24 +1026,6 @@
       "registry_name": "kaikadoium"
     },
     {
-      "name": "LinnaeuGrowthStairsSlab",
-      "type": "block",
-      "sortid": 66,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_growth_stairs_slab"
-    },
-    {
-      "name": "LinnaeuGrowthWallR",
-      "type": "block",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_growth_wall_r"
-    },
-    {
       "name": "Kaikadoium2",
       "type": "block",
       "sortid": 75,
@@ -1474,24 +1033,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "kaikadoium_2"
-    },
-    {
-      "name": "LinnaeuTilesGrowthStairs",
-      "type": "block",
-      "sortid": 71,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_tiles_growth_stairs"
-    },
-    {
-      "name": "LinnaeuTilesGrowthSlab",
-      "type": "block",
-      "sortid": 72,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_tiles_growth_slab"
     },
     {
       "name": "SamsaraDoorR",
@@ -1510,15 +1051,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "laputa_d"
-    },
-    {
-      "name": "LinnaeuBricksGrowthSlab",
-      "type": "block",
-      "sortid": 69,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "linnaeu_bricks_growth_slab"
     },
     {
       "name": "LaputanHoe",
@@ -2924,34 +2456,23 @@
       "item.laputa.boot_rocket": "Boot Rocket",
       "block.laputa.glacialis_cracked_packed_ice": "Glacialis Cracked Packed Ice",
       "block.laputa.glacialis_packed_ice_stairs": "Glacialis Packed Ice Stairs",
-      "block.laputa.linneau_stairs": "Linnaeu Brick Stairs",
-      "block.laputa.yateveo_tall": "Yateveo Growth",
       "block.laputa.bio_lanter_top": "Bio Lantern",
       "block.laputa.samsara_slab": "Samsara Slab",
       "item.laputa.flesh_fish_spawn_egg": "Flesh Fish Spawn Egg",
-      "block.laputa.linnaeu_slab": "Linnaeu Brick Stairs",
-      "block.laputa.sylphid_bricks_2": "Sylphid Bricks",
       "item.laputa.sharpening_stone": "Sharpening Stone",
       "block.laputa.corpseblock_2": "Corpse Block",
       "item.laputa.glacial_sword": "Glacial Sword",
-      "block.laputa.linnaeu_brick_wall": "Linnaeu Brick Wall",
       "block.laputa.glacialis_packed_ice_bricks": "Glacialis Packed Ice Bricks",
       "block.laputa.glacialis_ice_stairs": "Glacialis Ice Stairs",
       "block.laputa.glacialis_packed_ice": "Glacialis Packed Ice",
-      "block.laputa.linnaeu_bricks_growth_wall": "Overgrown Linnaeu Brick Wall",
-      "block.laputa.linnaeu_bricks_2": "Linnaeu Bricks",
       "block.laputa.glacialis_ice_bricks": "Glacialis Ice Bricks",
       "block.laputa.laputan_brick_2_stairs": "Laputan Brick Stairs",
       "item.laputa.dusk_sword": "Dawn Sword",
       "item.laputa.enchanted_bucket": "Enchanted Bucket",
-      "block.laputa.linnaeu_growth_stairs_slab": "Overgrown Linnaeu Brick Slab",
       "block.laputa.corpse_block": "Corpse Block",
       "block.laputa.ectoplasm_lantern_side": "Ectoplasm Lantern Side",
       "block.laputa.laputan_vase": "Laputan Vase",
       "block.laputa.chiseled_pathos_tile": "Chiseled Pathos Tile",
-      "block.laputa.linnaeu_fence": "Linnaeu Fence",
-      "block.laputa.sylphid_bricks": "Sylphid Bricks",
-      "block.laputa.linnaeu_bricks_growth": "Overgrown Linnaeu Bricks",
       "block.laputa.samsara_planks": "Samsara Planks",
       "block.laputa.chiselled_laputan_bricks": "Chiselled Laputan Bricks",
       "block.laputa.crypt_light": "Crypt Light",
@@ -2967,7 +2488,6 @@
       "item.laputa.inkunai": "Ink Kunai",
       "block.laputa.brass_updward_curved_pillar": "Upwards Curved Brass Pipe",
       "item.laputa.laputan_staff": "Staff of Laputa",
-      "block.laputa.linnaeu_tiles_growth_slab": "Overgrown Linnaeu Tile Slab",
       "block.laputa.laputan_bricks": "Laputan Bricks",
       "block.laputa.pathos_pillar": "Pathos Pillar",
       "block.laputa.laputan_tile_stairs": "Laputan Tile Stairs",
@@ -2986,25 +2506,22 @@
       "block.laputa.ectoplasm_lantern": "Ectoplasm Lantern",
       "block.laputa.laputan_brick_slab": "Laputan Brick Slab",
       "block.laputa.yateveo_sprouts": "Yateveo Sprouts",
-      "block.laputa.samsara_leaves_bloom": "Samsara Leaves",
       "item.laputa.laputan_sword": "Laputan Sword",
       "block.laputa.pathos_tile_slab": "Pathos Tile Slab",
       "item.laputa.frozen_gauntlet": "Frozen Gauntlet",
-      "block.laputa.linnaeu_bricks_growth_stairs": "Overgrown Linnaeu Brick Stairs",
       "block.laputa.ice_crystals": "Ice Crystals",
       "item.laputa.enchanted_water_bottle": "Enchanted Water Bottle",
       "block.laputa.glacialis_packed_ice_slab": "Glacialis Packed Ice Slab",
       "block.laputa.brass_crate": "Brass Crate",
       "item.laputa.ectoplasm": "Ectoplasm",
       "biome.laputa.pathos": "Pathos",
-      "block.laputa.linnaeu_tile_stairs": "Linnaeu Tile Stairs",
       "item.laputa.laputan_axe": "Laputan Axe",
       "item.laputa.serpent_staff": "Staff of the Flower",
       "block.laputa.laputan_brick_stairs": "Laputan Brick Stairs",
       "block.laputa.kaikadoium_lock": "Kaikadoium Lock",
       "block.laputa.smooth_laputan_bricks": "Smooth Laputan Block",
       "block.laputa.laputan_spikes": "Laputan Spikes",
-      "block.laputa.linnaeu_wall": "Linnaeu Brick Wall",
+      "block.laputa.linnaeu_wall": "Linnaeu Wall",
       "item.laputa.explosive_attachment": "Explosive Attachment",
       "block.laputa.mirage_tiles": "Mirage Tiles",
       "item.laputa.laputan_pickaxe": "Laputan Pickaxe",
@@ -3014,32 +2531,24 @@
       "block.laputa.glacialis_cracked_ice": "Glacialis Cracked Ice",
       "block.laputa.glacialis_ice": "Glacialis Ice",
       "item.laputa.laputan_hoe": "Laputan Hoe",
-      "block.laputa.yateveo_tulips": "Yateveo Tulips",
-      "block.laputa.linnaeu_growth_wall_r": "Overgrown Linnaeu Brick Wall",
       "item.laputa.ectojelly_spawn_egg": "Ectojelly Spawn Egg",
-      "block.laputa.linnaeu_tiles_growth": "Overgrown Linnaeu Tiles",
       "item.laputa.shoe_cushions": "Shoe Cushions",
       "block.laputa.yateveo_big_door": "Yateveo Big Door",
       "item.laputa.metal_protective_plate": "Metal Protective Plate",
       "block.laputa.brass_chain": "Brass Chain",
-      "block.laputa.linneau_mossy_2": "Mossy Linnaeu Bricks",
       "block.laputa.laputan_lamp": "Laputan Lamp",
       "block.laputa.pathos_brick_wall": "Pathos Brick Wall",
       "block.laputa.samsara_leaves": "Samsara Leaves",
       "block.laputa.crypt_light_off": "Crypt Light Off",
-      "block.laputa.linneau_tiles": "Linnaeu Tiles",
-      "block.laputa.linnaeu_stairs": "Linnaeu Brick Stairs",
+      "block.laputa.linnaeu_stairs": "Linnaeu Stairs",
       "biome.laputa.yateveo": "Yateveo",
       "block.laputa.mirage_bricks": "Mirage Bricks",
-      "block.laputa.linnaeu_tiles_growth_fence": "Overgrown Linnaeu Fence",
       "entity.laputa.ectojelly": "Ectojelly",
-      "block.laputa.linneau_mossy_tile": "Mossy Linnaeu Tiles",
       "block.laputa.pathos_big_door": "Pathos Gate",
       "block.laputa.laputan_tile_fence": "Laputan Fence",
       "fluid.enchanted_water": "EnchantedWater",
       "item.laputa.bullet_item": "Bullet Item",
       "block.laputa.pathos_tiles": "Pathos Tiles",
-      "block.laputa.linneau_mossy": "Mossy Linnaeu Bricks",
       "block.laputa.brass_wall_light_off": "Brass Wall Light",
       "block.laputa.mirage_bricks_2": "Mirage Bricks",
       "item.laputa.ophanim_spawn_egg": "Ophanim Spawn Egg",
@@ -3048,31 +2557,22 @@
       "item.laputa.firey_gauntlet": "Firey Gauntlet",
       "item.laputa.bullet_item_3": "Bullet Item",
       "key.mcreator.accessory_bag_open_key": "Open Accessory Bag",
-      "item.laputa.dazeberry": "Dazeberry",
-      "block.laputa.linnaeu_bricks_2_growth": "Overgrown Linaeu Bricks",
       "item.laputa.bullet_item_4": "Bullet Item",
       "block.laputa.chiselled_brass_block": "Chiselled Brass Block",
       "item.laputa.dawn_staff": "Staff of the Stars",
-      "block.laputa.linnaeu_brick_slab": "Linnaeu Brick Slab",
       "block.laputa.laputan_bars": "Laputan Bars",
-      "block.laputa.linnaeu_tile_slab": "Linnaeu Tile Slab",
-      "block.laputa.samsara_fence_gate": "Samsara Fence Gate",
       "item.laputa.bullet_item_2": "Bullet Item",
-      "block.laputa.sylphid_tiles": "Sylphid Tiles",
       "block.laputa.glacialis_ice_crate": "Glacialis Ice Crate",
       "block.laputa.depth_tiles": "Depth Tiles",
       "block.laputa.laputan_brick_2_wall": "Laputan Brick Wall",
       "block.laputa.bio_bulb": "Bio Bulb",
       "item.laputa.poison_gauntlet": "Poison Gauntlet",
       "block.laputa.samsara_trapdoor": "Samsara Trapdoor",
-      "block.laputa.linnaeu_bricks": "Linnaeu Bricks",
       "block.laputa.brass_block": "Brass Block",
       "block.laputa.depth_stairs": "Depth Stairs",
       "biome.laputa.glacialis": "Glacialis",
       "block.laputa.ectoplasm_block": "Ectoplasm Block",
       "item.laputa.kunai": "Kunai",
-      "block.laputa.linnaeu_bricks_growth_slab": "Overgrown Linnaeu Brick Slab",
-      "block.laputa.linnaeu_growth_stairs": "Overgrown Linnaeu Brick Stairs",
       "block.laputa.brass_pipe": "Brass Pipe",
       "block.laputa.kaikadoium": "Kaikadoium",
       "item.laputa.laputa_d": "Laputa Portal Igniter",
@@ -3081,9 +2581,7 @@
       "block.laputa.brass_curved_pillar": "Curved Brass Pipe",
       "block.laputa.brass_wall_light_on": "Brass Wall Light",
       "block.laputa.samsara_fence": "Samsara Fence",
-      "block.laputa.linnaeu_tiles_growth_stairs": "Overgrown Linnaeu Tile Stairs",
       "item.laputa.panic_system": "Panic System",
-      "block.laputa.laputan_lamp_2": "Laputan Lamp",
       "block.laputa.old_wood_floor": "Old Wood Floor",
       "item.laputa.enchanted_water_bucket": "EnchantedWater Bucket",
       "entity.laputa.ophanim": "Ophanim",
@@ -3097,7 +2595,6 @@
       "item.laputa.laputan_diamond": "Laputan Diamond",
       "item.laputa.brass_scrap": "Brass Scrap",
       "block.laputa.brass_fence": "Brass Fence",
-      "block.laputa.yateveo_vine_middle": "Yateveo Vine",
       "block.laputa.glacialis_crystal_ice": "Glacialis Crystal Ice",
       "block.laputa.samsara_wood": "Samsara Wood",
       "block.laputa.glacialis_packed_ice_wall": "Glacialis Packed Ice Wall",

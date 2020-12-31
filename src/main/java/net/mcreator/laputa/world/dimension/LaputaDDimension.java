@@ -709,69 +709,35 @@ public class LaputaDDimension extends LaputaModElements.ModElement {
 
 		@Override
 		public boolean canRespawnHere() {
-<<<<<<< HEAD
-=======
 			return false;
 		}
 
 		@OnlyIn(Dist.CLIENT)
 		@Override
 		public boolean doesXZShowFog(int x, int z) {
->>>>>>> branch 'master' of https://github.com/ItzFred/Laputa.git
 			return true;
 		}
 
-<<<<<<< HEAD
-		@OnlyIn(Dist.CLIENT)
-		@Override
-		public boolean doesXZShowFog(int x, int z) {
-			return true;
-=======
 		@Override
 		public SleepResult canSleepAt(PlayerEntity player, BlockPos pos) {
 			return SleepResult.BED_EXPLODES;
->>>>>>> branch 'master' of https://github.com/ItzFred/Laputa.git
 		}
 
-<<<<<<< HEAD
-		@Override
-		public SleepResult canSleepAt(PlayerEntity player, BlockPos pos) {
-			return SleepResult.BED_EXPLODES;
-=======
 		@Nullable
 		public BlockPos findSpawn(ChunkPos chunkPos, boolean checkValid) {
 			return null;
->>>>>>> branch 'master' of https://github.com/ItzFred/Laputa.git
 		}
 
 		@Nullable
-<<<<<<< HEAD
-		public BlockPos findSpawn(ChunkPos chunkPos, boolean checkValid) {
-=======
 		public BlockPos findSpawn(int x, int z, boolean checkValid) {
->>>>>>> branch 'master' of https://github.com/ItzFred/Laputa.git
 			return null;
 		}
 
-<<<<<<< HEAD
-		@Nullable
-		public BlockPos findSpawn(int x, int z, boolean checkValid) {
-			return null;
-=======
-		@Override
-		public boolean doesWaterVaporize() {
-			return false;
->>>>>>> branch 'master' of https://github.com/ItzFred/Laputa.git
-		}
-
-<<<<<<< HEAD
 		@Override
 		public boolean doesWaterVaporize() {
 			return false;
 		}
 
-=======
->>>>>>> branch 'master' of https://github.com/ItzFred/Laputa.git
 		@Override /**
 					 * Calculates the angle of sun and moon in the sky relative to a specified time
 					 * (usually worldTime)

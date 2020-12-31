@@ -24,11 +24,7 @@ public class MirageTilesBlock extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:mirage_tiles")
 	public static final Block block = null;
 	public MirageTilesBlock(LaputaModElements instance) {
-<<<<<<< HEAD
 		super(instance, 35);
-=======
-		super(instance, 22);
->>>>>>> branch 'master' of https://github.com/ItzFred/Laputa.git
 	}
 
 	@Override
