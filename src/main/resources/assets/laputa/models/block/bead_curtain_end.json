@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "laputa:blocks/beadcurtainend",
+    "up": "laputa:blocks/beadcurtainend",
+    "north": "laputa:blocks/beadcurtainend",
+    "east": "laputa:blocks/beadcurtainend",
+    "south": "laputa:blocks/beadcurtainend",
+    "west": "laputa:blocks/beadcurtainend",
+    "particle": "laputa:blocks/beadcurtainend"
+  }
+}

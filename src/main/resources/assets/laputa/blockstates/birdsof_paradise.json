@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "laputa:block/birdsof_paradise"
+    },
+    "half=lower": {
+      "model": "laputa:block/birdsof_paradise_bottom"
+    }
+  }
+}

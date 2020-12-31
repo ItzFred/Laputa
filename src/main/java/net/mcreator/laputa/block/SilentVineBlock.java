@@ -34,11 +34,11 @@ import java.util.HashMap;
 import java.util.Collections;
 
 @LaputaModElements.ModElement.Tag
-public class YateveoVineEndBlock extends LaputaModElements.ModElement {
-	@ObjectHolder("laputa:yateveo_vine_end")
+public class SilentVineBlock extends LaputaModElements.ModElement {
+	@ObjectHolder("laputa:silent_vine")
 	public static final Block block = null;
-	public YateveoVineEndBlock(LaputaModElements instance) {
-		super(instance, 63);
+	public SilentVineBlock(LaputaModElements instance) {
+		super(instance, 256);
 	}
 
 	@Override
@@ -54,9 +54,9 @@ public class YateveoVineEndBlock extends LaputaModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.PLANTS).sound(SoundType.PLANT).hardnessAndResistance(0f, 0f).lightValue(0).doesNotBlockMovement()
+			super(Block.Properties.create(Material.PLANTS).sound(SoundType.PLANT).hardnessAndResistance(0f, 0f).lightValue(15).doesNotBlockMovement()
 					.notSolid());
-			setRegistryName("yateveo_vine_end");
+			setRegistryName("silent_vine");
 		}
 
 		@Override

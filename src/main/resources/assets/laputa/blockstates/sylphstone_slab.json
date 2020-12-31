@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "laputa:block/sylphstone_slab"
+    },
+    "type=top": {
+      "model": "laputa:block/sylphstone_slab_top"
+    },
+    "type=double": {
+      "model": "laputa:block/sylphstone_slab_full"
+    }
+  }
+}

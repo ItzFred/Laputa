@@ -9,21 +9,28 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
-import net.minecraft.world.IWorldReader;
+import net.minecraft.world.IWorld;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Direction;
+import net.minecraft.state.properties.BlockStateProperties;
+import net.minecraft.state.StateContainer;
+import net.minecraft.state.BooleanProperty;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
-import net.minecraft.entity.LivingEntity;
+import net.minecraft.fluid.IFluidState;
+import net.minecraft.fluid.Fluids;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.IWaterLoggable;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.laputa.procedures.ChainDropProcedureProcedure;
+import net.mcreator.laputa.procedures.BeadCurtainUpdateTickProcedure;
 import net.mcreator.laputa.itemgroup.LaputaItemGroup;
 import net.mcreator.laputa.LaputaModElements;
 
@@ -34,11 +41,11 @@ import java.util.HashMap;
 import java.util.Collections;
 
 @LaputaModElements.ModElement.Tag
-public class YateveoVineEndBlock extends LaputaModElements.ModElement {
-	@ObjectHolder("laputa:yateveo_vine_end")
+public class BeadCurtainBlock extends LaputaModElements.ModElement {
+	@ObjectHolder("laputa:bead_curtain")
 	public static final Block block = null;
-	public YateveoVineEndBlock(LaputaModElements instance) {
-		super(instance, 63);
+	public BeadCurtainBlock(LaputaModElements instance) {
+		super(instance, 259);
 	}
 
 	@Override
@@ -52,11 +59,13 @@ public class YateveoVineEndBlock extends LaputaModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
-	public static class CustomBlock extends Block {
+	public static class CustomBlock extends Block implements IWaterLoggable {
+		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.PLANTS).sound(SoundType.PLANT).hardnessAndResistance(0f, 0f).lightValue(0).doesNotBlockMovement()
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.BAMBOO).hardnessAndResistance(1f, 10f).lightValue(0).doesNotBlockMovement()
 					.notSolid());
-			setRegistryName("yateveo_vine_end");
+			this.setDefaultState(this.stateContainer.getBaseState().with(WATERLOGGED, false));
+			setRegistryName("bead_curtain");
 		}
 
 		@Override
@@ -70,8 +79,28 @@ public class YateveoVineEndBlock extends LaputaModElements.ModElement {
 		}
 
 		@Override
-		public boolean isLadder(BlockState state, IWorldReader world, BlockPos pos, LivingEntity entity) {
-			return true;
+		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;
+			return this.getDefaultState().with(WATERLOGGED, flag);
+		}
+
+		@Override
+		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
+			builder.add(WATERLOGGED);
+		}
+
+		@Override
+		public IFluidState getFluidState(BlockState state) {
+			return state.get(WATERLOGGED) ? Fluids.WATER.getStillFluidState(false) : super.getFluidState(state);
+		}
+
+		@Override
+		public BlockState updatePostPlacement(BlockState state, Direction facing, BlockState facingState, IWorld world, BlockPos currentPos,
+				BlockPos facingPos) {
+			if (state.get(WATERLOGGED)) {
+				world.getPendingFluidTicks().scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickRate(world));
+			}
+			return super.updatePostPlacement(state, facing, facingState, world, currentPos, facingPos);
 		}
 
 		@Override
@@ -103,7 +132,7 @@ public class YateveoVineEndBlock extends LaputaModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				ChainDropProcedureProcedure.executeProcedure($_dependencies);
+				BeadCurtainUpdateTickProcedure.executeProcedure($_dependencies);
 			}
 			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, this.tickRate(world));
 		}
