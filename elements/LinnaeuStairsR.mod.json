@@ -7,10 +7,10 @@
     "cookingTime": 200,
     "recipeRetstackSize": 4,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Linnaeu"
+        "value": "CUSTOM:LinnaeuBricks"
       },
       {
         "value": ""
@@ -19,26 +19,26 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Linnaeu"
+        "value": "CUSTOM:LinnaeuBricks"
       },
       {
-        "value": "CUSTOM:Linnaeu"
+        "value": "CUSTOM:LinnaeuBricks"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Linnaeu"
+        "value": "CUSTOM:LinnaeuBricks"
       },
       {
-        "value": "CUSTOM:Linnaeu"
+        "value": "CUSTOM:LinnaeuBricks"
       },
       {
-        "value": "CUSTOM:Linnaeu"
+        "value": "CUSTOM:LinnaeuBricks"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LinnaeuStairs"
+      "value": "CUSTOM:LinneauStairs"
     },
     "name": "linnaeu_stairs_r",
     "namespace": "mod"

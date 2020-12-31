@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "laputa:block/linnaeu_growth_stairs_slab"
+    },
+    "type=top": {
+      "model": "laputa:block/linnaeu_growth_stairs_slab_top"
+    },
+    "type=double": {
+      "model": "laputa:block/linnaeu_growth_stairs_slab_full"
+    }
+  }
+}

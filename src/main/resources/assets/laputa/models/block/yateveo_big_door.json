@@ -3,6 +3,6 @@
   "textures": {
     "all": "laputa:blocks/linnaeubricks",
     "particle": "laputa:blocks/linnaeubricks",
-    "0": "laputa:blocks/yateveobigdoor"
+    "0": "laputa:blocks/yateveobigdoor2"
   }
 }

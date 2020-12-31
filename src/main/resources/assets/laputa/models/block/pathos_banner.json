@@ -1,8 +1,0 @@
-{
-  "parent": "laputa:custom/pathosflag",
-  "textures": {
-    "all": "laputa:blocks/pathosbanner",
-    "particle": "laputa:blocks/pathosbanner",
-    "0": "laputa:blocks/pathosbanner"
-  }
-}

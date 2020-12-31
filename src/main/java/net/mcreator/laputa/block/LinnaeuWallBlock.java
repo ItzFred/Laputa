@@ -43,7 +43,7 @@ public class LinnaeuWallBlock extends LaputaModElements.ModElement {
 	}
 	public static class CustomBlock extends WallBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 10f).lightValue(0).harvestLevel(2)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 10f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("linnaeu_wall");
 		}

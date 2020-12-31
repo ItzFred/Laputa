@@ -53,9 +53,8 @@ public class PoisonGauntletItem extends LaputaModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00EF\u00BF\u00BD8Accessory"));
-			list.add(new StringTextComponent("\u00EF\u00BF\u00BD8Press I to open Accessory Bag"));
-			list.add(new StringTextComponent("\u00EF\u00BF\u00BD7Your fist poisons mobs"));
+			list.add(new StringTextComponent("\u00A78Accessory\u00A78Press I to open Accessory Bag"));
+			list.add(new StringTextComponent("\u00A77Your fist poisons mobs"));
 		}
 	}
 }

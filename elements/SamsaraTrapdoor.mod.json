@@ -3,9 +3,9 @@
   "_type": "block",
   "definition": {
     "texture": "samsaratrapdoor",
-    "textureTop": "samsaraplanks",
+    "textureTop": "",
     "textureLeft": "",
-    "textureFront": "samsaraplanks",
+    "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 11,
@@ -16,7 +16,7 @@
     "itemTexture": "",
     "particleTexture": "",
     "blockBase": "TrapDoor",
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
@@ -27,8 +27,8 @@
     "Mz": 1.0,
     "name": "Samsara Trapdoor",
     "specialInfo": [],
-    "hardness": 1.5,
-    "resistance": 10.0,
+    "hardness": 2.0,
+    "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -46,7 +46,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -57,18 +57,18 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 0,
+    "flammability": 5,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "WOOD"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

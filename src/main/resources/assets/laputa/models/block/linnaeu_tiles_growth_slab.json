@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "laputa:blocks/linnaeutilesovergrown",
+    "top": "laputa:blocks/linnaeutilesovergrown",
+    "side": "laputa:blocks/linnaeutilesovergrown"
+  }
+}

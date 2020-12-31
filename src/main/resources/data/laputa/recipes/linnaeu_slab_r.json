@@ -3,17 +3,17 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "laputa:linnaeu"
+      "item": "laputa:linnaeu_bricks"
     },
     {
-      "item": "laputa:linnaeu"
+      "item": "laputa:linnaeu_bricks"
     },
     {
-      "item": "laputa:linnaeu"
+      "item": "laputa:linnaeu_bricks"
     }
   ],
   "result": {
-    "item": "laputa:linneu_slab",
+    "item": "laputa:linnaeu_slab",
     "count": 6
   }
 }

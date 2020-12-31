@@ -2,10 +2,10 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "linnaeu",
-    "textureTop": "linnaeu",
+    "texture": "linnaeubricks",
+    "textureTop": "linnaeubricks",
     "textureLeft": "",
-    "textureFront": "linnaeu",
+    "textureFront": "linnaeubricks",
     "textureRight": "",
     "textureBack": "",
     "renderType": 11,
@@ -25,7 +25,7 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Linnaeu Wall",
+    "name": "Linnaeu Brick Wall",
     "specialInfo": [],
     "hardness": 2.0,
     "resistance": 10.0,
@@ -68,7 +68,7 @@
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -95,7 +95,11 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

@@ -1,0 +1,26 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "laputa:brass_block"
+    },
+    "1": {
+      "item": "laputa:brass_block"
+    },
+    "2": {
+      "item": "laputa:brass_block"
+    },
+    "3": {
+      "item": "laputa:brass_block"
+    }
+  },
+  "result": {
+    "item": "laputa:chiselled_brass_block",
+    "count": 4
+  }
+}

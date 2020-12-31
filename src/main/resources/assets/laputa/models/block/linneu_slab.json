@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "laputa:blocks/linnaeu",
-    "top": "laputa:blocks/linnaeu",
-    "side": "laputa:blocks/linnaeu"
-  }
-}

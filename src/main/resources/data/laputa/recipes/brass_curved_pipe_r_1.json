@@ -1,0 +1,16 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "laputa:brass_curved_pillar"
+    }
+  },
+  "result": {
+    "item": "laputa:brass_updward_curved_pillar",
+    "count": 1
+  }
+}

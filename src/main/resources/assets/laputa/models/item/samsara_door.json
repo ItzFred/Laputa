@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "laputa:blocks/samsaradoorbottom"
+    "layer0": "laputa:items/samsaradooricon"
   }
 }

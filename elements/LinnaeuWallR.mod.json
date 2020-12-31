@@ -7,7 +7,7 @@
     "cookingTime": 200,
     "recipeRetstackSize": 2,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": ""
@@ -19,22 +19,22 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Linnaeu"
+        "value": "CUSTOM:LinnaeuBricks"
       },
       {
-        "value": "CUSTOM:Linnaeu"
+        "value": "CUSTOM:LinnaeuBricks"
       },
       {
-        "value": "CUSTOM:Linnaeu"
+        "value": "CUSTOM:LinnaeuBricks"
       },
       {
-        "value": "CUSTOM:Linnaeu"
+        "value": "CUSTOM:LinnaeuBricks"
       },
       {
-        "value": "CUSTOM:Linnaeu"
+        "value": "CUSTOM:LinnaeuBricks"
       },
       {
-        "value": "CUSTOM:Linnaeu"
+        "value": "CUSTOM:LinnaeuBricks"
       }
     ],
     "recipeReturnStack": {

@@ -1,0 +1,16 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "laputa:ectoplasm_lantern_side"
+    }
+  },
+  "result": {
+    "item": "laputa:ectoplasm_lantern",
+    "count": 1
+  }
+}

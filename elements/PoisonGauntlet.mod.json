@@ -24,9 +24,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "ï¿½8Accessory",
-      "ï¿½8Press I to open Accessory Bag",
-      "ï¿½7Your fist poisons mobs"
+      "§8Accessory§8Press I to open Accessory Bag",
+      "§7Your fist poisons mobs"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

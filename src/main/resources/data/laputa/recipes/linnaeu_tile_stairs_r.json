@@ -1,0 +1,28 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "laputa:linneau_tiles"
+    },
+    {
+      "item": "laputa:linneau_tiles"
+    },
+    {
+      "item": "laputa:linneau_tiles"
+    },
+    {
+      "item": "laputa:linneau_tiles"
+    },
+    {
+      "item": "laputa:linneau_tiles"
+    },
+    {
+      "item": "laputa:linneau_tiles"
+    }
+  ],
+  "result": {
+    "item": "laputa:linnaeu_tile_stairs",
+    "count": 4
+  }
+}

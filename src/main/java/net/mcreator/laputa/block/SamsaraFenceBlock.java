@@ -2,9 +2,10 @@
 package net.mcreator.laputa.block;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Direction;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -37,8 +38,7 @@ public class SamsaraFenceBlock extends LaputaModElements.ModElement {
 	}
 	public static class CustomBlock extends FenceBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 10f).lightValue(0).harvestLevel(2)
-					.harvestTool(ToolType.AXE));
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 3f).lightValue(0));
 			setRegistryName("samsara_fence");
 		}
 
@@ -47,6 +47,11 @@ public class SamsaraFenceBlock extends LaputaModElements.ModElement {
 			boolean flag = state.getBlock() instanceof FenceBlock && state.getMaterial() == this.material;
 			boolean flag1 = state.getBlock() instanceof FenceGateBlock && FenceGateBlock.isParallel(state, face);
 			return !cannotAttach(state.getBlock()) && checkattach || flag || flag1;
+		}
+
+		@Override
+		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
+			return 5;
 		}
 
 		@Override

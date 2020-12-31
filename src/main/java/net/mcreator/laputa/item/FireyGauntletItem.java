@@ -53,9 +53,9 @@ public class FireyGauntletItem extends LaputaModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00EF\u00BF\u00BD8Accessory"));
-			list.add(new StringTextComponent("\u00EF\u00BF\u00BD8Press I to open Accessory Bag"));
-			list.add(new StringTextComponent("\u00EF\u00BF\u00BD7Your fist sets mobs on fire"));
+			list.add(new StringTextComponent("\u00A78Accessory"));
+			list.add(new StringTextComponent("\u00A78Press I to open Accessory Bag"));
+			list.add(new StringTextComponent("\u00A77Your fist sets mobs on fire"));
 		}
 	}
 }

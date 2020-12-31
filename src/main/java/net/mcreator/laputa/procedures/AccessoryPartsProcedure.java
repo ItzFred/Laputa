@@ -15,7 +15,10 @@ import net.minecraft.entity.Entity;
 
 import net.mcreator.laputa.item.ShoeCushionsItem;
 import net.mcreator.laputa.item.SharpeningStoneItem;
+import net.mcreator.laputa.item.PanicSystemItem;
+import net.mcreator.laputa.item.NightVisionGogglesItem;
 import net.mcreator.laputa.item.MetalProtectivePlateItem;
+import net.mcreator.laputa.item.BootRocketItem;
 import net.mcreator.laputa.LaputaModVariables;
 import net.mcreator.laputa.LaputaModElements;
 
@@ -73,6 +76,72 @@ public class AccessoryPartsProcedure extends LaputaModElements.ModElement {
 						.orElse(new LaputaModVariables.PlayerVariables())).Accessory3)
 								.getItem() == new ItemStack(ShoeCushionsItem.block, (int) (1)).getItem()))) {
 			entity.fallDistance = (float) (0);
+		}
+		if ((((((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new LaputaModVariables.PlayerVariables())).Accessory1).getItem() == new ItemStack(BootRocketItem.block, (int) (1)).getItem())
+				|| (((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new LaputaModVariables.PlayerVariables())).Accessory2)
+								.getItem() == new ItemStack(BootRocketItem.block, (int) (1)).getItem()))
+				|| (((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new LaputaModVariables.PlayerVariables())).Accessory3)
+								.getItem() == new ItemStack(BootRocketItem.block, (int) (1)).getItem()))) {
+			if ((((((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new LaputaModVariables.PlayerVariables())).Accessory1)
+							.getItem() == new ItemStack(PanicSystemItem.block, (int) (1)).getItem())
+					|| (((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+							.orElse(new LaputaModVariables.PlayerVariables())).Accessory2)
+									.getItem() == new ItemStack(PanicSystemItem.block, (int) (1)).getItem()))
+					|| (((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+							.orElse(new LaputaModVariables.PlayerVariables())).Accessory3)
+									.getItem() == new ItemStack(PanicSystemItem.block, (int) (1)).getItem()))) {
+				if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) < 4)) {
+					if (entity instanceof LivingEntity)
+						((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 1, (int) 3, (false), (false)));
+				} else if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) < 8)) {
+					if (entity instanceof LivingEntity)
+						((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 1, (int) 2, (false), (false)));
+				} else if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) < 12)) {
+					if (entity instanceof LivingEntity)
+						((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 1, (int) 1, (false), (false)));
+				} else {
+					if (entity instanceof LivingEntity)
+						((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 1, (int) 0, (false), (false)));
+				}
+			} else {
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 1, (int) 0, (false), (false)));
+			}
+		}
+		if ((((((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new LaputaModVariables.PlayerVariables())).Accessory1).getItem() == new ItemStack(PanicSystemItem.block, (int) (1)).getItem())
+				|| (((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new LaputaModVariables.PlayerVariables())).Accessory2)
+								.getItem() == new ItemStack(PanicSystemItem.block, (int) (1)).getItem()))
+				|| (((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new LaputaModVariables.PlayerVariables())).Accessory3)
+								.getItem() == new ItemStack(PanicSystemItem.block, (int) (1)).getItem()))) {
+			if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) < 4)) {
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 1, (int) 2, (false), (false)));
+			} else if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) < 8)) {
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 1, (int) 1, (false), (false)));
+			} else if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) < 12)) {
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 1, (int) 0, (false), (false)));
+			}
+		}
+		if ((((((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new LaputaModVariables.PlayerVariables())).Accessory1)
+						.getItem() == new ItemStack(NightVisionGogglesItem.block, (int) (1)).getItem())
+				|| (((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new LaputaModVariables.PlayerVariables())).Accessory2)
+								.getItem() == new ItemStack(NightVisionGogglesItem.block, (int) (1)).getItem()))
+				|| (((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new LaputaModVariables.PlayerVariables())).Accessory3)
+								.getItem() == new ItemStack(NightVisionGogglesItem.block, (int) (1)).getItem()))) {
+			if (entity instanceof LivingEntity)
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 1, (int) 0, (false), (false)));
 		}
 	}
 

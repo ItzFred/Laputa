@@ -53,7 +53,9 @@ public class MetalProtectivePlateItem extends LaputaModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00EF\u00BF\u00BD9Incoming damage \u00EF\u00BF\u00BD7reduced by \u00EF\u00BF\u00BD420%"));
+			list.add(new StringTextComponent("\u00A78Accessory"));
+			list.add(new StringTextComponent("\u00A78Press I to open Accessory Bag"));
+			list.add(new StringTextComponent("\u00A79Incoming damage \u00A77reduced by \u00A7420%"));
 		}
 	}
 }

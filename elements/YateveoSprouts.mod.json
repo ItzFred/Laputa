@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "yateveograss",
+    "texture": "yateveosprouts",
     "textureBottom": "",
     "customModelName": "Cross model",
     "itemTexture": "",
@@ -43,9 +43,7 @@
     "flammability": 100,
     "fireSpreadSpeed": 60,
     "frequencyOnChunks": 5,
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": []
   }
 }

@@ -24,9 +24,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "ï¿½8Accessory",
-      "ï¿½8Press I to open Accessory Bag",
-      "ï¿½9Movement Speed ï¿½7increased by ï¿½420%"
+      "§8Accessory",
+      "§8Press I to open Accessory Bag",
+      "§9Movement Speed §7increased by §420%"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

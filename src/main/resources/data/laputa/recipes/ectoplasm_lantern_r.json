@@ -1,0 +1,30 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "laputa:unknown_element"
+    },
+    "3": {
+      "item": "laputa:unknown_element"
+    },
+    "4": {
+      "item": "laputa:unknown_element"
+    },
+    "5": {
+      "item": "laputa:unknown_element"
+    },
+    "7": {
+      "item": "laputa:unknown_element"
+    }
+  },
+  "result": {
+    "item": "laputa:ectoplasm_lantern",
+    "count": 1
+  }
+}

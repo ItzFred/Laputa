@@ -709,7 +709,7 @@ public class LaputaDDimension extends LaputaModElements.ModElement {
 
 		@Override
 		public boolean canRespawnHere() {
-			return false;
+			return true;
 		}
 
 		@OnlyIn(Dist.CLIENT)

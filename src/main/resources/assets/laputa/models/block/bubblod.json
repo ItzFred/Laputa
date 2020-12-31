@@ -1,9 +1,0 @@
-{
-  "parent": "laputa:custom/bubblod",
-  "textures": {
-    "all": "laputa:blocks/bublodicon",
-    "particle": "laputa:blocks/bublodicon",
-    "0": "laputa:blocks/bubblodtexture",
-    "missing": "laputa:blocks/bubblodtexture"
-  }
-}

@@ -3,11 +3,11 @@
   "_type": "block",
   "definition": {
     "texture": "samsaralog",
-    "textureTop": "samsaralogtop",
-    "textureLeft": "samsaralog",
-    "textureFront": "samsaralog",
-    "textureRight": "samsaralog",
-    "textureBack": "samsaralog",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 5,
@@ -26,8 +26,8 @@
     "Mz": 1.0,
     "name": "Samsara Wood",
     "specialInfo": [],
-    "hardness": 1.5,
-    "resistance": 10.0,
+    "hardness": 2.0,
+    "resistance": 2.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -35,17 +35,17 @@
     },
     "destroyTool": "axe",
     "customDrop": {
-      "value": "CUSTOM:SamsaraLog"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -56,18 +56,18 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 0,
+    "flammability": 5,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "WOOD"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
