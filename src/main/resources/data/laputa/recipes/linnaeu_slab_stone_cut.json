@@ -1,0 +1,9 @@
+{
+  "group": "laputa",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "laputa:unknown_element"
+  },
+  "result": "laputa:linnaeu_wall"
+}

@@ -1,0 +1,13 @@
+{
+  "group": "laputa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "laputa:samsara_log"
+    }
+  ],
+  "result": {
+    "item": "laputa:samsara_planks",
+    "count": 4
+  }
+}

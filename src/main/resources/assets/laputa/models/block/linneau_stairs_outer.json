@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "laputa:blocks/linnaeubricks",
-    "top": "laputa:blocks/linnaeubricks",
-    "side": "laputa:blocks/linnaeubricks"
-  }
-}

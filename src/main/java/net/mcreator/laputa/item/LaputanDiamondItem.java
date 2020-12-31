@@ -16,7 +16,11 @@ public class LaputanDiamondItem extends LaputaModElements.ModElement {
 	@ObjectHolder("laputa:laputan_diamond")
 	public static final Item block = null;
 	public LaputanDiamondItem(LaputaModElements instance) {
+<<<<<<< HEAD
 		super(instance, 20);
+=======
+		super(instance, 78);
+>>>>>>> branch 'master' of https://github.com/ItzFred/Laputa.git
 	}
 
 	@Override

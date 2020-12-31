@@ -1,66 +1,16 @@
 
 package net.mcreator.laputa.entity;
 
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.fml.network.NetworkHooks;
-import net.minecraftforge.fml.network.FMLPlayMessages;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.client.registry.RenderingRegistry;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.client.event.ModelRegistryEvent;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.gen.Heightmap;
-import net.minecraft.world.biome.Biome;
-import net.minecraft.world.World;
-import net.minecraft.world.IWorldReader;
-import net.minecraft.util.math.shapes.VoxelShapes;
-import net.minecraft.util.math.MathHelper;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.DamageSource;
-import net.minecraft.tags.FluidTags;
-import net.minecraft.pathfinding.SwimmerPathNavigator;
-import net.minecraft.network.IPacket;
-import net.minecraft.item.SpawnEggItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.entity.ai.goal.RandomSwimmingGoal;
-import net.minecraft.entity.ai.goal.PanicGoal;
-import net.minecraft.entity.ai.goal.LookRandomlyGoal;
-import net.minecraft.entity.ai.controller.MovementController;
-import net.minecraft.entity.SharedMonsterAttributes;
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.EntitySpawnPlacementRegistry;
-import net.minecraft.entity.EntityClassification;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.CreatureEntity;
-import net.minecraft.entity.CreatureAttribute;
-import net.minecraft.client.renderer.texture.OverlayTexture;
-import net.minecraft.client.renderer.model.ModelRenderer;
-import net.minecraft.client.renderer.entity.model.EntityModel;
-import net.minecraft.client.renderer.entity.layers.LayerRenderer;
-import net.minecraft.client.renderer.entity.MobRenderer;
-import net.minecraft.client.renderer.entity.IEntityRenderer;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.IRenderTypeBuffer;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.BlockState;
-
-import net.mcreator.laputa.item.EctoplasmItem;
-import net.mcreator.laputa.LaputaModElements;
-
-import com.mojang.blaze3d.vertex.IVertexBuilder;
-import com.mojang.blaze3d.matrix.MatrixStack;
 
 @LaputaModElements.ModElement.Tag
 public class EctojellyEntity extends LaputaModElements.ModElement {
+
 	public static EntityType entity = null;
+
 	public EctojellyEntity(LaputaModElements instance) {
 		super(instance, 231);
+
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -69,9 +19,12 @@ public class EctojellyEntity extends LaputaModElements.ModElement {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
 				.setTrackingRange(32).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(1f, 2f)).build("ectojelly")
 						.setRegistryName("ectojelly");
+
 		elements.entities.add(() -> entity);
+
 		elements.items.add(() -> new SpawnEggItem(entity, -16750849, -6684673, new Item.Properties().group(ItemGroup.MISC))
 				.setRegistryName("ectojelly_spawn_egg"));
+
 	}
 
 	@Override
@@ -82,11 +35,14 @@ public class EctojellyEntity extends LaputaModElements.ModElement {
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
+
 			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 20, 1, 4));
 		}
+
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos,
 						random) -> (world.getBlockState(pos.down()).getMaterial() == Material.ORGANIC && world.getLightSubtracted(pos, 0) > 8));
+
 	}
 
 	@SubscribeEvent
@@ -103,8 +59,11 @@ public class EctojellyEntity extends LaputaModElements.ModElement {
 				}
 			};
 		});
+
 	}
+
 	public static class CustomEntity extends CreatureEntity {
+
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
 		}
@@ -113,12 +72,15 @@ public class EctojellyEntity extends LaputaModElements.ModElement {
 			super(type, world);
 			experienceValue = 1;
 			setNoAI(false);
+
 			enablePersistence();
+
 			this.moveController = new MovementController(this) {
 				@Override
 				public void tick() {
 					if (CustomEntity.this.areEyesInFluid(FluidTags.WATER))
 						CustomEntity.this.setMotion(CustomEntity.this.getMotion().add(0, 0.005, 0));
+
 					if (this.action == MovementController.Action.MOVE_TO && !CustomEntity.this.getNavigator().noPath()) {
 						double dx = this.posX - CustomEntity.this.getPosX();
 						double dy = this.posY - CustomEntity.this.getPosY();
@@ -146,9 +108,11 @@ public class EctojellyEntity extends LaputaModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
+
 			this.goalSelector.addGoal(1, new PanicGoal(this, 0.7));
 			this.goalSelector.addGoal(2, new RandomSwimmingGoal(this, 0.5, 40));
 			this.goalSelector.addGoal(3, new LookRandomlyGoal(this));
+
 		}
 
 		@Override
@@ -184,18 +148,24 @@ public class EctojellyEntity extends LaputaModElements.ModElement {
 		@Override
 		protected void registerAttributes() {
 			super.registerAttributes();
+
 			if (this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
 				this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.5);
+
 			if (this.getAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
 				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(14);
+
 			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
 				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0);
+
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)
 				this.getAttributes().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE);
 			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(2);
+
 			if (this.getAttribute(SharedMonsterAttributes.KNOCKBACK_RESISTANCE) == null)
 				this.getAttributes().registerAttribute(SharedMonsterAttributes.KNOCKBACK_RESISTANCE);
 			this.getAttribute(SharedMonsterAttributes.KNOCKBACK_RESISTANCE).setBaseValue(0.5D);
+
 		}
 
 		@Override
@@ -212,10 +182,12 @@ public class EctojellyEntity extends LaputaModElements.ModElement {
 		public boolean isPushedByWater() {
 			return false;
 		}
+
 	}
 
 	@OnlyIn(Dist.CLIENT)
 	private static class GlowingLayer<T extends Entity, M extends EntityModel<T>> extends LayerRenderer<T, M> {
+
 		public GlowingLayer(IEntityRenderer<T, M> er) {
 			super(er);
 		}
@@ -225,33 +197,40 @@ public class EctojellyEntity extends LaputaModElements.ModElement {
 			IVertexBuilder ivertexbuilder = bufferIn.getBuffer(RenderType.getEyes(new ResourceLocation("laputa:textures/ectojellyuv.png")));
 			this.getEntityModel().render(matrixStackIn, ivertexbuilder, 15728640, OverlayTexture.NO_OVERLAY, 1, 1, 1, 1);
 		}
+
 	}
 
 	// Made with Blockbench 3.7.4
 	// Exported for Minecraft version 1.15
 	// Paste this class into your mod and generate all required imports
+
 	public static class ModelEctojelly1 extends EntityModel<Entity> {
 		private final ModelRenderer All;
 		private final ModelRenderer Tentacles2;
 		private final ModelRenderer Tentacles;
 		private final ModelRenderer Body;
+
 		public ModelEctojelly1() {
 			textureWidth = 64;
 			textureHeight = 64;
+
 			All = new ModelRenderer(this);
 			All.setRotationPoint(0.0F, 8.0F, -1.5F);
 			setRotationAngle(All, 0.0873F, 0.0F, 0.0F);
+
 			Tentacles2 = new ModelRenderer(this);
 			Tentacles2.setRotationPoint(0.0F, 0.0698F, 0.0998F);
 			All.addChild(Tentacles2);
 			setRotationAngle(Tentacles2, 0.0F, 0.7854F, 0.0F);
 			Tentacles2.setTextureOffset(0, 14).addBox(0.0F, 0.0F, -8.0F, 0.0F, 16.0F, 16.0F, 0.0F, false);
 			Tentacles2.setTextureOffset(0, 30).addBox(-8.0F, 0.0F, 0.0F, 16.0F, 16.0F, 0.0F, 0.0F, false);
+
 			Tentacles = new ModelRenderer(this);
 			Tentacles.setRotationPoint(0.0F, 0.0698F, 0.0998F);
 			All.addChild(Tentacles);
 			Tentacles.setTextureOffset(0, 30).addBox(-8.0F, 0.0F, 0.0F, 16.0F, 16.0F, 0.0F, 0.0F, false);
 			Tentacles.setTextureOffset(0, 14).addBox(0.0F, 0.0F, -8.0F, 0.0F, 16.0F, 16.0F, 0.0F, false);
+
 			Body = new ModelRenderer(this);
 			Body.setRotationPoint(0.0F, 0.0F, 0.0F);
 			All.addChild(Body);
@@ -271,8 +250,10 @@ public class EctojellyEntity extends LaputaModElements.ModElement {
 		}
 
 		public void setRotationAngles(Entity e, float f, float f1, float f2, float f3, float f4) {
+
 			this.Tentacles.rotateAngleY = f2 / 20.f;
 			this.Tentacles2.rotateAngleY = f2 / 20.f;
 		}
 	}
+
 }

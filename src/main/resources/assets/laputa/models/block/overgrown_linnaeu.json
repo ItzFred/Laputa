@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "laputa:blocks/linneugrow",
+    "particle": "laputa:blocks/linneugrow"
+  }
+}

@@ -15,10 +15,14 @@ import net.minecraft.entity.Entity;
 
 import net.mcreator.laputa.item.ShoeCushionsItem;
 import net.mcreator.laputa.item.SharpeningStoneItem;
+<<<<<<< HEAD
 import net.mcreator.laputa.item.PanicSystemItem;
 import net.mcreator.laputa.item.NightVisionGogglesItem;
 import net.mcreator.laputa.item.MetalProtectivePlateItem;
 import net.mcreator.laputa.item.BootRocketItem;
+=======
+import net.mcreator.laputa.item.MetalProtectivePlateItem;
+>>>>>>> branch 'master' of https://github.com/ItzFred/Laputa.git
 import net.mcreator.laputa.LaputaModVariables;
 import net.mcreator.laputa.LaputaModElements;
 
@@ -77,6 +81,7 @@ public class AccessoryPartsProcedure extends LaputaModElements.ModElement {
 								.getItem() == new ItemStack(ShoeCushionsItem.block, (int) (1)).getItem()))) {
 			entity.fallDistance = (float) (0);
 		}
+<<<<<<< HEAD
 		if ((((((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new LaputaModVariables.PlayerVariables())).Accessory1).getItem() == new ItemStack(BootRocketItem.block, (int) (1)).getItem())
 				|| (((entity.getCapability(LaputaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -143,6 +148,8 @@ public class AccessoryPartsProcedure extends LaputaModElements.ModElement {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 1, (int) 0, (false), (false)));
 		}
+=======
+>>>>>>> branch 'master' of https://github.com/ItzFred/Laputa.git
 	}
 
 	@SubscribeEvent

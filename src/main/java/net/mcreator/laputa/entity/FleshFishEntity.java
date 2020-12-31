@@ -25,6 +25,10 @@ import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.ServerPlayerEntity;
+<<<<<<< HEAD
+=======
+import net.minecraft.entity.player.PlayerEntity;
+>>>>>>> branch 'master' of https://github.com/ItzFred/Laputa.git
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.RandomSwimmingGoal;
 import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
@@ -119,7 +123,11 @@ public class FleshFishEntity extends LaputaModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
+<<<<<<< HEAD
 			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, OphanimEntity.CustomEntity.class, true, true));
+=======
+			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, PlayerEntity.class, true, true));
+>>>>>>> branch 'master' of https://github.com/ItzFred/Laputa.git
 			this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, ServerPlayerEntity.class, true, true));
 			this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.5, true));
 			this.goalSelector.addGoal(4, new RandomSwimmingGoal(this, 1, 40));

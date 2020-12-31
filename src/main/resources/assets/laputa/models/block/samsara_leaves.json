@@ -1,12 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "laputa:blocks/samsaraleaves",
-    "up": "laputa:blocks/samsaraleaves",
-    "north": "laputa:blocks/samsaraleaves",
-    "east": "laputa:blocks/samsaraleaves",
-    "south": "laputa:blocks/samsaraleaves",
-    "west": "laputa:blocks/samsaraleaves",
+    "all": "laputa:blocks/samsaraleaves",
     "particle": "laputa:blocks/samsaraleaves"
   }
 }

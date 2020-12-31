@@ -28,17 +28,17 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:LinnaeuBricks"
+        "value": "CUSTOM:Linnaeu"
       },
       {
-        "value": "CUSTOM:LinnaeuBricks"
+        "value": "CUSTOM:Linnaeu"
       },
       {
-        "value": "CUSTOM:LinnaeuBricks"
+        "value": "CUSTOM:Linnaeu"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LinnaeuSlab"
+      "value": "CUSTOM:LinneuSlab"
     },
     "name": "linnaeu_slab_r",
     "namespace": "mod"

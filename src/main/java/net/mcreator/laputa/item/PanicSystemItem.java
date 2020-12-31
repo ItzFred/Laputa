@@ -53,9 +53,10 @@ public class PanicSystemItem extends LaputaModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00A78Accessory"));
-			list.add(new StringTextComponent("\u00A78Press I to open Accessory Bag"));
-			list.add(new StringTextComponent("\u00A79Movement Speed \u00A77increased by \u00A74how low your HP is."));
+			list.add(new StringTextComponent("\u00EF\u00BF\u00BD8Accessory"));
+			list.add(new StringTextComponent("\u00EF\u00BF\u00BD8Press I to open Accessory Bag"));
+			list.add(new StringTextComponent(
+					"\u00EF\u00BF\u00BD9Movement Speed \u00EF\u00BF\u00BD7increased by \u00EF\u00BF\u00BD4how low your HP is."));
 		}
 	}
 }

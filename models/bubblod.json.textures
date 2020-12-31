@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bubblodtexture",
+        "missing": "bubblodtexture"
+      },
+      "name": "default"
+    }
+  }
+}
